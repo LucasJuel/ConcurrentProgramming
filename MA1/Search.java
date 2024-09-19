@@ -64,7 +64,7 @@ public class Search {
     static int len;                             // Length of actual text
     static String fname;                        // Text file name
     static char[] pattern;                      // Search pattern
-    static int ntasks = 1;                      // No. of tasks
+    static int ntasks = 5;                      // No. of tasks
     static int nthreads = 1;                    // No. of threads to use
     static boolean printPos = false;            // Print all positions found
     static int warmups = 0;                     // No. of warmup searches
@@ -207,6 +207,51 @@ public class Search {
         }
     }
 
+    static ExecutorService getEngine(){
+        return execMode == Mode.SINGLE ? Executors.newSingleThreadExecutor()   :
+               execMode == Mode.CACHED ? Executors.newCachedThreadPool() :
+               /* Mode.FIXED */ Executors.newFixedThreadPool(nthreads);
+    }
+
+    //Warmup put into functions.
+    static void runWarmup(int warmups, SearchTask singleSearch){
+        /* Setup selected execution engine */
+        for(int i = 0; i < warmups; i++){
+            try{
+                getEngine().submit(singleSearch).get();
+            } catch (Exception e) {
+                System.out.println("Search: " + e);
+            }
+        }
+    } 
+
+    static void runWarmup(int warmups, List<SearchTask> taskList){
+        /* Setup selected execution engine */
+        for(int i = 0; i < warmups; i++){
+            try{
+                getEngine().invokeAll(taskList);
+            } catch (Exception e) {
+                System.out.println("Search: " + e);
+            }
+        }
+    }
+
+    // class ExecutionHandler implements Runnable{
+    //     private ExecutorService engine;
+    //     private List<SearchTask> taskList;
+    //     private SearchTask task;
+
+    //     public ExecutionHandler(ExecutorService engine, SearchTask task){
+    //         this.engine = engine;
+    //         this.task = task;
+    //     }
+
+    //     public ExecutionHandler(ExecutorService engine, List<SearchTask> taskList){
+    //         this.engine = engine;
+    //         this.taskList = taskList;
+    //     }
+    // }
+
     public static void main(String[] argv) {
         try {
             long start;
@@ -217,10 +262,7 @@ public class Search {
             System.out.printf("\nFile=%s, length=%d, pattern='%s'\nntasks=%d, nthreads=%d, warmups=%d, runs=%d\nexecutor: %s\n" , 
                     fname, len, new String(pattern), ntasks, nthreads, warmups, runs, execMode.toString());
 
-            /* Setup selected execution engine */
-            ExecutorService engine = execMode == Mode.SINGLE ? Executors.newSingleThreadExecutor()   :
-                                     execMode == Mode.CACHED ? Executors.newCachedThreadPool()       :
-                                              /* Mode.FIXED */ Executors.newFixedThreadPool(nthreads);
+            
 
             /**********************************************
              * Run search using a single task
@@ -233,9 +275,7 @@ public class Search {
              * Run a couple of times on engine for loading all classes and
              * cache warm-up
              */
-            for (int i = 0; i < warmups; i++) {
-                engine.submit(singleSearch).get();
-            }
+            runWarmup(warmups, singleSearch);
             
             /* Run for time measurement(s) and proper result */
             totalTime = 0.0;
@@ -243,7 +283,7 @@ public class Search {
             for (int run = 0; run < runs; run++) {
                 start = System.nanoTime();
 
-                singleResult = engine.submit(singleSearch).get();
+                singleResult = getEngine().submit(singleSearch).get();
 
                 time = (double) (System.nanoTime() - start) / 1e9;
                 totalTime += time;    
@@ -260,20 +300,22 @@ public class Search {
             /**********************************************
              * Run search using multiple tasks
              *********************************************/
-
-/*+++++++++ Uncomment for Problem 2+ 
          
             // Create list of tasks
             List<SearchTask> taskList = new ArrayList<SearchTask>();
-            
+
+            for (int i = 0; i < ntasks; i++) {
+                int from = i == 0 ? i * (len / ntasks) : i * (len / ntasks) - (pattern.length - 1);
+                int to = (i + 1) * len / ntasks;
+                taskList.add(new SearchTask(text, pattern, from, to));
+            }
+
             // TODO: Add tasks to list here
 
             List<Integer> result = null;
             
             // Run the tasks a couple of times
-            for (int i = 0; i < warmups; i++) {
-                engine.invokeAll(taskList);
-            }
+            runWarmup(warmups, taskList);
             
             totalTime = 0.0;
             
@@ -282,13 +324,19 @@ public class Search {
                 start = System.nanoTime();
 
                 // Submit tasks and await results
-                List<Future<List<Integer>>> futures = engine.invokeAll(taskList);
+                List<Future<List<Integer>>> futures = getEngine().invokeAll(taskList);
 
                 // Overall result is an ordered list of unique occurrence positions
                 result = new LinkedList<Integer>();
+
+                for (Future<List<Integer>> future : futures) {
+                    for (int pos : future.get()) {
+                        if (!result.contains(pos))
+                            result.add(pos);
+                    }
+                }
                 
                 // TODO: Combine future results into an overall result 
-
                 time = (double) (System.nanoTime() - start) / 1e9;
                 totalTime += time;    
                 
@@ -306,12 +354,11 @@ public class Search {
             }
             System.out.printf("\n\nAverage speedup: %1.2f\n\n", singleTime / multiTime);
 
-++++++++++*/
             
             /**********************************************
              * Terminate engine after use
              *********************************************/
-            engine.shutdown();
+            getEngine().shutdown();
 
         } catch (Exception e) {
             System.out.println("Search: " + e);
