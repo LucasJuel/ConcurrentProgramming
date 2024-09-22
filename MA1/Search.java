@@ -302,6 +302,7 @@ public class Search {
              *********************************************/
          
             // Create list of tasks
+            //TODO: add the variable ntasks to the cmd line arguments.
             List<SearchTask> taskList = new ArrayList<SearchTask>();
 
             for (int i = 0; i < ntasks; i++) {
