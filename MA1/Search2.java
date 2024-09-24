@@ -54,7 +54,7 @@ class SearchTask implements Callable<List<Integer>> {
 enum Mode { SINGLE, CACHED, FIXED };
 
 
-public class Search {
+public class Search2 {
     
     enum Mode { SINGLE, CACHED, FIXED };
 
