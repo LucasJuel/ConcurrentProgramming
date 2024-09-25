@@ -11,8 +11,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.io.*;
-import java.lang.Math;
-
 
 /**
  * Search task. No need to modify.
@@ -56,7 +54,7 @@ class SearchTask implements Callable<List<Integer>> {
 enum Mode { SINGLE, CACHED, FIXED };
 
 
-public class Search {
+public class Search2 {
     
     enum Mode { SINGLE, CACHED, FIXED };
 
@@ -263,15 +261,11 @@ public class Search {
              * Run search using multiple tasks
              *********************************************/
 
+/*+++++++++ Uncomment for Problem 2+ 
          
             // Create list of tasks
             List<SearchTask> taskList = new ArrayList<SearchTask>();
-            for (int i = 0; i < ntasks; i++) {
-                int from = i == 0 ? i * (int) Math.floor(len / ntasks) : i * (int) Math.floor(len / ntasks) - (pattern.length - 1);
-                int to = (i + 1) * (int) Math.floor(len / ntasks);
-                System.out.println("From: " + from + ", To: " + to);
-                taskList.add(new SearchTask(text, pattern, from, to));
-            }
+            
             // TODO: Add tasks to list here
 
             List<Integer> result = null;
@@ -292,13 +286,9 @@ public class Search {
 
                 // Overall result is an ordered list of unique occurrence positions
                 result = new LinkedList<Integer>();
-
-                for (Future<List<Integer>> future : futures) {
-                    for (int pos : future.get()) {
-                        result.add(pos);                        
-                    }
-                }
+                
                 // TODO: Combine future results into an overall result 
+
                 time = (double) (System.nanoTime() - start) / 1e9;
                 totalTime += time;    
                 
@@ -315,8 +305,8 @@ public class Search {
                 System.out.println("\nERROR: lists differ");
             }
             System.out.printf("\n\nAverage speedup: %1.2f\n\n", singleTime / multiTime);
-            String s = " No of Tasks " + ntasks + " No of Threads " + nthreads + " Average Speedup " + singleTime / multiTime;
-            writeData(s);
+
+++++++++++*/
             
             /**********************************************
              * Terminate engine after use
