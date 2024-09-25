@@ -1,0 +1,2438 @@
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 15 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=15, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018206 s
+Single task: Run no.  1: 77245 occurrences found in 0,020727 s
+Single task: Run no.  2: 77245 occurrences found in 0,027550 s
+Single task: Run no.  3: 77245 occurrences found in 0,023255 s
+
+Single task (avg.): 0,022435 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+ntasks=15, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018206 s
+Single task: Run no.  1: 77245 occurrences found in 0,020727 s
+Single task: Run no.  2: 77245 occurrences found in 0,027550 s
+Single task: Run no.  3: 77245 occurrences found in 0,023255 s
+
+Single task (avg.): 0,022435 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018206 s
+Single task: Run no.  1: 77245 occurrences found in 0,020727 s
+Single task: Run no.  2: 77245 occurrences found in 0,027550 s
+Single task: Run no.  3: 77245 occurrences found in 0,023255 s
+
+Single task (avg.): 0,022435 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+Single task: Run no.  0: 77245 occurrences found in 0,018206 s
+Single task: Run no.  1: 77245 occurrences found in 0,020727 s
+Single task: Run no.  2: 77245 occurrences found in 0,027550 s
+Single task: Run no.  3: 77245 occurrences found in 0,023255 s
+
+Single task (avg.): 0,022435 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+Single task: Run no.  2: 77245 occurrences found in 0,027550 s
+Single task: Run no.  3: 77245 occurrences found in 0,023255 s
+
+Single task (avg.): 0,022435 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+Single task: Run no.  3: 77245 occurrences found in 0,023255 s
+
+Single task (avg.): 0,022435 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+Single task (avg.): 0,022435 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+From: 1027274, To: 1369700
+From: 1369699, To: 1712125
+From: 1712124, To: 2054550
+From: 342424, To: 684850
+From: 684849, To: 1027275
+From: 1027274, To: 1369700
+From: 1369699, To: 1712125
+From: 1712124, To: 2054550
+From: 2054549, To: 2396975
+From: 1027274, To: 1369700
+From: 1369699, To: 1712125
+From: 1712124, To: 2054550
+From: 2054549, To: 2396975
+From: 2054549, To: 2396975
+From: 2396974, To: 2739400
+From: 2396974, To: 2739400
+From: 2739399, To: 3081825
+From: 3081824, To: 3424250
+From: 3424249, To: 3766675
+From: 3766674, To: 4109100
+From: 4109099, To: 4451525
+From: 4451524, To: 4793950
+From: 4793949, To: 5136375
+
+Using 15 tasks: Run no.  0: 77245 occurrences found in 0,015514 s
+Using 15 tasks: Run no.  1: 77245 occurrences found in 0,010896 s
+Using 15 tasks: Run no.  2: 77245 occurrences found in 0,013135 s
+Using 15 tasks: Run no.  3: 77245 occurrences found in 0,011022 s
+
+Using 15 tasks (avg.): 0,012642 s
+
+
+Average speedup: 1,77
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 16 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=16, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018807 s
+Single task: Run no.  1: 77245 occurrences found in 0,021050 s
+Single task: Run no.  2: 77245 occurrences found in 0,019027 s
+Single task: Run no.  3: 77245 occurrences found in 0,018660 s
+
+Single task (avg.): 0,019386 s
+From: 0, To: 321024
+From: 321023, To: 642048
+From: 642047, To: 963072
+From: 963071, To: 1284096
+From: 1284095, To: 1605120
+From: 1605119, To: 1926144
+From: 1926143, To: 2247168
+From: 2247167, To: 2568192
+From: 2568191, To: 2889216
+From: 2889215, To: 3210240
+From: 3210239, To: 3531264
+From: 3531263, To: 3852288
+From: 3852287, To: 4173312
+From: 4173311, To: 4494336
+From: 4494335, To: 4815360
+From: 4815359, To: 5136384
+
+Using 16 tasks: Run no.  0: 77245 occurrences found in 0,015184 s
+Using 16 tasks: Run no.  1: 77245 occurrences found in 0,010790 s
+Using 16 tasks: Run no.  2: 77245 occurrences found in 0,013531 s
+Using 16 tasks: Run no.  3: 77245 occurrences found in 0,010239 s
+
+Using 16 tasks (avg.): 0,012436 s
+
+
+Average speedup: 1,56
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 17 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=17, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,019095 s
+Single task: Run no.  1: 77245 occurrences found in 0,019669 s
+Single task: Run no.  2: 77245 occurrences found in 0,019621 s
+Single task: Run no.  3: 77245 occurrences found in 0,019035 s
+
+Single task (avg.): 0,019355 s
+From: 0, To: 302140
+From: 302139, To: 604280
+From: 604279, To: 906420
+From: 906419, To: 1208560
+From: 1208559, To: 1510700
+From: 1510699, To: 1812840
+From: 1812839, To: 2114980
+From: 2114979, To: 2417120
+From: 2417119, To: 2719260
+From: 2719259, To: 3021400
+From: 3021399, To: 3323540
+From: 3323539, To: 3625680
+From: 3625679, To: 3927820
+From: 3927819, To: 4229960
+From: 4229959, To: 4532100
+From: 4532099, To: 4834240
+From: 4834239, To: 5136380
+
+Using 17 tasks: Run no.  0: 77245 occurrences found in 0,015142 s
+Using 17 tasks: Run no.  1: 77245 occurrences found in 0,011417 s
+Using 17 tasks: Run no.  2: 77245 occurrences found in 0,013327 s
+Using 17 tasks: Run no.  3: 77245 occurrences found in 0,012524 s
+
+Using 17 tasks (avg.): 0,013102 s
+
+
+Average speedup: 1,48
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 18 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=18, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018589 s
+Single task: Run no.  1: 77245 occurrences found in 0,018607 s
+Single task: Run no.  2: 77245 occurrences found in 0,024359 s
+Single task: Run no.  3: 77245 occurrences found in 0,019631 s
+
+Single task (avg.): 0,020296 s
+From: 0, To: 285354
+From: 285353, To: 570708
+From: 570707, To: 856062
+From: 856061, To: 1141416
+From: 1141415, To: 1426770
+From: 1426769, To: 1712124
+From: 1712123, To: 1997478
+From: 1997477, To: 2282832
+From: 2282831, To: 2568186
+From: 2568185, To: 2853540
+From: 2853539, To: 3138894
+From: 3138893, To: 3424248
+From: 3424247, To: 3709602
+From: 3709601, To: 3994956
+From: 3994955, To: 4280310
+From: 4280309, To: 4565664
+From: 4565663, To: 4851018
+From: 4851017, To: 5136372
+
+Using 18 tasks: Run no.  0: 77245 occurrences found in 0,015335 s
+Using 18 tasks: Run no.  1: 77245 occurrences found in 0,010431 s
+Using 18 tasks: Run no.  2: 77245 occurrences found in 0,012985 s
+Using 18 tasks: Run no.  3: 77245 occurrences found in 0,010130 s
+
+Using 18 tasks (avg.): 0,012220 s
+
+
+Average speedup: 1,66
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 19 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=19, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018213 s
+Single task: Run no.  1: 77245 occurrences found in 0,018920 s
+Single task: Run no.  2: 77245 occurrences found in 0,019644 s
+Single task: Run no.  3: 77245 occurrences found in 0,019210 s
+
+Single task (avg.): 0,018997 s
+From: 0, To: 270336
+From: 270335, To: 540672
+From: 540671, To: 811008
+From: 811007, To: 1081344
+From: 1081343, To: 1351680
+From: 1351679, To: 1622016
+From: 1622015, To: 1892352
+From: 1892351, To: 2162688
+From: 2162687, To: 2433024
+From: 2433023, To: 2703360
+From: 2703359, To: 2973696
+From: 2973695, To: 3244032
+From: 3244031, To: 3514368
+From: 3514367, To: 3784704
+From: 3784703, To: 4055040
+From: 4055039, To: 4325376
+From: 4325375, To: 4595712
+From: 4595711, To: 4866048
+From: 4866047, To: 5136384
+
+Using 19 tasks: Run no.  0: 77245 occurrences found in 0,015091 s
+Using 19 tasks: Run no.  1: 77245 occurrences found in 0,010635 s
+Using 19 tasks: Run no.  2: 77245 occurrences found in 0,012742 s
+Using 19 tasks: Run no.  3: 77245 occurrences found in 0,010860 s
+
+Using 19 tasks (avg.): 0,012332 s
+
+
+Average speedup: 1,54
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 20 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=20, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018376 s
+Single task: Run no.  1: 77245 occurrences found in 0,019097 s
+Single task: Run no.  2: 77245 occurrences found in 0,023503 s
+Single task: Run no.  3: 77245 occurrences found in 0,018836 s
+
+Single task (avg.): 0,019953 s
+From: 0, To: 256819
+From: 256818, To: 513638
+From: 513637, To: 770457
+From: 770456, To: 1027276
+From: 1027275, To: 1284095
+From: 1284094, To: 1540914
+From: 1540913, To: 1797733
+From: 1797732, To: 2054552
+From: 2054551, To: 2311371
+From: 2311370, To: 2568190
+From: 2568189, To: 2825009
+From: 2825008, To: 3081828
+From: 3081827, To: 3338647
+From: 3338646, To: 3595466
+From: 3595465, To: 3852285
+From: 3852284, To: 4109104
+From: 4109103, To: 4365923
+From: 4365922, To: 4622742
+From: 4622741, To: 4879561
+From: 4879560, To: 5136380
+
+Using 20 tasks: Run no.  0: 77245 occurrences found in 0,015011 s
+Using 20 tasks: Run no.  1: 77245 occurrences found in 0,010310 s
+Using 20 tasks: Run no.  2: 77245 occurrences found in 0,012247 s
+Using 20 tasks: Run no.  3: 77245 occurrences found in 0,010198 s
+
+Using 20 tasks (avg.): 0,011941 s
+
+
+Average speedup: 1,67
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 21 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=21, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,019115 s
+Single task: Run no.  1: 77245 occurrences found in 0,018800 s
+Single task: Run no.  2: 77245 occurrences found in 0,019647 s
+Single task: Run no.  3: 77245 occurrences found in 0,019269 s
+
+Single task (avg.): 0,019207 s
+From: 0, To: 244589
+From: 244588, To: 489178
+From: 489177, To: 733767
+From: 733766, To: 978356
+From: 978355, To: 1222945
+From: 1222944, To: 1467534
+From: 1467533, To: 1712123
+From: 1712122, To: 1956712
+From: 1956711, To: 2201301
+From: 2201300, To: 2445890
+From: 2445889, To: 2690479
+From: 2690478, To: 2935068
+From: 2935067, To: 3179657
+From: 3179656, To: 3424246
+From: 3424245, To: 3668835
+From: 3668834, To: 3913424
+From: 3913423, To: 4158013
+From: 4158012, To: 4402602
+From: 4402601, To: 4647191
+From: 4647190, To: 4891780
+From: 4891779, To: 5136369
+
+Using 21 tasks: Run no.  0: 77245 occurrences found in 0,015197 s
+Using 21 tasks: Run no.  1: 77245 occurrences found in 0,010734 s
+Using 21 tasks: Run no.  2: 77245 occurrences found in 0,012828 s
+Using 21 tasks: Run no.  3: 77245 occurrences found in 0,011193 s
+
+Using 21 tasks (avg.): 0,012488 s
+
+
+Average speedup: 1,54
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 22 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=22, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018127 s
+Single task: Run no.  1: 77245 occurrences found in 0,022013 s
+Single task: Run no.  2: 77245 occurrences found in 0,018991 s
+Single task: Run no.  3: 77245 occurrences found in 0,018572 s
+
+Single task (avg.): 0,019426 s
+From: 0, To: 233472
+From: 233471, To: 466944
+From: 466943, To: 700416
+From: 700415, To: 933888
+From: 933887, To: 1167360
+From: 1167359, To: 1400832
+From: 1400831, To: 1634304
+From: 1634303, To: 1867776
+From: 1867775, To: 2101248
+From: 2101247, To: 2334720
+From: 2334719, To: 2568192
+From: 2568191, To: 2801664
+From: 2801663, To: 3035136
+From: 3035135, To: 3268608
+From: 3268607, To: 3502080
+From: 3502079, To: 3735552
+From: 3735551, To: 3969024
+From: 3969023, To: 4202496
+From: 4202495, To: 4435968
+From: 4435967, To: 4669440
+From: 4669439, To: 4902912
+From: 4902911, To: 5136384
+
+Using 22 tasks: Run no.  0: 77245 occurrences found in 0,015130 s
+Using 22 tasks: Run no.  1: 77245 occurrences found in 0,010411 s
+Using 22 tasks: Run no.  2: 77245 occurrences found in 0,012638 s
+Using 22 tasks: Run no.  3: 77245 occurrences found in 0,010351 s
+
+Using 22 tasks (avg.): 0,012133 s
+
+
+Average speedup: 1,60
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 23 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=23, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018755 s
+Single task: Run no.  1: 77245 occurrences found in 0,019305 s
+Single task: Run no.  2: 77245 occurrences found in 0,018865 s
+Single task: Run no.  3: 77245 occurrences found in 0,019950 s
+
+Single task (avg.): 0,019219 s
+From: 0, To: 223321
+From: 223320, To: 446642
+From: 446641, To: 669963
+From: 669962, To: 893284
+From: 893283, To: 1116605
+From: 1116604, To: 1339926
+From: 1339925, To: 1563247
+From: 1563246, To: 1786568
+From: 1786567, To: 2009889
+From: 2009888, To: 2233210
+From: 2233209, To: 2456531
+From: 2456530, To: 2679852
+From: 2679851, To: 2903173
+From: 2903172, To: 3126494
+From: 3126493, To: 3349815
+From: 3349814, To: 3573136
+From: 3573135, To: 3796457
+From: 3796456, To: 4019778
+From: 4019777, To: 4243099
+From: 4243098, To: 4466420
+From: 4466419, To: 4689741
+From: 4689740, To: 4913062
+From: 4913061, To: 5136383
+
+Using 23 tasks: Run no.  0: 77245 occurrences found in 0,015530 s
+Using 23 tasks: Run no.  1: 77245 occurrences found in 0,013793 s
+Using 23 tasks: Run no.  2: 77245 occurrences found in 0,012826 s
+Using 23 tasks: Run no.  3: 77245 occurrences found in 0,010545 s
+
+Using 23 tasks (avg.): 0,013173 s
+
+
+Average speedup: 1,46
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 24 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=24, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,019263 s
+Single task: Run no.  1: 77245 occurrences found in 0,018636 s
+Single task: Run no.  2: 77245 occurrences found in 0,018992 s
+Single task: Run no.  3: 77245 occurrences found in 0,018838 s
+
+Single task (avg.): 0,018932 s
+From: 0, To: 214016
+From: 214015, To: 428032
+From: 428031, To: 642048
+From: 642047, To: 856064
+From: 856063, To: 1070080
+From: 1070079, To: 1284096
+From: 1284095, To: 1498112
+From: 1498111, To: 1712128
+From: 1712127, To: 1926144
+From: 1926143, To: 2140160
+From: 2140159, To: 2354176
+From: 2354175, To: 2568192
+From: 2568191, To: 2782208
+From: 2782207, To: 2996224
+From: 2996223, To: 3210240
+From: 3210239, To: 3424256
+From: 3424255, To: 3638272
+From: 3638271, To: 3852288
+From: 3852287, To: 4066304
+From: 4066303, To: 4280320
+From: 4280319, To: 4494336
+From: 4494335, To: 4708352
+From: 4708351, To: 4922368
+From: 4922367, To: 5136384
+
+Using 24 tasks: Run no.  0: 77245 occurrences found in 0,014997 s
+Using 24 tasks: Run no.  1: 77245 occurrences found in 0,010613 s
+Using 24 tasks: Run no.  2: 77245 occurrences found in 0,012248 s
+Using 24 tasks: Run no.  3: 77245 occurrences found in 0,010384 s
+
+Using 24 tasks (avg.): 0,012060 s
+
+
+Average speedup: 1,57
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 25 2
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=25, nthreads=2, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018958 s
+Single task: Run no.  1: 77245 occurrences found in 0,022154 s
+Single task: Run no.  2: 77245 occurrences found in 0,020065 s
+Single task: Run no.  3: 77245 occurrences found in 0,019107 s
+
+Single task (avg.): 0,020071 s
+From: 0, To: 205455
+From: 205454, To: 410910
+From: 410909, To: 616365
+From: 616364, To: 821820
+From: 821819, To: 1027275
+From: 1027274, To: 1232730
+From: 1232729, To: 1438185
+From: 1438184, To: 1643640
+From: 1643639, To: 1849095
+From: 1849094, To: 2054550
+From: 2054549, To: 2260005
+From: 2260004, To: 2465460
+From: 2465459, To: 2670915
+From: 2670914, To: 2876370
+From: 2876369, To: 3081825
+From: 3081824, To: 3287280
+From: 3287279, To: 3492735
+From: 3492734, To: 3698190
+From: 3698189, To: 3903645
+From: 3903644, To: 4109100
+From: 4109099, To: 4314555
+From: 4314554, To: 4520010
+From: 4520009, To: 4725465
+From: 4725464, To: 4930920
+From: 4930919, To: 5136375
+
+Using 25 tasks: Run no.  0: 77245 occurrences found in 0,014904 s
+Using 25 tasks: Run no.  1: 77245 occurrences found in 0,011584 s
+Using 25 tasks: Run no.  2: 77245 occurrences found in 0,012897 s
+Using 25 tasks: Run no.  3: 77245 occurrences found in 0,010504 s
+
+Using 25 tasks (avg.): 0,012472 s
+
+
+Average speedup: 1,61
+
+
+4 threads
+
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 15 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=15, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018486 s
+Single task: Run no.  1: 77245 occurrences found in 0,028240 s
+Single task: Run no.  2: 77245 occurrences found in 0,020622 s
+Single task: Run no.  3: 77245 occurrences found in 0,021056 s
+
+Single task (avg.): 0,022101 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+From: 1027274, To: 1369700
+From: 1369699, To: 1712125
+From: 1712124, To: 2054550
+From: 2054549, To: 2396975
+From: 2396974, To: 2739400
+From: 2739399, To: 3081825
+From: 3081824, To: 3424250
+From: 3424249, To: 3766675
+From: 3766674, To: 4109100
+From: 4109099, To: 4451525
+From: 4451524, To: 4793950
+From: 4793949, To: 5136375
+
+Using 15 tasks: Run no.  0: 77245 occurrences found in 0,011535 s
+Using 15 tasks: Run no.  1: 77245 occurrences found in 0,005892 s
+Using 15 tasks: Run no.  2: 77245 occurrences found in 0,007262 s
+Using 15 tasks: Run no.  3: 77245 occurrences found in 0,006300 s
+
+Using 15 tasks (avg.): 0,007747 s
+
+
+Average speedup: 2,85
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 16 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=16, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,019976 s
+Single task: Run no.  1: 77245 occurrences found in 0,018412 s
+Single task: Run no.  2: 77245 occurrences found in 0,019182 s
+Single task: Run no.  3: 77245 occurrences found in 0,020904 s
+
+Single task (avg.): 0,019619 s
+From: 0, To: 321024
+From: 321023, To: 642048
+From: 642047, To: 963072
+From: 963071, To: 1284096
+From: 1284095, To: 1605120
+From: 1605119, To: 1926144
+From: 1926143, To: 2247168
+From: 2247167, To: 2568192
+From: 2568191, To: 2889216
+From: 2889215, To: 3210240
+From: 3210239, To: 3531264
+From: 3531263, To: 3852288
+From: 3852287, To: 4173312
+From: 4173311, To: 4494336
+From: 4494335, To: 4815360
+From: 4815359, To: 5136384
+
+Using 16 tasks: Run no.  0: 77245 occurrences found in 0,011441 s
+Using 16 tasks: Run no.  1: 77245 occurrences found in 0,005561 s
+Using 16 tasks: Run no.  2: 77245 occurrences found in 0,006992 s
+Using 16 tasks: Run no.  3: 77245 occurrences found in 0,007464 s
+
+Using 16 tasks (avg.): 0,007865 s
+
+
+Average speedup: 2,49
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 17 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=17, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,019871 s
+Single task: Run no.  1: 77245 occurrences found in 0,018977 s
+Single task: Run no.  2: 77245 occurrences found in 0,019059 s
+Single task: Run no.  3: 77245 occurrences found in 0,018912 s
+
+Single task (avg.): 0,019205 s
+From: 0, To: 302140
+From: 302139, To: 604280
+From: 604279, To: 906420
+From: 906419, To: 1208560
+From: 1208559, To: 1510700
+From: 1510699, To: 1812840
+From: 1812839, To: 2114980
+From: 2114979, To: 2417120
+From: 2417119, To: 2719260
+From: 2719259, To: 3021400
+From: 3021399, To: 3323540
+From: 3323539, To: 3625680
+From: 3625679, To: 3927820
+From: 3927819, To: 4229960
+From: 4229959, To: 4532100
+From: 4532099, To: 4834240
+From: 4834239, To: 5136380
+
+Using 17 tasks: Run no.  0: 77245 occurrences found in 0,010645 s
+Using 17 tasks: Run no.  1: 77245 occurrences found in 0,006456 s
+Using 17 tasks: Run no.  2: 77245 occurrences found in 0,007514 s
+Using 17 tasks: Run no.  3: 77245 occurrences found in 0,006808 s
+
+Using 17 tasks (avg.): 0,007856 s
+
+
+Average speedup: 2,44
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 18 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=18, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,021208 s
+Single task: Run no.  1: 77245 occurrences found in 0,019815 s
+Single task: Run no.  2: 77245 occurrences found in 0,020536 s
+Single task: Run no.  3: 77245 occurrences found in 0,019000 s
+
+Single task (avg.): 0,020140 s
+From: 0, To: 285354
+From: 285353, To: 570708
+From: 570707, To: 856062
+From: 856061, To: 1141416
+From: 1141415, To: 1426770
+From: 1426769, To: 1712124
+From: 1712123, To: 1997478
+From: 1997477, To: 2282832
+From: 2282831, To: 2568186
+From: 2568185, To: 2853540
+From: 2853539, To: 3138894
+From: 3138893, To: 3424248
+From: 3424247, To: 3709602
+From: 3709601, To: 3994956
+From: 3994955, To: 4280310
+From: 4280309, To: 4565664
+From: 4565663, To: 4851018
+From: 4851017, To: 5136372
+
+Using 18 tasks: Run no.  0: 77245 occurrences found in 0,010631 s
+Using 18 tasks: Run no.  1: 77245 occurrences found in 0,006011 s
+Using 18 tasks: Run no.  2: 77245 occurrences found in 0,007373 s
+Using 18 tasks: Run no.  3: 77245 occurrences found in 0,006091 s
+
+Using 18 tasks (avg.): 0,007527 s
+
+
+Average speedup: 2,68
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 19 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=19, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018349 s
+Single task: Run no.  1: 77245 occurrences found in 0,018227 s
+Single task: Run no.  2: 77245 occurrences found in 0,019290 s
+Single task: Run no.  3: 77245 occurrences found in 0,019685 s
+
+Single task (avg.): 0,018888 s
+From: 0, To: 270336
+From: 270335, To: 540672
+From: 540671, To: 811008
+From: 811007, To: 1081344
+From: 1081343, To: 1351680
+From: 1351679, To: 1622016
+From: 1622015, To: 1892352
+From: 1892351, To: 2162688
+From: 2162687, To: 2433024
+From: 2433023, To: 2703360
+From: 2703359, To: 2973696
+From: 2973695, To: 3244032
+From: 3244031, To: 3514368
+From: 3514367, To: 3784704
+From: 3784703, To: 4055040
+From: 4055039, To: 4325376
+From: 4325375, To: 4595712
+From: 4595711, To: 4866048
+From: 4866047, To: 5136384
+
+Using 19 tasks: Run no.  0: 77245 occurrences found in 0,010071 s
+Using 19 tasks: Run no.  1: 77245 occurrences found in 0,005991 s
+Using 19 tasks: Run no.  2: 77245 occurrences found in 0,007329 s
+Using 19 tasks: Run no.  3: 77245 occurrences found in 0,006155 s
+
+Using 19 tasks (avg.): 0,007387 s
+
+
+Average speedup: 2,56
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 20 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=20, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018649 s
+Single task: Run no.  1: 77245 occurrences found in 0,020071 s
+Single task: Run no.  2: 77245 occurrences found in 0,021354 s
+Single task: Run no.  3: 77245 occurrences found in 0,021575 s
+
+Single task (avg.): 0,020412 s
+From: 0, To: 256819
+From: 256818, To: 513638
+From: 513637, To: 770457
+From: 770456, To: 1027276
+From: 1027275, To: 1284095
+From: 1284094, To: 1540914
+From: 1540913, To: 1797733
+From: 1797732, To: 2054552
+From: 2054551, To: 2311371
+From: 2311370, To: 2568190
+From: 2568189, To: 2825009
+From: 2825008, To: 3081828
+From: 3081827, To: 3338647
+From: 3338646, To: 3595466
+From: 3595465, To: 3852285
+From: 3852284, To: 4109104
+From: 4109103, To: 4365923
+From: 4365922, To: 4622742
+From: 4622741, To: 4879561
+From: 4879560, To: 5136380
+
+Using 20 tasks: Run no.  0: 77245 occurrences found in 0,010848 s
+Using 20 tasks: Run no.  1: 77245 occurrences found in 0,006837 s
+Using 20 tasks: Run no.  2: 77245 occurrences found in 0,006981 s
+Using 20 tasks: Run no.  3: 77245 occurrences found in 0,007582 s
+
+Using 20 tasks (avg.): 0,008062 s
+
+
+Average speedup: 2,53
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 21 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=21, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,024561 s
+Single task: Run no.  1: 77245 occurrences found in 0,018447 s
+Single task: Run no.  2: 77245 occurrences found in 0,022197 s
+Single task: Run no.  3: 77245 occurrences found in 0,018945 s
+
+Single task (avg.): 0,021038 s
+From: 0, To: 244589
+From: 244588, To: 489178
+From: 489177, To: 733767
+From: 733766, To: 978356
+From: 978355, To: 1222945
+From: 1222944, To: 1467534
+From: 1467533, To: 1712123
+From: 1712122, To: 1956712
+From: 1956711, To: 2201301
+From: 2201300, To: 2445890
+From: 2445889, To: 2690479
+From: 2690478, To: 2935068
+From: 2935067, To: 3179657
+From: 3179656, To: 3424246
+From: 3424245, To: 3668835
+From: 3668834, To: 3913424
+From: 3913423, To: 4158013
+From: 4158012, To: 4402602
+From: 4402601, To: 4647191
+From: 4647190, To: 4891780
+From: 4891779, To: 5136369
+
+Using 21 tasks: Run no.  0: 77245 occurrences found in 0,010602 s
+Using 21 tasks: Run no.  1: 77245 occurrences found in 0,006128 s
+Using 21 tasks: Run no.  2: 77245 occurrences found in 0,007502 s
+Using 21 tasks: Run no.  3: 77245 occurrences found in 0,006702 s
+
+Using 21 tasks (avg.): 0,007734 s
+
+
+Average speedup: 2,72
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 22 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=22, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,020882 s
+Single task: Run no.  1: 77245 occurrences found in 0,018279 s
+Single task: Run no.  2: 77245 occurrences found in 0,018597 s
+Single task: Run no.  3: 77245 occurrences found in 0,020308 s
+
+Single task (avg.): 0,019516 s
+From: 0, To: 233472
+From: 233471, To: 466944
+From: 466943, To: 700416
+From: 700415, To: 933888
+From: 933887, To: 1167360
+From: 1167359, To: 1400832
+From: 1400831, To: 1634304
+From: 1634303, To: 1867776
+From: 1867775, To: 2101248
+From: 2101247, To: 2334720
+From: 2334719, To: 2568192
+From: 2568191, To: 2801664
+From: 2801663, To: 3035136
+From: 3035135, To: 3268608
+From: 3268607, To: 3502080
+From: 3502079, To: 3735552
+From: 3735551, To: 3969024
+From: 3969023, To: 4202496
+From: 4202495, To: 4435968
+From: 4435967, To: 4669440
+From: 4669439, To: 4902912
+From: 4902911, To: 5136384
+
+Using 22 tasks: Run no.  0: 77245 occurrences found in 0,010635 s
+Using 22 tasks: Run no.  1: 77245 occurrences found in 0,005971 s
+Using 22 tasks: Run no.  2: 77245 occurrences found in 0,007429 s
+Using 22 tasks: Run no.  3: 77245 occurrences found in 0,006046 s
+
+Using 22 tasks (avg.): 0,007520 s
+
+
+Average speedup: 2,60
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 23 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=23, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018026 s
+Single task: Run no.  1: 77245 occurrences found in 0,021319 s
+Single task: Run no.  2: 77245 occurrences found in 0,019486 s
+Single task: Run no.  3: 77245 occurrences found in 0,018838 s
+
+Single task (avg.): 0,019417 s
+From: 0, To: 223321
+From: 223320, To: 446642
+From: 446641, To: 669963
+From: 669962, To: 893284
+From: 893283, To: 1116605
+From: 1116604, To: 1339926
+From: 1339925, To: 1563247
+From: 1563246, To: 1786568
+From: 1786567, To: 2009889
+From: 2009888, To: 2233210
+From: 2233209, To: 2456531
+From: 2456530, To: 2679852
+From: 2679851, To: 2903173
+From: 2903172, To: 3126494
+From: 3126493, To: 3349815
+From: 3349814, To: 3573136
+From: 3573135, To: 3796457
+From: 3796456, To: 4019778
+From: 4019777, To: 4243099
+From: 4243098, To: 4466420
+From: 4466419, To: 4689741
+From: 4689740, To: 4913062
+From: 4913061, To: 5136383
+
+Using 23 tasks: Run no.  0: 77245 occurrences found in 0,010455 s
+Using 23 tasks: Run no.  1: 77245 occurrences found in 0,005981 s
+Using 23 tasks: Run no.  2: 77245 occurrences found in 0,007130 s
+Using 23 tasks: Run no.  3: 77245 occurrences found in 0,006638 s
+
+Using 23 tasks (avg.): 0,007551 s
+
+
+Average speedup: 2,57
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 24 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=24, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018368 s
+Single task: Run no.  1: 77245 occurrences found in 0,025252 s
+Single task: Run no.  2: 77245 occurrences found in 0,019017 s
+Single task: Run no.  3: 77245 occurrences found in 0,019178 s
+
+Single task (avg.): 0,020454 s
+From: 0, To: 214016
+From: 214015, To: 428032
+From: 428031, To: 642048
+From: 642047, To: 856064
+From: 856063, To: 1070080
+From: 1070079, To: 1284096
+From: 1284095, To: 1498112
+From: 1498111, To: 1712128
+From: 1712127, To: 1926144
+From: 1926143, To: 2140160
+From: 2140159, To: 2354176
+From: 2354175, To: 2568192
+From: 2568191, To: 2782208
+From: 2782207, To: 2996224
+From: 2996223, To: 3210240
+From: 3210239, To: 3424256
+From: 3424255, To: 3638272
+From: 3638271, To: 3852288
+From: 3852287, To: 4066304
+From: 4066303, To: 4280320
+From: 4280319, To: 4494336
+From: 4494335, To: 4708352
+From: 4708351, To: 4922368
+From: 4922367, To: 5136384
+
+Using 24 tasks: Run no.  0: 77245 occurrences found in 0,010592 s
+Using 24 tasks: Run no.  1: 77245 occurrences found in 0,005820 s
+Using 24 tasks: Run no.  2: 77245 occurrences found in 0,007139 s
+Using 24 tasks: Run no.  3: 77245 occurrences found in 0,006293 s
+
+Using 24 tasks (avg.): 0,007461 s
+
+
+Average speedup: 2,74
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 25 4
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=25, nthreads=4, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,017747 s
+Single task: Run no.  1: 77245 occurrences found in 0,018955 s
+Single task: Run no.  2: 77245 occurrences found in 0,020681 s
+Single task: Run no.  3: 77245 occurrences found in 0,023020 s
+
+Single task (avg.): 0,020101 s
+From: 0, To: 205455
+From: 205454, To: 410910
+From: 410909, To: 616365
+From: 616364, To: 821820
+From: 821819, To: 1027275
+From: 1027274, To: 1232730
+From: 1232729, To: 1438185
+From: 1438184, To: 1643640
+From: 1643639, To: 1849095
+From: 1849094, To: 2054550
+From: 2054549, To: 2260005
+From: 2260004, To: 2465460
+From: 2465459, To: 2670915
+From: 2670914, To: 2876370
+From: 2876369, To: 3081825
+From: 3081824, To: 3287280
+From: 3287279, To: 3492735
+From: 3492734, To: 3698190
+From: 3698189, To: 3903645
+From: 3903644, To: 4109100
+From: 4109099, To: 4314555
+From: 4314554, To: 4520010
+From: 4520009, To: 4725465
+From: 4725464, To: 4930920
+From: 4930919, To: 5136375
+
+Using 25 tasks: Run no.  0: 77245 occurrences found in 0,010466 s
+Using 25 tasks: Run no.  1: 77245 occurrences found in 0,006148 s
+Using 25 tasks: Run no.  2: 77245 occurrences found in 0,007319 s
+Using 25 tasks: Run no.  3: 77245 occurrences found in 0,006542 s
+
+Using 25 tasks (avg.): 0,007619 s
+
+
+Average speedup: 2,64
+
+Threads 6
+
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 15 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=15, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,024840 s
+Single task: Run no.  1: 77245 occurrences found in 0,025677 s
+Single task: Run no.  2: 77245 occurrences found in 0,019916 s
+Single task: Run no.  3: 77245 occurrences found in 0,020001 s
+
+Single task (avg.): 0,022608 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+From: 1027274, To: 1369700
+From: 1369699, To: 1712125
+From: 1712124, To: 2054550
+From: 2054549, To: 2396975
+From: 2396974, To: 2739400
+From: 2739399, To: 3081825
+From: 3081824, To: 3424250
+From: 3424249, To: 3766675
+From: 3766674, To: 4109100
+From: 4109099, To: 4451525
+From: 4451524, To: 4793950
+From: 4793949, To: 5136375
+
+Using 15 tasks: Run no.  0: 77245 occurrences found in 0,009057 s
+Using 15 tasks: Run no.  1: 77245 occurrences found in 0,005176 s
+Using 15 tasks: Run no.  2: 77245 occurrences found in 0,006011 s
+Using 15 tasks: Run no.  3: 77245 occurrences found in 0,005102 s
+
+Using 15 tasks (avg.): 0,006337 s
+
+
+Average speedup: 3,57
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 16 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=16, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,019200 s
+Single task: Run no.  1: 77245 occurrences found in 0,019490 s
+Single task: Run no.  2: 77245 occurrences found in 0,019202 s
+Single task: Run no.  3: 77245 occurrences found in 0,019880 s
+
+Single task (avg.): 0,019443 s
+From: 0, To: 321024
+From: 321023, To: 642048
+From: 642047, To: 963072
+From: 963071, To: 1284096
+From: 1284095, To: 1605120
+From: 1605119, To: 1926144
+From: 1926143, To: 2247168
+From: 2247167, To: 2568192
+From: 2568191, To: 2889216
+From: 2889215, To: 3210240
+From: 3210239, To: 3531264
+From: 3531263, To: 3852288
+From: 3852287, To: 4173312
+From: 4173311, To: 4494336
+From: 4494335, To: 4815360
+From: 4815359, To: 5136384
+
+Using 16 tasks: Run no.  0: 77245 occurrences found in 0,009838 s
+Using 16 tasks: Run no.  1: 77245 occurrences found in 0,006000 s
+Using 16 tasks: Run no.  2: 77245 occurrences found in 0,006357 s
+Using 16 tasks: Run no.  3: 77245 occurrences found in 0,006100 s
+
+Using 16 tasks (avg.): 0,007074 s
+
+
+Average speedup: 2,75
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 17 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=17, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,020142 s
+Single task: Run no.  1: 77245 occurrences found in 0,021214 s
+Single task: Run no.  2: 77245 occurrences found in 0,020236 s
+Single task: Run no.  3: 77245 occurrences found in 0,019224 s
+
+Single task (avg.): 0,020204 s
+From: 0, To: 302140
+From: 302139, To: 604280
+From: 604279, To: 906420
+From: 906419, To: 1208560
+From: 1208559, To: 1510700
+From: 1510699, To: 1812840
+From: 1812839, To: 2114980
+From: 2114979, To: 2417120
+From: 2417119, To: 2719260
+From: 2719259, To: 3021400
+From: 3021399, To: 3323540
+From: 3323539, To: 3625680
+From: 3625679, To: 3927820
+From: 3927819, To: 4229960
+From: 4229959, To: 4532100
+From: 4532099, To: 4834240
+From: 4834239, To: 5136380
+
+Using 17 tasks: Run no.  0: 77245 occurrences found in 0,009351 s
+Using 17 tasks: Run no.  1: 77245 occurrences found in 0,005350 s
+Using 17 tasks: Run no.  2: 77245 occurrences found in 0,005863 s
+Using 17 tasks: Run no.  3: 77245 occurrences found in 0,005329 s
+
+Using 17 tasks (avg.): 0,006473 s
+
+
+Average speedup: 3,12
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 18 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=18, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,019096 s
+Single task: Run no.  1: 77245 occurrences found in 0,018550 s
+Single task: Run no.  2: 77245 occurrences found in 0,018969 s
+Single task: Run no.  3: 77245 occurrences found in 0,018887 s
+
+Single task (avg.): 0,018875 s
+From: 0, To: 285354
+From: 285353, To: 570708
+From: 570707, To: 856062
+From: 856061, To: 1141416
+From: 1141415, To: 1426770
+From: 1426769, To: 1712124
+From: 1712123, To: 1997478
+From: 1997477, To: 2282832
+From: 2282831, To: 2568186
+From: 2568185, To: 2853540
+From: 2853539, To: 3138894
+From: 3138893, To: 3424248
+From: 3424247, To: 3709602
+From: 3709601, To: 3994956
+From: 3994955, To: 4280310
+From: 4280309, To: 4565664
+From: 4565663, To: 4851018
+From: 4851017, To: 5136372
+
+Using 18 tasks: Run no.  0: 77245 occurrences found in 0,009868 s
+Using 18 tasks: Run no.  1: 77245 occurrences found in 0,005261 s
+Using 18 tasks: Run no.  2: 77245 occurrences found in 0,005171 s
+Using 18 tasks: Run no.  3: 77245 occurrences found in 0,005614 s
+
+Using 18 tasks (avg.): 0,006478 s
+
+
+Average speedup: 2,91
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 19 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=19, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018262 s
+Single task: Run no.  1: 77245 occurrences found in 0,020700 s
+Single task: Run no.  2: 77245 occurrences found in 0,018919 s
+Single task: Run no.  3: 77245 occurrences found in 0,018883 s
+
+Single task (avg.): 0,019191 s
+From: 0, To: 270336
+From: 270335, To: 540672
+From: 540671, To: 811008
+From: 811007, To: 1081344
+From: 1081343, To: 1351680
+From: 1351679, To: 1622016
+From: 1622015, To: 1892352
+From: 1892351, To: 2162688
+From: 2162687, To: 2433024
+From: 2433023, To: 2703360
+From: 2703359, To: 2973696
+From: 2973695, To: 3244032
+From: 3244031, To: 3514368
+From: 3514367, To: 3784704
+From: 3784703, To: 4055040
+From: 4055039, To: 4325376
+From: 4325375, To: 4595712
+From: 4595711, To: 4866048
+From: 4866047, To: 5136384
+
+Using 19 tasks: Run no.  0: 77245 occurrences found in 0,009426 s
+Using 19 tasks: Run no.  1: 77245 occurrences found in 0,004857 s
+Using 19 tasks: Run no.  2: 77245 occurrences found in 0,005996 s
+Using 19 tasks: Run no.  3: 77245 occurrences found in 0,004731 s
+
+Using 19 tasks (avg.): 0,006253 s
+
+
+Average speedup: 3,07
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 20 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=20, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018120 s
+Single task: Run no.  1: 77245 occurrences found in 0,025119 s
+Single task: Run no.  2: 77245 occurrences found in 0,021036 s
+Single task: Run no.  3: 77245 occurrences found in 0,020923 s
+
+Single task (avg.): 0,021299 s
+From: 0, To: 256819
+From: 256818, To: 513638
+From: 513637, To: 770457
+From: 770456, To: 1027276
+From: 1027275, To: 1284095
+From: 1284094, To: 1540914
+From: 1540913, To: 1797733
+From: 1797732, To: 2054552
+From: 2054551, To: 2311371
+From: 2311370, To: 2568190
+From: 2568189, To: 2825009
+From: 2825008, To: 3081828
+From: 3081827, To: 3338647
+From: 3338646, To: 3595466
+From: 3595465, To: 3852285
+From: 3852284, To: 4109104
+From: 4109103, To: 4365923
+From: 4365922, To: 4622742
+From: 4622741, To: 4879561
+From: 4879560, To: 5136380
+
+Using 20 tasks: Run no.  0: 77245 occurrences found in 0,010242 s
+Using 20 tasks: Run no.  1: 77245 occurrences found in 0,004654 s
+Using 20 tasks: Run no.  2: 77245 occurrences found in 0,006115 s
+Using 20 tasks: Run no.  3: 77245 occurrences found in 0,006297 s
+
+Using 20 tasks (avg.): 0,006827 s
+
+
+Average speedup: 3,12
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 21 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=21, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018129 s
+Single task: Run no.  1: 77245 occurrences found in 0,024429 s
+Single task: Run no.  2: 77245 occurrences found in 0,025546 s
+Single task: Run no.  3: 77245 occurrences found in 0,023300 s
+
+Single task (avg.): 0,022851 s
+From: 0, To: 244589
+From: 244588, To: 489178
+From: 489177, To: 733767
+From: 733766, To: 978356
+From: 978355, To: 1222945
+From: 1222944, To: 1467534
+From: 1467533, To: 1712123
+From: 1712122, To: 1956712
+From: 1956711, To: 2201301
+From: 2201300, To: 2445890
+From: 2445889, To: 2690479
+From: 2690478, To: 2935068
+From: 2935067, To: 3179657
+From: 3179656, To: 3424246
+From: 3424245, To: 3668835
+From: 3668834, To: 3913424
+From: 3913423, To: 4158013
+From: 4158012, To: 4402602
+From: 4402601, To: 4647191
+From: 4647190, To: 4891780
+From: 4891779, To: 5136369
+
+Using 21 tasks: Run no.  0: 77245 occurrences found in 0,009854 s
+Using 21 tasks: Run no.  1: 77245 occurrences found in 0,005387 s
+Using 21 tasks: Run no.  2: 77245 occurrences found in 0,006472 s
+Using 21 tasks: Run no.  3: 77245 occurrences found in 0,005968 s
+
+Using 21 tasks (avg.): 0,006920 s
+
+
+Average speedup: 3,30
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 22 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=22, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,020705 s
+Single task: Run no.  1: 77245 occurrences found in 0,018743 s
+Single task: Run no.  2: 77245 occurrences found in 0,026018 s
+Single task: Run no.  3: 77245 occurrences found in 0,020846 s
+
+Single task (avg.): 0,021578 s
+From: 0, To: 233472
+From: 233471, To: 466944
+From: 466943, To: 700416
+From: 700415, To: 933888
+From: 933887, To: 1167360
+From: 1167359, To: 1400832
+From: 1400831, To: 1634304
+From: 1634303, To: 1867776
+From: 1867775, To: 2101248
+From: 2101247, To: 2334720
+From: 2334719, To: 2568192
+From: 2568191, To: 2801664
+From: 2801663, To: 3035136
+From: 3035135, To: 3268608
+From: 3268607, To: 3502080
+From: 3502079, To: 3735552
+From: 3735551, To: 3969024
+From: 3969023, To: 4202496
+From: 4202495, To: 4435968
+From: 4435967, To: 4669440
+From: 4669439, To: 4902912
+From: 4902911, To: 5136384
+
+Using 22 tasks: Run no.  0: 77245 occurrences found in 0,009837 s
+Using 22 tasks: Run no.  1: 77245 occurrences found in 0,004377 s
+Using 22 tasks: Run no.  2: 77245 occurrences found in 0,005476 s
+Using 22 tasks: Run no.  3: 77245 occurrences found in 0,004752 s
+
+Using 22 tasks (avg.): 0,006110 s
+
+
+Average speedup: 3,53
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 23 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=23, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018153 s
+Single task: Run no.  1: 77245 occurrences found in 0,018014 s
+Single task: Run no.  2: 77245 occurrences found in 0,021707 s
+Single task: Run no.  3: 77245 occurrences found in 0,019902 s
+
+Single task (avg.): 0,019444 s
+From: 0, To: 223321
+From: 223320, To: 446642
+From: 446641, To: 669963
+From: 669962, To: 893284
+From: 893283, To: 1116605
+From: 1116604, To: 1339926
+From: 1339925, To: 1563247
+From: 1563246, To: 1786568
+From: 1786567, To: 2009889
+From: 2009888, To: 2233210
+From: 2233209, To: 2456531
+From: 2456530, To: 2679852
+From: 2679851, To: 2903173
+From: 2903172, To: 3126494
+From: 3126493, To: 3349815
+From: 3349814, To: 3573136
+From: 3573135, To: 3796457
+From: 3796456, To: 4019778
+From: 4019777, To: 4243099
+From: 4243098, To: 4466420
+From: 4466419, To: 4689741
+From: 4689740, To: 4913062
+From: 4913061, To: 5136383
+
+Using 23 tasks: Run no.  0: 77245 occurrences found in 0,009325 s
+Using 23 tasks: Run no.  1: 77245 occurrences found in 0,004385 s
+Using 23 tasks: Run no.  2: 77245 occurrences found in 0,005986 s
+Using 23 tasks: Run no.  3: 77245 occurrences found in 0,005257 s
+
+Using 23 tasks (avg.): 0,006238 s
+
+
+Average speedup: 3,12
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 24 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=24, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,026797 s
+Single task: Run no.  1: 77245 occurrences found in 0,018671 s
+Single task: Run no.  2: 77245 occurrences found in 0,025391 s
+Single task: Run no.  3: 77245 occurrences found in 0,023372 s
+
+Single task (avg.): 0,023558 s
+From: 0, To: 214016
+From: 214015, To: 428032
+From: 428031, To: 642048
+From: 642047, To: 856064
+From: 856063, To: 1070080
+From: 1070079, To: 1284096
+From: 1284095, To: 1498112
+From: 1498111, To: 1712128
+From: 1712127, To: 1926144
+From: 1926143, To: 2140160
+From: 2140159, To: 2354176
+From: 2354175, To: 2568192
+From: 2568191, To: 2782208
+From: 2782207, To: 2996224
+From: 2996223, To: 3210240
+From: 3210239, To: 3424256
+From: 3424255, To: 3638272
+From: 3638271, To: 3852288
+From: 3852287, To: 4066304
+From: 4066303, To: 4280320
+From: 4280319, To: 4494336
+From: 4494335, To: 4708352
+From: 4708351, To: 4922368
+From: 4922367, To: 5136384
+
+Using 24 tasks: Run no.  0: 77245 occurrences found in 0,009779 s
+Using 24 tasks: Run no.  1: 77245 occurrences found in 0,004786 s
+Using 24 tasks: Run no.  2: 77245 occurrences found in 0,005489 s
+Using 24 tasks: Run no.  3: 77245 occurrences found in 0,005805 s
+
+Using 24 tasks (avg.): 0,006465 s
+
+
+Average speedup: 3,64
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 25 6
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=25, nthreads=6, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018450 s
+Single task: Run no.  1: 77245 occurrences found in 0,018786 s
+Single task: Run no.  2: 77245 occurrences found in 0,019295 s
+Single task: Run no.  3: 77245 occurrences found in 0,019204 s
+
+Single task (avg.): 0,018934 s
+From: 0, To: 205455
+From: 205454, To: 410910
+From: 410909, To: 616365
+From: 616364, To: 821820
+From: 821819, To: 1027275
+From: 1027274, To: 1232730
+From: 1232729, To: 1438185
+From: 1438184, To: 1643640
+From: 1643639, To: 1849095
+From: 1849094, To: 2054550
+From: 2054549, To: 2260005
+From: 2260004, To: 2465460
+From: 2465459, To: 2670915
+From: 2670914, To: 2876370
+From: 2876369, To: 3081825
+From: 3081824, To: 3287280
+From: 3287279, To: 3492735
+From: 3492734, To: 3698190
+From: 3698189, To: 3903645
+From: 3903644, To: 4109100
+From: 4109099, To: 4314555
+From: 4314554, To: 4520010
+From: 4520009, To: 4725465
+From: 4725464, To: 4930920
+From: 4930919, To: 5136375
+
+Using 25 tasks: Run no.  0: 77245 occurrences found in 0,010765 s
+Using 25 tasks: Run no.  1: 77245 occurrences found in 0,004609 s
+Using 25 tasks: Run no.  2: 77245 occurrences found in 0,005516 s
+Using 25 tasks: Run no.  3: 77245 occurrences found in 0,004852 s
+
+Using 25 tasks (avg.): 0,006436 s
+
+
+Average speedup: 2,94
+
+Threads 8
+
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 15 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=15, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,022725 s
+Single task: Run no.  1: 77245 occurrences found in 0,022061 s
+Single task: Run no.  2: 77245 occurrences found in 0,022374 s
+Single task: Run no.  3: 77245 occurrences found in 0,018977 s
+
+Single task (avg.): 0,021534 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+From: 1027274, To: 1369700
+From: 1369699, To: 1712125
+From: 1712124, To: 2054550
+From: 2054549, To: 2396975
+From: 2396974, To: 2739400
+From: 2739399, To: 3081825
+From: 3081824, To: 3424250
+From: 3424249, To: 3766675
+From: 3766674, To: 4109100
+From: 4109099, To: 4451525
+From: 4451524, To: 4793950
+From: 4793949, To: 5136375
+
+Using 15 tasks: Run no.  0: 77245 occurrences found in 0,010417 s
+Using 15 tasks: Run no.  1: 77245 occurrences found in 0,005128 s
+Using 15 tasks: Run no.  2: 77245 occurrences found in 0,005675 s
+Using 15 tasks: Run no.  3: 77245 occurrences found in 0,005136 s
+
+Using 15 tasks (avg.): 0,006589 s
+
+
+Average speedup: 3,27
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 16 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=16, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,024239 s
+Single task: Run no.  1: 77245 occurrences found in 0,023409 s
+Single task: Run no.  2: 77245 occurrences found in 0,019230 s
+Single task: Run no.  3: 77245 occurrences found in 0,019348 s
+
+Single task (avg.): 0,021556 s
+From: 0, To: 321024
+From: 321023, To: 642048
+From: 642047, To: 963072
+From: 963071, To: 1284096
+From: 1284095, To: 1605120
+From: 1605119, To: 1926144
+From: 1926143, To: 2247168
+From: 2247167, To: 2568192
+From: 2568191, To: 2889216
+From: 2889215, To: 3210240
+From: 3210239, To: 3531264
+From: 3531263, To: 3852288
+From: 3852287, To: 4173312
+From: 4173311, To: 4494336
+From: 4494335, To: 4815360
+From: 4815359, To: 5136384
+
+Using 16 tasks: Run no.  0: 77245 occurrences found in 0,009344 s
+Using 16 tasks: Run no.  1: 77245 occurrences found in 0,005020 s
+Using 16 tasks: Run no.  2: 77245 occurrences found in 0,005547 s
+Using 16 tasks: Run no.  3: 77245 occurrences found in 0,004853 s
+
+Using 16 tasks (avg.): 0,006191 s
+
+
+Average speedup: 3,48
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 17 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=17, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,026246 s
+Single task: Run no.  1: 77245 occurrences found in 0,022958 s
+Single task: Run no.  2: 77245 occurrences found in 0,021988 s
+Single task: Run no.  3: 77245 occurrences found in 0,019211 s
+
+Single task (avg.): 0,022601 s
+From: 0, To: 302140
+From: 302139, To: 604280
+From: 604279, To: 906420
+From: 906419, To: 1208560
+From: 1208559, To: 1510700
+From: 1510699, To: 1812840
+From: 1812839, To: 2114980
+From: 2114979, To: 2417120
+From: 2417119, To: 2719260
+From: 2719259, To: 3021400
+From: 3021399, To: 3323540
+From: 3323539, To: 3625680
+From: 3625679, To: 3927820
+From: 3927819, To: 4229960
+From: 4229959, To: 4532100
+From: 4532099, To: 4834240
+From: 4834239, To: 5136380
+
+Using 17 tasks: Run no.  0: 77245 occurrences found in 0,009148 s
+Using 17 tasks: Run no.  1: 77245 occurrences found in 0,004814 s
+Using 17 tasks: Run no.  2: 77245 occurrences found in 0,005863 s
+Using 17 tasks: Run no.  3: 77245 occurrences found in 0,004740 s
+
+Using 17 tasks (avg.): 0,006141 s
+
+
+Average speedup: 3,68
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 18 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=18, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018953 s
+Single task: Run no.  1: 77245 occurrences found in 0,020006 s
+Single task: Run no.  2: 77245 occurrences found in 0,024110 s
+Single task: Run no.  3: 77245 occurrences found in 0,018832 s
+
+Single task (avg.): 0,020475 s
+From: 0, To: 285354
+From: 285353, To: 570708
+From: 570707, To: 856062
+From: 856061, To: 1141416
+From: 1141415, To: 1426770
+From: 1426769, To: 1712124
+From: 1712123, To: 1997478
+From: 1997477, To: 2282832
+From: 2282831, To: 2568186
+From: 2568185, To: 2853540
+From: 2853539, To: 3138894
+From: 3138893, To: 3424248
+From: 3424247, To: 3709602
+From: 3709601, To: 3994956
+From: 3994955, To: 4280310
+From: 4280309, To: 4565664
+From: 4565663, To: 4851018
+From: 4851017, To: 5136372
+
+Using 18 tasks: Run no.  0: 77245 occurrences found in 0,009143 s
+Using 18 tasks: Run no.  1: 77245 occurrences found in 0,004676 s
+Using 18 tasks: Run no.  2: 77245 occurrences found in 0,005276 s
+Using 18 tasks: Run no.  3: 77245 occurrences found in 0,004571 s
+
+Using 18 tasks (avg.): 0,005917 s
+
+
+Average speedup: 3,46
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 19 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=19, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,019395 s
+Single task: Run no.  1: 77245 occurrences found in 0,020962 s
+Single task: Run no.  2: 77245 occurrences found in 0,019809 s
+Single task: Run no.  3: 77245 occurrences found in 0,019395 s
+
+Single task (avg.): 0,019890 s
+From: 0, To: 270336
+From: 270335, To: 540672
+From: 540671, To: 811008
+From: 811007, To: 1081344
+From: 1081343, To: 1351680
+From: 1351679, To: 1622016
+From: 1622015, To: 1892352
+From: 1892351, To: 2162688
+From: 2162687, To: 2433024
+From: 2433023, To: 2703360
+From: 2703359, To: 2973696
+From: 2973695, To: 3244032
+From: 3244031, To: 3514368
+From: 3514367, To: 3784704
+From: 3784703, To: 4055040
+From: 4055039, To: 4325376
+From: 4325375, To: 4595712
+From: 4595711, To: 4866048
+From: 4866047, To: 5136384
+
+Using 19 tasks: Run no.  0: 77245 occurrences found in 0,009879 s
+Using 19 tasks: Run no.  1: 77245 occurrences found in 0,004884 s
+Using 19 tasks: Run no.  2: 77245 occurrences found in 0,006045 s
+Using 19 tasks: Run no.  3: 77245 occurrences found in 0,005091 s
+
+Using 19 tasks (avg.): 0,006474 s
+
+
+Average speedup: 3,07
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 20 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=20, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,026735 s
+Single task: Run no.  1: 77245 occurrences found in 0,024287 s
+Single task: Run no.  2: 77245 occurrences found in 0,019277 s
+Single task: Run no.  3: 77245 occurrences found in 0,018947 s
+
+Single task (avg.): 0,022312 s
+From: 0, To: 256819
+From: 256818, To: 513638
+From: 513637, To: 770457
+From: 770456, To: 1027276
+From: 1027275, To: 1284095
+From: 1284094, To: 1540914
+From: 1540913, To: 1797733
+From: 1797732, To: 2054552
+From: 2054551, To: 2311371
+From: 2311370, To: 2568190
+From: 2568189, To: 2825009
+From: 2825008, To: 3081828
+From: 3081827, To: 3338647
+From: 3338646, To: 3595466
+From: 3595465, To: 3852285
+From: 3852284, To: 4109104
+From: 4109103, To: 4365923
+From: 4365922, To: 4622742
+From: 4622741, To: 4879561
+From: 4879560, To: 5136380
+
+Using 20 tasks: Run no.  0: 77245 occurrences found in 0,008503 s
+Using 20 tasks: Run no.  1: 77245 occurrences found in 0,004743 s
+Using 20 tasks: Run no.  2: 77245 occurrences found in 0,004928 s
+Using 20 tasks: Run no.  3: 77245 occurrences found in 0,005016 s
+
+Using 20 tasks (avg.): 0,005798 s
+
+
+Average speedup: 3,85
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 21 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=21, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,020701 s
+Single task: Run no.  1: 77245 occurrences found in 0,020007 s
+Single task: Run no.  2: 77245 occurrences found in 0,024718 s
+Single task: Run no.  3: 77245 occurrences found in 0,019831 s
+
+Single task (avg.): 0,021314 s
+From: 0, To: 244589
+From: 244588, To: 489178
+From: 489177, To: 733767
+From: 733766, To: 978356
+From: 978355, To: 1222945
+From: 1222944, To: 1467534
+From: 1467533, To: 1712123
+From: 1712122, To: 1956712
+From: 1956711, To: 2201301
+From: 2201300, To: 2445890
+From: 2445889, To: 2690479
+From: 2690478, To: 2935068
+From: 2935067, To: 3179657
+From: 3179656, To: 3424246
+From: 3424245, To: 3668835
+From: 3668834, To: 3913424
+From: 3913423, To: 4158013
+From: 4158012, To: 4402602
+From: 4402601, To: 4647191
+From: 4647190, To: 4891780
+From: 4891779, To: 5136369
+
+Using 21 tasks: Run no.  0: 77245 occurrences found in 0,008954 s
+Using 21 tasks: Run no.  1: 77245 occurrences found in 0,004508 s
+Using 21 tasks: Run no.  2: 77245 occurrences found in 0,005615 s
+Using 21 tasks: Run no.  3: 77245 occurrences found in 0,004943 s
+
+Using 21 tasks (avg.): 0,006005 s
+
+
+Average speedup: 3,55
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 22 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=22, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,023527 s
+Single task: Run no.  1: 77245 occurrences found in 0,019394 s
+Single task: Run no.  2: 77245 occurrences found in 0,019260 s
+Single task: Run no.  3: 77245 occurrences found in 0,019467 s
+
+Single task (avg.): 0,020412 s
+From: 0, To: 233472
+From: 233471, To: 466944
+From: 466943, To: 700416
+From: 700415, To: 933888
+From: 933887, To: 1167360
+From: 1167359, To: 1400832
+From: 1400831, To: 1634304
+From: 1634303, To: 1867776
+From: 1867775, To: 2101248
+From: 2101247, To: 2334720
+From: 2334719, To: 2568192
+From: 2568191, To: 2801664
+From: 2801663, To: 3035136
+From: 3035135, To: 3268608
+From: 3268607, To: 3502080
+From: 3502079, To: 3735552
+From: 3735551, To: 3969024
+From: 3969023, To: 4202496
+From: 4202495, To: 4435968
+From: 4435967, To: 4669440
+From: 4669439, To: 4902912
+From: 4902911, To: 5136384
+
+Using 22 tasks: Run no.  0: 77245 occurrences found in 0,009459 s
+Using 22 tasks: Run no.  1: 77245 occurrences found in 0,004370 s
+Using 22 tasks: Run no.  2: 77245 occurrences found in 0,005907 s
+Using 22 tasks: Run no.  3: 77245 occurrences found in 0,004855 s
+
+Using 22 tasks (avg.): 0,006148 s
+
+
+Average speedup: 3,32
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 23 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=23, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018760 s
+Single task: Run no.  1: 77245 occurrences found in 0,019333 s
+Single task: Run no.  2: 77245 occurrences found in 0,019348 s
+Single task: Run no.  3: 77245 occurrences found in 0,022272 s
+
+Single task (avg.): 0,019928 s
+From: 0, To: 223321
+From: 223320, To: 446642
+From: 446641, To: 669963
+From: 669962, To: 893284
+From: 893283, To: 1116605
+From: 1116604, To: 1339926
+From: 1339925, To: 1563247
+From: 1563246, To: 1786568
+From: 1786567, To: 2009889
+From: 2009888, To: 2233210
+From: 2233209, To: 2456531
+From: 2456530, To: 2679852
+From: 2679851, To: 2903173
+From: 2903172, To: 3126494
+From: 3126493, To: 3349815
+From: 3349814, To: 3573136
+From: 3573135, To: 3796457
+From: 3796456, To: 4019778
+From: 4019777, To: 4243099
+From: 4243098, To: 4466420
+From: 4466419, To: 4689741
+From: 4689740, To: 4913062
+From: 4913061, To: 5136383
+
+Using 23 tasks: Run no.  0: 77245 occurrences found in 0,011068 s
+Using 23 tasks: Run no.  1: 77245 occurrences found in 0,006299 s
+Using 23 tasks: Run no.  2: 77245 occurrences found in 0,006136 s
+Using 23 tasks: Run no.  3: 77245 occurrences found in 0,004369 s
+
+Using 23 tasks (avg.): 0,006968 s
+
+
+Average speedup: 2,86
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 24 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=24, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018480 s
+Single task: Run no.  1: 77245 occurrences found in 0,021379 s
+Single task: Run no.  2: 77245 occurrences found in 0,019102 s
+Single task: Run no.  3: 77245 occurrences found in 0,019235 s
+
+Single task (avg.): 0,019549 s
+From: 0, To: 214016
+From: 214015, To: 428032
+From: 428031, To: 642048
+From: 642047, To: 856064
+From: 856063, To: 1070080
+From: 1070079, To: 1284096
+From: 1284095, To: 1498112
+From: 1498111, To: 1712128
+From: 1712127, To: 1926144
+From: 1926143, To: 2140160
+From: 2140159, To: 2354176
+From: 2354175, To: 2568192
+From: 2568191, To: 2782208
+From: 2782207, To: 2996224
+From: 2996223, To: 3210240
+From: 3210239, To: 3424256
+From: 3424255, To: 3638272
+From: 3638271, To: 3852288
+From: 3852287, To: 4066304
+From: 4066303, To: 4280320
+From: 4280319, To: 4494336
+From: 4494335, To: 4708352
+From: 4708351, To: 4922368
+From: 4922367, To: 5136384
+
+Using 24 tasks: Run no.  0: 77245 occurrences found in 0,009366 s
+Using 24 tasks: Run no.  1: 77245 occurrences found in 0,004313 s
+Using 24 tasks: Run no.  2: 77245 occurrences found in 0,005617 s
+Using 24 tasks: Run no.  3: 77245 occurrences found in 0,004954 s
+
+Using 24 tasks (avg.): 0,006062 s
+
+
+Average speedup: 3,22
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 25 8
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=25, nthreads=8, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,024131 s
+Single task: Run no.  1: 77245 occurrences found in 0,026518 s
+Single task: Run no.  2: 77245 occurrences found in 0,019285 s
+Single task: Run no.  3: 77245 occurrences found in 0,019149 s
+
+Single task (avg.): 0,022271 s
+From: 0, To: 205455
+From: 205454, To: 410910
+From: 410909, To: 616365
+From: 616364, To: 821820
+From: 821819, To: 1027275
+From: 1027274, To: 1232730
+From: 1232729, To: 1438185
+From: 1438184, To: 1643640
+From: 1643639, To: 1849095
+From: 1849094, To: 2054550
+From: 2054549, To: 2260005
+From: 2260004, To: 2465460
+From: 2465459, To: 2670915
+From: 2670914, To: 2876370
+From: 2876369, To: 3081825
+From: 3081824, To: 3287280
+From: 3287279, To: 3492735
+From: 3492734, To: 3698190
+From: 3698189, To: 3903645
+From: 3903644, To: 4109100
+From: 4109099, To: 4314555
+From: 4314554, To: 4520010
+From: 4520009, To: 4725465
+From: 4725464, To: 4930920
+From: 4930919, To: 5136375
+
+Using 25 tasks: Run no.  0: 77245 occurrences found in 0,008720 s
+Using 25 tasks: Run no.  1: 77245 occurrences found in 0,004448 s
+Using 25 tasks: Run no.  2: 77245 occurrences found in 0,005120 s
+Using 25 tasks: Run no.  3: 77245 occurrences found in 0,004843 s
+
+Using 25 tasks (avg.): 0,005783 s
+
+
+Average speedup: 3,85
+
+Threads 10
+
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 15 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=15, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018541 s
+Single task: Run no.  1: 77245 occurrences found in 0,027611 s
+Single task: Run no.  2: 77245 occurrences found in 0,020965 s
+Single task: Run no.  3: 77245 occurrences found in 0,021055 s
+
+Single task (avg.): 0,022043 s
+From: 0, To: 342425
+From: 342424, To: 684850
+From: 684849, To: 1027275
+From: 1027274, To: 1369700
+From: 1369699, To: 1712125
+From: 1712124, To: 2054550
+From: 2054549, To: 2396975
+From: 2396974, To: 2739400
+From: 2739399, To: 3081825
+From: 3081824, To: 3424250
+From: 3424249, To: 3766675
+From: 3766674, To: 4109100
+From: 4109099, To: 4451525
+From: 4451524, To: 4793950
+From: 4793949, To: 5136375
+
+Using 15 tasks: Run no.  0: 77245 occurrences found in 0,010102 s
+Using 15 tasks: Run no.  1: 77245 occurrences found in 0,004303 s
+Using 15 tasks: Run no.  2: 77245 occurrences found in 0,005165 s
+Using 15 tasks: Run no.  3: 77245 occurrences found in 0,005182 s
+
+Using 15 tasks (avg.): 0,006188 s
+
+
+Average speedup: 3,56
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 16 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=16, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018238 s
+Single task: Run no.  1: 77245 occurrences found in 0,024963 s
+Single task: Run no.  2: 77245 occurrences found in 0,021519 s
+Single task: Run no.  3: 77245 occurrences found in 0,021147 s
+
+Single task (avg.): 0,021467 s
+From: 0, To: 321024
+From: 321023, To: 642048
+From: 642047, To: 963072
+From: 963071, To: 1284096
+From: 1284095, To: 1605120
+From: 1605119, To: 1926144
+From: 1926143, To: 2247168
+From: 2247167, To: 2568192
+From: 2568191, To: 2889216
+From: 2889215, To: 3210240
+From: 3210239, To: 3531264
+From: 3531263, To: 3852288
+From: 3852287, To: 4173312
+From: 4173311, To: 4494336
+From: 4494335, To: 4815360
+From: 4815359, To: 5136384
+
+Using 16 tasks: Run no.  0: 77245 occurrences found in 0,011235 s
+Using 16 tasks: Run no.  1: 77245 occurrences found in 0,004749 s
+Using 16 tasks: Run no.  2: 77245 occurrences found in 0,004680 s
+Using 16 tasks: Run no.  3: 77245 occurrences found in 0,004395 s
+
+Using 16 tasks (avg.): 0,006265 s
+
+
+Average speedup: 3,43
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 17 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=17, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,026550 s
+Single task: Run no.  1: 77245 occurrences found in 0,024344 s
+Single task: Run no.  2: 77245 occurrences found in 0,024051 s
+Single task: Run no.  3: 77245 occurrences found in 0,021478 s
+
+Single task (avg.): 0,024106 s
+From: 0, To: 302140
+From: 302139, To: 604280
+From: 604279, To: 906420
+From: 906419, To: 1208560
+From: 1208559, To: 1510700
+From: 1510699, To: 1812840
+From: 1812839, To: 2114980
+From: 2114979, To: 2417120
+From: 2417119, To: 2719260
+From: 2719259, To: 3021400
+From: 3021399, To: 3323540
+From: 3323539, To: 3625680
+From: 3625679, To: 3927820
+From: 3927819, To: 4229960
+From: 4229959, To: 4532100
+From: 4532099, To: 4834240
+From: 4834239, To: 5136380
+
+Using 17 tasks: Run no.  0: 77245 occurrences found in 0,010076 s
+Using 17 tasks: Run no.  1: 77245 occurrences found in 0,004539 s
+Using 17 tasks: Run no.  2: 77245 occurrences found in 0,005416 s
+Using 17 tasks: Run no.  3: 77245 occurrences found in 0,004727 s
+
+Using 17 tasks (avg.): 0,006189 s
+
+
+Average speedup: 3,89
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 18 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=18, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,023439 s
+Single task: Run no.  1: 77245 occurrences found in 0,024724 s
+Single task: Run no.  2: 77245 occurrences found in 0,021013 s
+Single task: Run no.  3: 77245 occurrences found in 0,021386 s
+
+Single task (avg.): 0,022640 s
+From: 0, To: 285354
+From: 285353, To: 570708
+From: 570707, To: 856062
+From: 856061, To: 1141416
+From: 1141415, To: 1426770
+From: 1426769, To: 1712124
+From: 1712123, To: 1997478
+From: 1997477, To: 2282832
+From: 2282831, To: 2568186
+From: 2568185, To: 2853540
+From: 2853539, To: 3138894
+From: 3138893, To: 3424248
+From: 3424247, To: 3709602
+From: 3709601, To: 3994956
+From: 3994955, To: 4280310
+From: 4280309, To: 4565664
+From: 4565663, To: 4851018
+From: 4851017, To: 5136372
+
+Using 18 tasks: Run no.  0: 77245 occurrences found in 0,009819 s
+Using 18 tasks: Run no.  1: 77245 occurrences found in 0,004403 s
+Using 18 tasks: Run no.  2: 77245 occurrences found in 0,005170 s
+Using 18 tasks: Run no.  3: 77245 occurrences found in 0,004422 s
+
+Using 18 tasks (avg.): 0,005953 s
+
+
+Average speedup: 3,80
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 19 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=19, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018030 s
+Single task: Run no.  1: 77245 occurrences found in 0,021593 s
+Single task: Run no.  2: 77245 occurrences found in 0,023013 s
+Single task: Run no.  3: 77245 occurrences found in 0,020142 s
+
+Single task (avg.): 0,020695 s
+From: 0, To: 270336
+From: 270335, To: 540672
+From: 540671, To: 811008
+From: 811007, To: 1081344
+From: 1081343, To: 1351680
+From: 1351679, To: 1622016
+From: 1622015, To: 1892352
+From: 1892351, To: 2162688
+From: 2162687, To: 2433024
+From: 2433023, To: 2703360
+From: 2703359, To: 2973696
+From: 2973695, To: 3244032
+From: 3244031, To: 3514368
+From: 3514367, To: 3784704
+From: 3784703, To: 4055040
+From: 4055039, To: 4325376
+From: 4325375, To: 4595712
+From: 4595711, To: 4866048
+From: 4866047, To: 5136384
+
+Using 19 tasks: Run no.  0: 77245 occurrences found in 0,008927 s
+Using 19 tasks: Run no.  1: 77245 occurrences found in 0,004233 s
+Using 19 tasks: Run no.  2: 77245 occurrences found in 0,005327 s
+Using 19 tasks: Run no.  3: 77245 occurrences found in 0,004264 s
+
+Using 19 tasks (avg.): 0,005688 s
+
+
+Average speedup: 3,64
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 20 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=20, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018650 s
+Single task: Run no.  1: 77245 occurrences found in 0,019651 s
+Single task: Run no.  2: 77245 occurrences found in 0,018858 s
+Single task: Run no.  3: 77245 occurrences found in 0,019665 s
+
+Single task (avg.): 0,019206 s
+From: 0, To: 256819
+From: 256818, To: 513638
+From: 513637, To: 770457
+From: 770456, To: 1027276
+From: 1027275, To: 1284095
+From: 1284094, To: 1540914
+From: 1540913, To: 1797733
+From: 1797732, To: 2054552
+From: 2054551, To: 2311371
+From: 2311370, To: 2568190
+From: 2568189, To: 2825009
+From: 2825008, To: 3081828
+From: 3081827, To: 3338647
+From: 3338646, To: 3595466
+From: 3595465, To: 3852285
+From: 3852284, To: 4109104
+From: 4109103, To: 4365923
+From: 4365922, To: 4622742
+From: 4622741, To: 4879561
+From: 4879560, To: 5136380
+
+Using 20 tasks: Run no.  0: 77245 occurrences found in 0,009652 s
+Using 20 tasks: Run no.  1: 77245 occurrences found in 0,004121 s
+Using 20 tasks: Run no.  2: 77245 occurrences found in 0,005052 s
+Using 20 tasks: Run no.  3: 77245 occurrences found in 0,004261 s
+
+Using 20 tasks (avg.): 0,005771 s
+
+
+Average speedup: 3,33
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 21 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=21, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018546 s
+Single task: Run no.  1: 77245 occurrences found in 0,023852 s
+Single task: Run no.  2: 77245 occurrences found in 0,021470 s
+Single task: Run no.  3: 77245 occurrences found in 0,021427 s
+
+Single task (avg.): 0,021324 s
+From: 0, To: 244589
+From: 244588, To: 489178
+From: 489177, To: 733767
+From: 733766, To: 978356
+From: 978355, To: 1222945
+From: 1222944, To: 1467534
+From: 1467533, To: 1712123
+From: 1712122, To: 1956712
+From: 1956711, To: 2201301
+From: 2201300, To: 2445890
+From: 2445889, To: 2690479
+From: 2690478, To: 2935068
+From: 2935067, To: 3179657
+From: 3179656, To: 3424246
+From: 3424245, To: 3668835
+From: 3668834, To: 3913424
+From: 3913423, To: 4158013
+From: 4158012, To: 4402602
+From: 4402601, To: 4647191
+From: 4647190, To: 4891780
+From: 4891779, To: 5136369
+
+Using 21 tasks: Run no.  0: 77245 occurrences found in 0,009520 s
+Using 21 tasks: Run no.  1: 77245 occurrences found in 0,003925 s
+Using 21 tasks: Run no.  2: 77245 occurrences found in 0,004566 s
+Using 21 tasks: Run no.  3: 77245 occurrences found in 0,004259 s
+
+Using 21 tasks (avg.): 0,005567 s
+
+
+Average speedup: 3,83
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 22 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=22, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,024447 s
+Single task: Run no.  1: 77245 occurrences found in 0,018508 s
+Single task: Run no.  2: 77245 occurrences found in 0,019254 s
+Single task: Run no.  3: 77245 occurrences found in 0,020081 s
+
+Single task (avg.): 0,020573 s
+From: 0, To: 233472
+From: 233471, To: 466944
+From: 466943, To: 700416
+From: 700415, To: 933888
+From: 933887, To: 1167360
+From: 1167359, To: 1400832
+From: 1400831, To: 1634304
+From: 1634303, To: 1867776
+From: 1867775, To: 2101248
+From: 2101247, To: 2334720
+From: 2334719, To: 2568192
+From: 2568191, To: 2801664
+From: 2801663, To: 3035136
+From: 3035135, To: 3268608
+From: 3268607, To: 3502080
+From: 3502079, To: 3735552
+From: 3735551, To: 3969024
+From: 3969023, To: 4202496
+From: 4202495, To: 4435968
+From: 4435967, To: 4669440
+From: 4669439, To: 4902912
+From: 4902911, To: 5136384
+
+Using 22 tasks: Run no.  0: 77245 occurrences found in 0,009147 s
+Using 22 tasks: Run no.  1: 77245 occurrences found in 0,004036 s
+Using 22 tasks: Run no.  2: 77245 occurrences found in 0,004699 s
+Using 22 tasks: Run no.  3: 77245 occurrences found in 0,004728 s
+
+Using 22 tasks (avg.): 0,005653 s
+
+
+Average speedup: 3,64
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 23 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=23, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,020287 s
+Single task: Run no.  1: 77245 occurrences found in 0,020461 s
+Single task: Run no.  2: 77245 occurrences found in 0,019263 s
+Single task: Run no.  3: 77245 occurrences found in 0,019138 s
+
+Single task (avg.): 0,019787 s
+From: 0, To: 223321
+From: 223320, To: 446642
+From: 446641, To: 669963
+From: 669962, To: 893284
+From: 893283, To: 1116605
+From: 1116604, To: 1339926
+From: 1339925, To: 1563247
+From: 1563246, To: 1786568
+From: 1786567, To: 2009889
+From: 2009888, To: 2233210
+From: 2233209, To: 2456531
+From: 2456530, To: 2679852
+From: 2679851, To: 2903173
+From: 2903172, To: 3126494
+From: 3126493, To: 3349815
+From: 3349814, To: 3573136
+From: 3573135, To: 3796457
+From: 3796456, To: 4019778
+From: 4019777, To: 4243099
+From: 4243098, To: 4466420
+From: 4466419, To: 4689741
+From: 4689740, To: 4913062
+From: 4913061, To: 5136383
+
+Using 23 tasks: Run no.  0: 77245 occurrences found in 0,009428 s
+Using 23 tasks: Run no.  1: 77245 occurrences found in 0,004306 s
+Using 23 tasks: Run no.  2: 77245 occurrences found in 0,005161 s
+Using 23 tasks: Run no.  3: 77245 occurrences found in 0,004562 s
+
+Using 23 tasks (avg.): 0,005864 s
+
+
+Average speedup: 3,37
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 24 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=24, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,018540 s
+Single task: Run no.  1: 77245 occurrences found in 0,019459 s
+Single task: Run no.  2: 77245 occurrences found in 0,020609 s
+Single task: Run no.  3: 77245 occurrences found in 0,019249 s
+
+Single task (avg.): 0,019464 s
+From: 0, To: 214016
+From: 214015, To: 428032
+From: 428031, To: 642048
+From: 642047, To: 856064
+From: 856063, To: 1070080
+From: 1070079, To: 1284096
+From: 1284095, To: 1498112
+From: 1498111, To: 1712128
+From: 1712127, To: 1926144
+From: 1926143, To: 2140160
+From: 2140159, To: 2354176
+From: 2354175, To: 2568192
+From: 2568191, To: 2782208
+From: 2782207, To: 2996224
+From: 2996223, To: 3210240
+From: 3210239, To: 3424256
+From: 3424255, To: 3638272
+From: 3638271, To: 3852288
+From: 3852287, To: 4066304
+From: 4066303, To: 4280320
+From: 4280319, To: 4494336
+From: 4494335, To: 4708352
+From: 4708351, To: 4922368
+From: 4922367, To: 5136384
+
+Using 24 tasks: Run no.  0: 77245 occurrences found in 0,008830 s
+Using 24 tasks: Run no.  1: 77245 occurrences found in 0,004473 s
+Using 24 tasks: Run no.  2: 77245 occurrences found in 0,005238 s
+Using 24 tasks: Run no.  3: 77245 occurrences found in 0,004710 s
+
+Using 24 tasks (avg.): 0,005813 s
+
+
+Average speedup: 3,35
+
+PS C:\Users\sssch\1DTU\ConcurrentProgramming\MA1> java Search -R 4 -W 6 -d Data.txt -Ec -Ef  shakespeare.txt he 25 10
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=25, nthreads=10, warmups=6, runs=4
+executor: FIXED
+
+Single task: Run no.  0: 77245 occurrences found in 0,024763 s
+Single task: Run no.  1: 77245 occurrences found in 0,024032 s
+Single task: Run no.  2: 77245 occurrences found in 0,019345 s
+Single task: Run no.  3: 77245 occurrences found in 0,019160 s
+
+Single task (avg.): 0,021825 s
+From: 0, To: 205455
+From: 205454, To: 410910
+From: 410909, To: 616365
+From: 616364, To: 821820
+From: 821819, To: 1027275
+From: 1027274, To: 1232730
+From: 1232729, To: 1438185
+From: 1438184, To: 1643640
+From: 1643639, To: 1849095
+From: 1849094, To: 2054550
+From: 2054549, To: 2260005
+From: 2260004, To: 2465460
+From: 2465459, To: 2670915
+From: 2670914, To: 2876370
+From: 2876369, To: 3081825
+From: 3081824, To: 3287280
+From: 3287279, To: 3492735
+From: 3492734, To: 3698190
+From: 3698189, To: 3903645
+From: 3903644, To: 4109100
+From: 4109099, To: 4314555
+From: 4314554, To: 4520010
+From: 4520009, To: 4725465
+From: 4725464, To: 4930920
+From: 4930919, To: 5136375
+
+Using 25 tasks: Run no.  0: 77245 occurrences found in 0,008803 s
+Using 25 tasks: Run no.  1: 77245 occurrences found in 0,004180 s
+Using 25 tasks: Run no.  2: 77245 occurrences found in 0,005458 s
+Using 25 tasks: Run no.  3: 77245 occurrences found in 0,004447 s
+
+Using 25 tasks (avg.): 0,005722 s
+
+
+Average speedup: 3,81
