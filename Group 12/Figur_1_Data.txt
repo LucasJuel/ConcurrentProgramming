@@ -1,0 +1,17 @@
+
+File=shakespeare.txt, length=5136389, pattern='he'
+ntasks=1, nthreads=1, warmups=0, runs=10
+executor: SINGLE
+
+Single task: Run no.  0: 77245 occurrences found in 0,020362 s
+Single task: Run no.  1: 77245 occurrences found in 0,026051 s
+Single task: Run no.  2: 77245 occurrences found in 0,024463 s
+Single task: Run no.  3: 77245 occurrences found in 0,018502 s
+Single task: Run no.  4: 77245 occurrences found in 0,032121 s
+Single task: Run no.  5: 77245 occurrences found in 0,018291 s
+Single task: Run no.  6: 77245 occurrences found in 0,018751 s
+Single task: Run no.  7: 77245 occurrences found in 0,018991 s
+Single task: Run no.  8: 77245 occurrences found in 0,019343 s
+Single task: Run no.  9: 77245 occurrences found in 0,026559 s
+
+Single task (avg.): 0,022343 s
