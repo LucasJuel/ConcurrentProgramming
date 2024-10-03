@@ -96,3 +96,24 @@ Tasks: 4 - Average Speedup: 2.729806816703525
  No of Tasks 25 No of Threads 1 Average Speedup 0.8457316978718791
  No of Tasks 30 No of Threads 1 Average Speedup 0.8705916277959068
  No of Tasks 1 No of Threads 1 Average Speedup 1.0199955353454102
+ No of Tasks 12 No of Threads 1 Average Speedup 2.483923851561701
+ No of Tasks 12 No of Threads 1 Average Speedup 2.276286125371468
+ No of Tasks 12 No of Threads 1 Average Speedup 2.5003147744309735
+ No of Tasks 12 No of Threads 1 Average Speedup 0.575215051421003
+ No of Tasks 12 No of Threads 1 Average Speedup 0.5404123019561895
+ No of Tasks 12 No of Threads 1 Average Speedup 2.3717490074081615
+ No of Tasks 12 No of Threads 1 Average Speedup 2.393952910016069
+ No of Tasks 12 No of Threads 1 Average Speedup 5.6508971264065755
+ No of Tasks 12 No of Threads 1 Average Speedup 5.85400725124211
+ No of Tasks 12 No of Threads 1 Average Speedup 5.794673002884788
+ No of Tasks 12 No of Threads 1 Average Speedup 5.609870050003492
+ No of Tasks 12 No of Threads 1 Average Speedup 5.6977440729354845
+ No of Tasks 12 No of Threads 1 Average Speedup 5.802278315633689
+ No of Tasks 12 No of Threads 1 Average Speedup 5.775362951499582
+ No of Tasks 12 No of Threads 1 Average Speedup 5.929503834214227
+ No of Tasks 12 No of Threads 1 Average Speedup 6.000986762669337
+ No of Tasks 12 No of Threads 1 Average Speedup 6.153279640084264
+ No of Tasks 12 No of Threads 1 Average Speedup 6.2006841823361905
+ No of Tasks 12 No of Threads 1 Average Speedup 6.6687481540017695
+ No of Tasks 12 No of Threads 1 Average Speedup 6.56092855107772
+ No of Tasks 100 No of Threads 1 Average Speedup 8.140018564972245

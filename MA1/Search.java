@@ -266,14 +266,26 @@ public class Search {
          
             // Create list of tasks
             List<SearchTask> taskList = new ArrayList<SearchTask>();
+            int biggestTo = 0;
+            int segmentSize = (int) Math.ceil(len / ntasks);
+            int overlapSize = pattern.length - 1;
+
             for (int i = 0; i < ntasks; i++) {
-                int from = i == 0 ? i * (int) Math.floor(len / ntasks) : i * (int) Math.floor(len / ntasks) - (pattern.length - 1);
-                int to = (i + 1) * (int) Math.floor(len / ntasks);
+                int from = i * segmentSize;
+                int to = Math.min((i+1) * segmentSize + overlapSize, len);
+                if (to > biggestTo) {
+                    biggestTo = to;
+                }
                 System.out.println("From: " + from + ", To: " + to);
                 taskList.add(new SearchTask(text, pattern, from, to));
             }
-            // TODO: Add tasks to list here
 
+            
+            if(biggestTo < len) {
+                taskList.add(new SearchTask(text, pattern, biggestTo, len));
+            }
+            // TODO: Add tasks to list here
+            System.out.println("Filesize: " + len);
             List<Integer> result = null;
             
             // Run the tasks a couple of times
