@@ -1,119 +1,18 @@
-Tasks: 4 - Average Speedup: 2.729806816703525
+--------------- wikipedia.txt(5) ---------------
+time_taken <- c(, , , 0.9996113087660035)
 
- No of Tasks 1 No of Threads 1 Average Speedup 0.7922212691173087
- No of Tasks 2 No of Threads 1 Average Speedup 1.5601913361862536
- No of Tasks 3 No of Threads 1 Average Speedup 2.1450924807267877
- No of Tasks 4 No of Threads 1 Average Speedup 2.6216078344509106
- No of Tasks 5 No of Threads 1 Average Speedup 2.7014284287283994
- No of Tasks 6 No of Threads 1 Average Speedup 2.941355140186916
- No of Tasks 7 No of Threads 1 Average Speedup 2.9093393405879
- No of Tasks 8 No of Threads 1 Average Speedup 2.401384330844485
- No of Tasks 9 No of Threads 1 Average Speedup 2.7568787687876877
- No of Tasks 10 No of Threads 1 Average Speedup 2.6144781724838917
- No of Tasks 11 No of Threads 1 Average Speedup 2.9360095983779035
- No of Tasks 12 No of Threads 1 Average Speedup 2.7572045730863426
- No of Tasks 13 No of Threads 1 Average Speedup 2.536001736632936
- No of Tasks 14 No of Threads 1 Average Speedup 2.5753250594989985
- No of Tasks 15 No of Threads 1 Average Speedup 2.8165393292509524
- No of Tasks 16 No of Threads 1 Average Speedup 2.8206878178905566
- No of Tasks 17 No of Threads 1 Average Speedup 2.631292955251263
- No of Tasks 18 No of Threads 1 Average Speedup 2.8222149338580955
- No of Tasks 19 No of Threads 1 Average Speedup 3.0066116772724496
- No of Tasks 20 No of Threads 1 Average Speedup 2.9274302054951105
- No of Tasks 5 No of Threads 1 Average Speedup 2.3555337598080865
- No of Tasks 10 No of Threads 1 Average Speedup 2.6084486832665257
- No of Tasks 15 No of Threads 1 Average Speedup 2.7583347757764587
- No of Tasks 20 No of Threads 1 Average Speedup 3.4321835443037974
- No of Tasks 25 No of Threads 1 Average Speedup 2.7395704968832195
- No of Tasks 30 No of Threads 1 Average Speedup 2.91865468088425
- No of Tasks 35 No of Threads 1 Average Speedup 2.0952399480832784
- No of Tasks 40 No of Threads 1 Average Speedup 2.663905987026778
- No of Tasks 45 No of Threads 1 Average Speedup 2.4957292669978988
- No of Tasks 50 No of Threads 1 Average Speedup 2.65622415434763
- No of Tasks 55 No of Threads 1 Average Speedup 2.0490325723830733
- No of Tasks 60 No of Threads 1 Average Speedup 2.5127746853088717
- No of Tasks 65 No of Threads 1 Average Speedup 2.7455080681096518
- 
- No of Tasks 15 No of Threads 2 Average Speedup 1.774628863879512
- No of Tasks 16 No of Threads 2 Average Speedup 1.5588338764441352
- No of Tasks 17 No of Threads 2 Average Speedup 1.4772037344089568
- No of Tasks 18 No of Threads 2 Average Speedup 1.6609124386252043
- No of Tasks 19 No of Threads 2 Average Speedup 1.5404332612988105
- No of Tasks 20 No of Threads 2 Average Speedup 1.6709116754839752
- No of Tasks 21 No of Threads 2 Average Speedup 1.5380683933840753
- No of Tasks 22 No of Threads 2 Average Speedup 1.6011044600818045
- No of Tasks 23 No of Threads 2 Average Speedup 1.4588983903229602
- No of Tasks 24 No of Threads 2 Average Speedup 1.569787713017684
- No of Tasks 25 No of Threads 2 Average Speedup 1.6092357217737812
- No of Tasks 15 No of Threads 4 Average Speedup 2.852881760681554
- No of Tasks 16 No of Threads 4 Average Speedup 2.4945086732763913
- No of Tasks 17 No of Threads 4 Average Speedup 2.444699038271817
- No of Tasks 18 No of Threads 4 Average Speedup 2.67586635266607
- No of Tasks 19 No of Threads 4 Average Speedup 2.557024060542267
- No of Tasks 20 No of Threads 4 Average Speedup 2.5319246584263113
- No of Tasks 21 No of Threads 4 Average Speedup 2.7202271853008395
- No of Tasks 22 No of Threads 4 Average Speedup 2.595262632978723
- No of Tasks 23 No of Threads 4 Average Speedup 2.5715799302046842
- No of Tasks 24 No of Threads 4 Average Speedup 2.7414462683916536
- No of Tasks 25 No of Threads 4 Average Speedup 2.6383880081774356
- No of Tasks 15 No of Threads 6 Average Speedup 3.5678991888394402
- No of Tasks 16 No of Threads 6 Average Speedup 2.7487002774390783
- No of Tasks 17 No of Threads 6 Average Speedup 3.1212517958937753
- No of Tasks 18 No of Threads 6 Average Speedup 2.913608403374316
- No of Tasks 19 No of Threads 6 Average Speedup 3.0692440254137328
- No of Tasks 20 No of Threads 6 Average Speedup 3.1199569345925813
- No of Tasks 21 No of Threads 6 Average Speedup 3.3020921016029448
- No of Tasks 22 No of Threads 6 Average Speedup 3.531486414055244
- No of Tasks 23 No of Threads 6 Average Speedup 3.1168057258730277
- No of Tasks 24 No of Threads 6 Average Speedup 3.643966990726777
- No of Tasks 25 No of Threads 6 Average Speedup 2.9419261860459702
- No of Tasks 15 No of Threads 8 Average Speedup 3.2681484123340527
- No of Tasks 16 No of Threads 8 Average Speedup 3.481762347211959
- No of Tasks 17 No of Threads 8 Average Speedup 3.680165602139638
- No of Tasks 18 No of Threads 8 Average Speedup 3.460592309024917
- No of Tasks 19 No of Threads 8 Average Speedup 3.0721456814531076
- No of Tasks 20 No of Threads 8 Average Speedup 3.8483954705785965
- No of Tasks 21 No of Threads 8 Average Speedup 3.54937510928302
- No of Tasks 22 No of Threads 8 Average Speedup 3.3201202031579764
- No of Tasks 23 No of Threads 8 Average Speedup 2.859886482685381
- No of Tasks 24 No of Threads 8 Average Speedup 3.224653907535475
- No of Tasks 25 No of Threads 8 Average Speedup 3.851262607703183
- No of Tasks 15 No of Threads 10 Average Speedup 3.562206843055741
- No of Tasks 16 No of Threads 10 Average Speedup 3.426635965297343
- No of Tasks 17 No of Threads 10 Average Speedup 3.8946428787811476
- No of Tasks 18 No of Threads 10 Average Speedup 3.802914313309677
- No of Tasks 19 No of Threads 10 Average Speedup 3.638496228704046
- No of Tasks 20 No of Threads 10 Average Speedup 3.3277440146930783
- No of Tasks 21 No of Threads 10 Average Speedup 3.830113697596724
- No of Tasks 22 No of Threads 10 Average Speedup 3.6394595431326153
- No of Tasks 23 No of Threads 10 Average Speedup 3.3742496845264487
- No of Tasks 24 No of Threads 10 Average Speedup 3.348666468819757
- No of Tasks 25 No of Threads 10 Average Speedup 3.8143774058102093
- No of Tasks 5 No of Threads 1 Average Speedup 0.9270308034157287
- No of Tasks 10 No of Threads 1 Average Speedup 0.8882412175306099
- No of Tasks 15 No of Threads 1 Average Speedup 0.8539974064559916
- No of Tasks 20 No of Threads 1 Average Speedup 0.8984064439260377
- No of Tasks 25 No of Threads 1 Average Speedup 0.8457316978718791
- No of Tasks 30 No of Threads 1 Average Speedup 0.8705916277959068
- No of Tasks 1 No of Threads 1 Average Speedup 1.0199955353454102
- No of Tasks 12 No of Threads 1 Average Speedup 2.483923851561701
- No of Tasks 12 No of Threads 1 Average Speedup 2.276286125371468
- No of Tasks 12 No of Threads 1 Average Speedup 2.5003147744309735
- No of Tasks 12 No of Threads 1 Average Speedup 0.575215051421003
- No of Tasks 12 No of Threads 1 Average Speedup 0.5404123019561895
- No of Tasks 12 No of Threads 1 Average Speedup 2.3717490074081615
- No of Tasks 12 No of Threads 1 Average Speedup 2.393952910016069
- No of Tasks 12 No of Threads 1 Average Speedup 5.6508971264065755
- No of Tasks 12 No of Threads 1 Average Speedup 5.85400725124211
- No of Tasks 12 No of Threads 1 Average Speedup 5.794673002884788
- No of Tasks 12 No of Threads 1 Average Speedup 5.609870050003492
- No of Tasks 12 No of Threads 1 Average Speedup 5.6977440729354845
- No of Tasks 12 No of Threads 1 Average Speedup 5.802278315633689
- No of Tasks 12 No of Threads 1 Average Speedup 5.775362951499582
- No of Tasks 12 No of Threads 1 Average Speedup 5.929503834214227
- No of Tasks 12 No of Threads 1 Average Speedup 6.000986762669337
- No of Tasks 12 No of Threads 1 Average Speedup 6.153279640084264
- No of Tasks 12 No of Threads 1 Average Speedup 6.2006841823361905
- No of Tasks 12 No of Threads 1 Average Speedup 6.6687481540017695
- No of Tasks 12 No of Threads 1 Average Speedup 6.56092855107772
- No of Tasks 100 No of Threads 1 Average Speedup 8.140018564972245
+--------------- wikipedia.txt(10) ---------------
+time_taken <- c(, , , 0.98173180008737)
+
+--------------- wikipedia.txt(15) ---------------
+time_taken <- c(, , , 1.0031788605135872)
+
+--------------- wikipedia.txt(20) ---------------
+time_taken <- c(, , , 1.0041953907743655)
+
+--------------- wikipedia.txt(25) ---------------
+time_taken <- c(, , , 0.9844936912223334)
+
+--------------- wikipedia.txt(30) ---------------
+time_taken <- c(, , , 1.0066037132544474)
+

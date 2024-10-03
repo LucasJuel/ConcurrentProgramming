@@ -263,7 +263,8 @@ public class Search {
              * Run search using multiple tasks
              *********************************************/
 
-         
+            String navn = fname;
+            writeData("--------------- " + navn + " (" + ntasks + ")" + " ---------------");
             // Create list of tasks
             List<SearchTask> taskList = new ArrayList<SearchTask>();
             int biggestTo = 0;
@@ -276,7 +277,7 @@ public class Search {
                 if (to > biggestTo) {
                     biggestTo = to;
                 }
-                System.out.println("From: " + from + ", To: " + to);
+                //System.out.println("From: " + from + ", To: " + to);
                 taskList.add(new SearchTask(text, pattern, from, to));
             }
 
@@ -296,7 +297,6 @@ public class Search {
             totalTime = 0.0;
             
             for (int run = 0; run < runs; run++) {
-
                 start = System.nanoTime();
 
                 // Submit tasks and await results
@@ -327,7 +327,9 @@ public class Search {
                 System.out.println("\nERROR: lists differ");
             }
             System.out.printf("\n\nAverage speedup: %1.2f\n\n", singleTime / multiTime);
-            String s = " No of Tasks " + ntasks + " No of Threads " + nthreads + " Average Speedup " + singleTime / multiTime;
+            String s = ntasks + ", ";
+            s+= singleTime / multiTime;
+            s += "\n";
             writeData(s);
             
             /**********************************************
