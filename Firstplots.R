@@ -1,6 +1,10 @@
 # Figur 1 - 4
-runs <- 0:9
-time_taken <- c(0.020711, 0.024783, 0.024500, 0.018353, 0.032818, 0.018432, 0.018791, 0.019313, 0.018862, 0.025085)
+
+#Figur 1
+runs <- c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+time_taken <- c(0.660790, 0.661175, 0.557329, 0.543740, 0.542802, 0.553452, 0.548347, 0.563096, 0.558516, 0.554964)
+
+
 # Create a data frame
 data <- data.frame(Run = runs, Time = time_taken)
 
@@ -14,23 +18,15 @@ plot(data$Run, data$Time,
      type = "b",  # Both points and lines
      xlab = "Run Number",
      ylab = "Time Taken (seconds)",
-     main = "Keyword 'he' R = 10, W = 5",
+     main = "Search parameters R = 10, W = 0",
      pch = 16,    # Point type
      col = "blue",
      ylim = c(0, max_y * 1.1))  # Set y-axis limits to zoom in slightly
 
+#Figur 2
+runs <- c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+time_taken <- c(0.560613, 0.546230, 0.539421, 0.547647, 0.548046, 0.534922, 0.544242, 0.556604, 0.556736, 0.549296)
 
-# Add a horizontal line for the mean time
-abline(h = mean(time_taken), col = "red", lty = 2)
-
-# Add a legend
-legend("topright", legend = c("Time", "Mean Time"), 
-       col = c("blue", "red"), lty = c(1, 2), pch = c(16, NA))
-
-
-# Figur 5
-runs <- 0:9
-time_taken <- c(0.020711, 0.024783, 0.024500, 0.018353, 0.032818, 0.018432, 0.018791, 0.019313, 0.018862, 0.025085)
 # Create a data frame
 data <- data.frame(Run = runs, Time = time_taken)
 
@@ -44,23 +40,38 @@ plot(data$Run, data$Time,
      type = "b",  # Both points and lines
      xlab = "Run Number",
      ylab = "Time Taken (seconds)",
-     main = "Keyword 'he' R = 10, W = 5",
+     main = "Search Parameters R = 10, W = 2",
      pch = 16,    # Point type
      col = "blue",
      ylim = c(0, max_y * 1.1))  # Set y-axis limits to zoom in slightly
 
 
-# Add a horizontal line for the mean time
-abline(h = mean(time_taken), col = "red", lty = 2)
+#Figur 3
+runs <- c(5, 10, 15, 20, 25, 30)
+time_taken <- c(0.9987605582694478, 0.9876909300097844, 0.9956608889483511, 1.002690616120719, 1.006393504113481, 0.9938562872138282)
+# Create a data frame
+data <- data.frame(Run = runs, Time = time_taken)
 
 
-#Figur 6
-tasks <- 1:20
-average_speedups <- c(0.7922212691173087, 1.5601913361862536, 2.1450924807267877, 2.6216078344509106, 2.7014284287283994,
-                      2.941355140186916, 2.9093393405879, 2.401384330844485, 2.7568787687876877, 2.6144781724838917,
-                      2.9360095983779035, 2.7572045730863426, 2.536001736632936, 2.5753250594989985, 2.8165393292509524,
-                      2.8206878178905566, 2.631292955251263, 2.8222149338580955, 3.0066116772724496, 2.9274302054951105)
+# Find the minimum and maximum y values to set the limits
+min_y <- min(time_taken)
+max_y <- max(time_taken)
 
+# Plot the graph
+plot(data$Run, data$Time, 
+     type = "b",  # Both points and lines
+     xlab = "Number of Tasks",
+     ylab = "Average Speedup",
+     main = "Average speedup per number of task",
+     pch = 16,    # Point type
+     col = "blue",
+     ylim = c(0, max_y * 1.1))  # Set y-axis limits to zoom in slightly
+
+
+
+#Figur 4
+tasks <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+average_speedups <- c(0.9990865203716257, 1.9601258284737426, 2.6517997413780234, 3.1453609961245435, 3.5217193786590406, 4.348759162104267, 5.000340723553035, 5.1748394306626295, 5.710124791969634, 5.985184724368407, 6.317090034082443, 6.62569055935551, 5.793965463367269, 5.934486818584351, 6.0976198101098475, 6.023243642095963, 6.286700317464327, 6.287550790897958, 6.404753607066754, 6.314626000797497)
 
 # Create a data frame
 speedup_data <- data.frame(Tasks = tasks, Speedup = average_speedups)
@@ -73,10 +84,10 @@ plot(speedup_data$Tasks, speedup_data$Speedup,
      type = "b",  # Both points and lines
      xlab = "Number of tasks",
      ylab = "Average Speedup",
-     main = "Average Speedup per number of task",
+     main = "Average Speedup per number of task with -EC",
      pch = 16,    # Point type
      col = "blue",
-     ylim = c(0, 5))  # Set y-axis limits to zoom in slightly
+     ylim = c(0, 8))  # Set y-axis limits to zoom in slightly
 
 
 #Figur 7

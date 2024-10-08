@@ -1,0 +1,18 @@
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=1, nthreads=1, warmups=0, runs=10
+executor: SINGLE
+
+Single task: Run no.  0: 1 occurrences found in 0,660790 s
+Single task: Run no.  1: 1 occurrences found in 0,661175 s
+Single task: Run no.  2: 1 occurrences found in 0,557329 s
+Single task: Run no.  3: 1 occurrences found in 0,543740 s
+Single task: Run no.  4: 1 occurrences found in 0,542802 s
+Single task: Run no.  5: 1 occurrences found in 0,553452 s
+Single task: Run no.  6: 1 occurrences found in 0,548347 s
+Single task: Run no.  7: 1 occurrences found in 0,563096 s
+Single task: Run no.  8: 1 occurrences found in 0,558516 s
+Single task: Run no.  9: 1 occurrences found in 0,554964 s
+
+Single task (avg.): 0,574421 s
+Filesize: 9807627
