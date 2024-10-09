@@ -40,20 +40,21 @@ class runTests{
             String[] arg = {"-R", "10", "-W", "2", "-d", "tempData.txt", "-Ec", "wikipedia.txt", "World Association of Theoretical and Computational Chemists", Integer.toString(i)};
             Search.main(arg);
         }
-*/        
+       
         writeData("Problem 3.2");
         for(int i = 500; i <= 10000; i+=500){
             String[] arg = {"-R", "10", "-W", "2", "-d", "tempData.txt", "-Ec", "wikipedia.txt", "World Association of Theoretical and Computational Chemists", Integer.toString(i)};
             Search.main(arg);
         }
+*/         
         //Test for Problem 4
-        // writeData("Problem 4");
-        // for(int i = 2; i <= 10; i+=2){
-        //     writeData("Threads: " + i);
-        //     for(int j = 1; j <= 20; j++){
-        //         String[] arg = {"-R", "4", "-W", "6", "-d", "tempData.txt", "-Ef", "wikipedia.txt", "World Association of Theoretical and Computational Chemists", Integer.toString(j), Integer.toString(i)};
-        //         Search.main(arg);
-        //     }
-        // }
+         writeData("Problem 4");
+         for(int i = 2; i <= 10; i+=2){
+             writeData("Threads: " + i);
+             for(int j = 1; j <= 20; j++){
+                 String[] arg = {"-R", "10", "-W", "2", "-d", "tempData.txt", "-Ef", "wikipedia.txt", "World Association of Theoretical and Computational Chemists", Integer.toString(j), Integer.toString(i)};
+                 Search.main(arg);
+             }
+         }
     }
 }

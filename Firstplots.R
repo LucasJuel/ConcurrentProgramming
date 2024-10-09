@@ -90,10 +90,12 @@ plot(speedup_data$Tasks, speedup_data$Speedup,
      ylim = c(0, 8))  # Set y-axis limits to zoom in slightly
 
 
-#Figur 7
-tasks <- c(5, 10, 15, 20, 25, 30)
-average_speedups <- c(0.9270308034157287, 0.8882412175306099, 0.8539974064559916, 
-                      0.8984064439260377, 0.8457316978718791, 0.8705916277959068)
+#Figur 5
+tasks <-  c(500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000)
+average_speedups <- c(6.799359383062113, 7.654697875099361, 7.1720058377733995, 7.326795671227302, 7.5496140016204825, 
+                      7.060598132616516, 7.002087747643056, 7.045000035332007, 6.605445012030275, 6.53247041222088, 
+                      6.55237979315247, 6.7056134499293485, 6.5408894574036776, 5.681059774685889, 6.159431466387851, 
+                      4.849636021071692, 5.940407649037768, 5.165300576133607, 5.641159033767562, 5.364351232888967)
 
 
 # Create a data frame
@@ -107,10 +109,10 @@ plot(speedup_data$Tasks, speedup_data$Speedup,
      type = "b",  # Both points and lines
      xlab = "Number of tasks",
      ylab = "Average Speedup",
-     main = "Average Speedup per number of task",
+     main = "Average Speedup per large number of tasks",
      pch = 16,    # Point type
      col = "blue",
-     ylim = c(0, 2))  # Set y-axis limits to zoom in slightly
+     ylim = c(0, 9))  # Set y-axis limits to zoom in slightly
 
 
 

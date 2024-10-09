@@ -1,0 +1,3485 @@
+ingle task: Run no.  5: 1 occurrences found in 0,554602 s
+Single task: Run no.  6: 1 occurrences found in 0,544871 s
+Single task: Run no.  7: 1 occurrences found in 0,547674 s
+Single task: Run no.  8: 1 occurrences found in 0,556649 s
+Single task: Run no.  9: 1 occurrences found in 0,553135 s
+
+Single task (avg.): 0,549475 s
+Filesize: 9807627
+
+Using  1 tasks: Run no.  0: 1 occurrences found in 0,563544 s
+Using  1 tasks: Run no.  1: 1 occurrences found in 0,544631 s
+Using  1 tasks: Run no.  2: 1 occurrences found in 0,558620 s
+Using  1 tasks: Run no.  3: 1 occurrences found in 0,544048 s
+Using  1 tasks: Run no.  4: 1 occurrences found in 0,544379 s
+Using  1 tasks: Run no.  5: 1 occurrences found in 0,542970 s
+Using  1 tasks: Run no.  6: 1 occurrences found in 0,543769 s
+Using  1 tasks: Run no.  7: 1 occurrences found in 0,538633 s
+Using  1 tasks: Run no.  8: 1 occurrences found in 0,543700 s
+Using  1 tasks: Run no.  9: 1 occurrences found in 0,553247 s
+
+Using  1 tasks (avg.): 0,547754 s
+
+
+Average speedup: 1,00
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=2, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,557894 s
+Single task: Run no.  1: 1 occurrences found in 0,538229 s
+Single task: Run no.  2: 1 occurrences found in 0,540209 s
+Single task: Run no.  3: 1 occurrences found in 0,541243 s
+Single task: Run no.  4: 1 occurrences found in 0,532972 s
+Single task: Run no.  5: 1 occurrences found in 0,537075 s
+Single task: Run no.  6: 1 occurrences found in 0,539471 s
+Single task: Run no.  7: 1 occurrences found in 0,536513 s
+Single task: Run no.  8: 1 occurrences found in 0,530261 s
+Single task: Run no.  9: 1 occurrences found in 0,548728 s
+
+Single task (avg.): 0,540259 s
+Filesize: 9807627
+
+Using  2 tasks: Run no.  0: 1 occurrences found in 0,277857 s
+Using  2 tasks: Run no.  1: 1 occurrences found in 0,283732 s
+Using  2 tasks: Run no.  2: 1 occurrences found in 0,294065 s
+Using  2 tasks: Run no.  3: 1 occurrences found in 0,311387 s
+Using  2 tasks: Run no.  4: 1 occurrences found in 0,297326 s
+Using  2 tasks: Run no.  5: 1 occurrences found in 0,290717 s
+Using  2 tasks: Run no.  6: 1 occurrences found in 0,321807 s
+Using  2 tasks: Run no.  7: 1 occurrences found in 0,293828 s
+Using  2 tasks: Run no.  8: 1 occurrences found in 0,287373 s
+Using  2 tasks: Run no.  9: 1 occurrences found in 0,280324 s
+
+Using  2 tasks (avg.): 0,293841 s
+
+
+Average speedup: 1,84
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=3, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,542966 s
+Single task: Run no.  1: 1 occurrences found in 0,553735 s
+Single task: Run no.  2: 1 occurrences found in 0,556043 s
+Single task: Run no.  3: 1 occurrences found in 0,553181 s
+Single task: Run no.  4: 1 occurrences found in 0,558819 s
+Single task: Run no.  5: 1 occurrences found in 0,556237 s
+Single task: Run no.  6: 1 occurrences found in 0,561145 s
+Single task: Run no.  7: 1 occurrences found in 0,562210 s
+Single task: Run no.  8: 1 occurrences found in 0,564391 s
+Single task: Run no.  9: 1 occurrences found in 0,564661 s
+
+Single task (avg.): 0,557339 s
+Filesize: 9807627
+
+Using  3 tasks: Run no.  0: 1 occurrences found in 0,411739 s
+Using  3 tasks: Run no.  1: 1 occurrences found in 0,412249 s
+Using  3 tasks: Run no.  2: 1 occurrences found in 0,418832 s
+Using  3 tasks: Run no.  3: 1 occurrences found in 0,425546 s
+Using  3 tasks: Run no.  4: 1 occurrences found in 0,437320 s
+Using  3 tasks: Run no.  5: 1 occurrences found in 0,385455 s
+Using  3 tasks: Run no.  6: 1 occurrences found in 0,419605 s
+Using  3 tasks: Run no.  7: 1 occurrences found in 0,406334 s
+Using  3 tasks: Run no.  8: 1 occurrences found in 0,395944 s
+Using  3 tasks: Run no.  9: 1 occurrences found in 0,390264 s
+
+Using  3 tasks (avg.): 0,410329 s
+
+
+Average speedup: 1,36
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=4, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,548047 s
+Single task: Run no.  1: 1 occurrences found in 0,632579 s
+Single task: Run no.  2: 1 occurrences found in 0,658971 s
+Single task: Run no.  3: 1 occurrences found in 0,556959 s
+Single task: Run no.  4: 1 occurrences found in 0,572653 s
+Single task: Run no.  5: 1 occurrences found in 0,568977 s
+Single task: Run no.  6: 1 occurrences found in 0,579197 s
+Single task: Run no.  7: 1 occurrences found in 0,553297 s
+Single task: Run no.  8: 1 occurrences found in 0,566659 s
+Single task: Run no.  9: 1 occurrences found in 0,566041 s
+
+Single task (avg.): 0,580338 s
+Filesize: 9807627
+
+Using  4 tasks: Run no.  0: 1 occurrences found in 0,322999 s
+Using  4 tasks: Run no.  1: 1 occurrences found in 0,322973 s
+Using  4 tasks: Run no.  2: 1 occurrences found in 0,320783 s
+Using  4 tasks: Run no.  3: 1 occurrences found in 0,315009 s
+Using  4 tasks: Run no.  4: 1 occurrences found in 0,353199 s
+Using  4 tasks: Run no.  5: 1 occurrences found in 0,435385 s
+Using  4 tasks: Run no.  6: 1 occurrences found in 0,295524 s
+Using  4 tasks: Run no.  7: 1 occurrences found in 0,383958 s
+Using  4 tasks: Run no.  8: 1 occurrences found in 0,351537 s
+Using  4 tasks: Run no.  9: 1 occurrences found in 0,324068 s
+
+Using  4 tasks (avg.): 0,342543 s
+
+
+Average speedup: 1,69
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=5, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,591781 s
+Single task: Run no.  1: 1 occurrences found in 0,550552 s
+Single task: Run no.  2: 1 occurrences found in 0,539452 s
+Single task: Run no.  3: 1 occurrences found in 0,556720 s
+Single task: Run no.  4: 1 occurrences found in 0,543184 s
+Single task: Run no.  5: 1 occurrences found in 0,569605 s
+Single task: Run no.  6: 1 occurrences found in 0,560985 s
+Single task: Run no.  7: 1 occurrences found in 0,552693 s
+Single task: Run no.  8: 1 occurrences found in 0,552350 s
+Single task: Run no.  9: 1 occurrences found in 0,545360 s
+
+Single task (avg.): 0,556268 s
+Filesize: 9807627
+
+Using  5 tasks: Run no.  0: 1 occurrences found in 0,415841 s
+Using  5 tasks: Run no.  1: 1 occurrences found in 0,395596 s
+Using  5 tasks: Run no.  2: 1 occurrences found in 0,374458 s
+Using  5 tasks: Run no.  3: 1 occurrences found in 0,385566 s
+Using  5 tasks: Run no.  4: 1 occurrences found in 0,377133 s
+Using  5 tasks: Run no.  5: 1 occurrences found in 0,347326 s
+Using  5 tasks: Run no.  6: 1 occurrences found in 0,387084 s
+Using  5 tasks: Run no.  7: 1 occurrences found in 0,433118 s
+Using  5 tasks: Run no.  8: 1 occurrences found in 0,376735 s
+Using  5 tasks: Run no.  9: 1 occurrences found in 0,389002 s
+
+Using  5 tasks (avg.): 0,388186 s
+
+
+Average speedup: 1,43
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=6, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,546448 s
+Single task: Run no.  1: 1 occurrences found in 0,542556 s
+Single task: Run no.  2: 1 occurrences found in 0,553290 s
+Single task: Run no.  3: 1 occurrences found in 0,554635 s
+Single task: Run no.  4: 1 occurrences found in 0,548747 s
+Single task: Run no.  5: 1 occurrences found in 0,575279 s
+Single task: Run no.  6: 1 occurrences found in 0,553487 s
+Single task: Run no.  7: 1 occurrences found in 0,559656 s
+Single task: Run no.  8: 1 occurrences found in 0,560298 s
+Single task: Run no.  9: 1 occurrences found in 0,557656 s
+
+Single task (avg.): 0,555205 s
+Filesize: 9807627
+
+Using  6 tasks: Run no.  0: 1 occurrences found in 0,379591 s
+Using  6 tasks: Run no.  1: 1 occurrences found in 0,324924 s
+Using  6 tasks: Run no.  2: 1 occurrences found in 0,294319 s
+Using  6 tasks: Run no.  3: 1 occurrences found in 0,333786 s
+Using  6 tasks: Run no.  4: 1 occurrences found in 0,343830 s
+Using  6 tasks: Run no.  5: 1 occurrences found in 0,319343 s
+Using  6 tasks: Run no.  6: 1 occurrences found in 0,356165 s
+Using  6 tasks: Run no.  7: 1 occurrences found in 0,295537 s
+Using  6 tasks: Run no.  8: 1 occurrences found in 0,322449 s
+Using  6 tasks: Run no.  9: 1 occurrences found in 0,359064 s
+
+Using  6 tasks (avg.): 0,332901 s
+
+
+Average speedup: 1,67
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=7, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,586887 s
+Single task: Run no.  1: 1 occurrences found in 0,626844 s
+Single task: Run no.  2: 1 occurrences found in 0,599073 s
+Single task: Run no.  3: 1 occurrences found in 0,634534 s
+Single task: Run no.  4: 1 occurrences found in 0,556498 s
+Single task: Run no.  5: 1 occurrences found in 0,545312 s
+Single task: Run no.  6: 1 occurrences found in 0,542684 s
+Single task: Run no.  7: 1 occurrences found in 0,553974 s
+Single task: Run no.  8: 1 occurrences found in 0,552253 s
+Single task: Run no.  9: 1 occurrences found in 0,569576 s
+
+Single task (avg.): 0,576763 s
+Filesize: 9807627
+
+Using  7 tasks: Run no.  0: 1 occurrences found in 0,342013 s
+Using  7 tasks: Run no.  1: 1 occurrences found in 0,320688 s
+Using  7 tasks: Run no.  2: 1 occurrences found in 0,335169 s
+Using  7 tasks: Run no.  3: 1 occurrences found in 0,307466 s
+Using  7 tasks: Run no.  4: 1 occurrences found in 0,334517 s
+Using  7 tasks: Run no.  5: 1 occurrences found in 0,316882 s
+Using  7 tasks: Run no.  6: 1 occurrences found in 0,323835 s
+Using  7 tasks: Run no.  7: 1 occurrences found in 0,341571 s
+Using  7 tasks: Run no.  8: 1 occurrences found in 0,341802 s
+Using  7 tasks: Run no.  9: 1 occurrences found in 0,328834 s
+
+Using  7 tasks (avg.): 0,329278 s
+
+
+Average speedup: 1,75
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=8, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,546016 s
+Single task: Run no.  1: 1 occurrences found in 0,558858 s
+Single task: Run no.  2: 1 occurrences found in 0,540919 s
+Single task: Run no.  3: 1 occurrences found in 0,547343 s
+Single task: Run no.  4: 1 occurrences found in 0,536902 s
+Single task: Run no.  5: 1 occurrences found in 0,547073 s
+Single task: Run no.  6: 1 occurrences found in 0,541501 s
+Single task: Run no.  7: 1 occurrences found in 0,542928 s
+Single task: Run no.  8: 1 occurrences found in 0,547964 s
+Single task: Run no.  9: 1 occurrences found in 0,552089 s
+
+Single task (avg.): 0,546159 s
+Filesize: 9807627
+
+Using  8 tasks: Run no.  0: 1 occurrences found in 0,284946 s
+Using  8 tasks: Run no.  1: 1 occurrences found in 0,279609 s
+Using  8 tasks: Run no.  2: 1 occurrences found in 0,294756 s
+Using  8 tasks: Run no.  3: 1 occurrences found in 0,272566 s
+Using  8 tasks: Run no.  4: 1 occurrences found in 0,285453 s
+Using  8 tasks: Run no.  5: 1 occurrences found in 0,272256 s
+Using  8 tasks: Run no.  6: 1 occurrences found in 0,275717 s
+Using  8 tasks: Run no.  7: 1 occurrences found in 0,322742 s
+Using  8 tasks: Run no.  8: 1 occurrences found in 0,306087 s
+Using  8 tasks: Run no.  9: 1 occurrences found in 0,290837 s
+
+Using  8 tasks (avg.): 0,288497 s
+
+
+Average speedup: 1,89
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=9, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,544679 s
+Single task: Run no.  1: 1 occurrences found in 0,550980 s
+Single task: Run no.  2: 1 occurrences found in 0,540518 s
+Single task: Run no.  3: 1 occurrences found in 0,538914 s
+Single task: Run no.  4: 1 occurrences found in 0,546973 s
+Single task: Run no.  5: 1 occurrences found in 0,553354 s
+Single task: Run no.  6: 1 occurrences found in 0,555386 s
+Single task: Run no.  7: 1 occurrences found in 0,558369 s
+Single task: Run no.  8: 1 occurrences found in 0,554193 s
+Single task: Run no.  9: 1 occurrences found in 0,566007 s
+
+Single task (avg.): 0,550937 s
+Filesize: 9807627
+
+Using  9 tasks: Run no.  0: 1 occurrences found in 0,317290 s
+Using  9 tasks: Run no.  1: 1 occurrences found in 0,328416 s
+Using  9 tasks: Run no.  2: 1 occurrences found in 0,324427 s
+Using  9 tasks: Run no.  3: 1 occurrences found in 0,338111 s
+Using  9 tasks: Run no.  4: 1 occurrences found in 0,405076 s
+Using  9 tasks: Run no.  5: 1 occurrences found in 0,331290 s
+Using  9 tasks: Run no.  6: 1 occurrences found in 0,331317 s
+Using  9 tasks: Run no.  7: 1 occurrences found in 0,370615 s
+Using  9 tasks: Run no.  8: 1 occurrences found in 0,336017 s
+Using  9 tasks: Run no.  9: 1 occurrences found in 0,416126 s
+
+Using  9 tasks (avg.): 0,349868 s
+
+
+Average speedup: 1,57
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=10, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,542868 s
+Single task: Run no.  1: 1 occurrences found in 0,556297 s
+Single task: Run no.  2: 1 occurrences found in 0,555755 s
+Single task: Run no.  3: 1 occurrences found in 0,564889 s
+Single task: Run no.  4: 1 occurrences found in 0,553006 s
+Single task: Run no.  5: 1 occurrences found in 0,545004 s
+Single task: Run no.  6: 1 occurrences found in 0,556422 s
+Single task: Run no.  7: 1 occurrences found in 0,552681 s
+Single task: Run no.  8: 1 occurrences found in 0,554794 s
+Single task: Run no.  9: 1 occurrences found in 0,551702 s
+
+Single task (avg.): 0,553342 s
+Filesize: 9807627
+
+Using 10 tasks: Run no.  0: 1 occurrences found in 0,333964 s
+Using 10 tasks: Run no.  1: 1 occurrences found in 0,315129 s
+Using 10 tasks: Run no.  2: 1 occurrences found in 0,358672 s
+Using 10 tasks: Run no.  3: 1 occurrences found in 0,296611 s
+Using 10 tasks: Run no.  4: 1 occurrences found in 0,403385 s
+Using 10 tasks: Run no.  5: 1 occurrences found in 0,355748 s
+Using 10 tasks: Run no.  7: 1 occurrences found in 0,328789 s
+Using 10 tasks: Run no.  8: 1 occurrences found in 0,377793 s
+Using 10 tasks: Run no.  9: 1 occurrences found in 0,323274 s
+
+Using 10 tasks (avg.): 0,344656 s
+
+
+Average speedup: 1,61
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=11, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,570313 s
+Single task: Run no.  1: 1 occurrences found in 0,564714 s
+Single task: Run no.  2: 1 occurrences found in 0,559210 s
+Single task: Run no.  3: 1 occurrences found in 0,609864 s
+Single task: Run no.  4: 1 occurrences found in 0,560757 s
+Single task: Run no.  5: 1 occurrences found in 0,579422 s
+Single task: Run no.  6: 1 occurrences found in 0,560064 s
+Single task: Run no.  7: 1 occurrences found in 0,548594 s
+Single task: Run no.  8: 1 occurrences found in 0,561639 s
+Single task: Run no.  9: 1 occurrences found in 0,547911 s
+
+Single task (avg.): 0,566249 s
+Filesize: 9807627
+
+Using 11 tasks: Run no.  0: 1 occurrences found in 0,314346 s
+Using 11 tasks: Run no.  1: 1 occurrences found in 0,296594 s
+Using 11 tasks: Run no.  2: 1 occurrences found in 0,302155 s
+Using 11 tasks: Run no.  3: 1 occurrences found in 0,292005 s
+Using 11 tasks: Run no.  4: 1 occurrences found in 0,302584 s
+Using 11 tasks: Run no.  5: 1 occurrences found in 0,314658 s
+Using 11 tasks: Run no.  6: 1 occurrences found in 0,303530 s
+Using 11 tasks: Run no.  7: 1 occurrences found in 0,302715 s
+Using 11 tasks: Run no.  8: 1 occurrences found in 0,319238 s
+Using 11 tasks: Run no.  9: 1 occurrences found in 0,306050 s
+
+Using 11 tasks (avg.): 0,305387 s
+
+
+Average speedup: 1,85
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=12, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,553034 s
+Single task: Run no.  1: 1 occurrences found in 0,554483 s
+Single task: Run no.  2: 1 occurrences found in 0,535820 s
+Single task: Run no.  3: 1 occurrences found in 0,563253 s
+Single task: Run no.  4: 1 occurrences found in 0,552720 s
+Single task: Run no.  5: 1 occurrences found in 0,541300 s
+Single task: Run no.  6: 1 occurrences found in 0,548687 s
+Single task: Run no.  7: 1 occurrences found in 0,552275 s
+Single task: Run no.  8: 1 occurrences found in 0,562192 s
+Single task: Run no.  9: 1 occurrences found in 0,551267 s
+
+Single task (avg.): 0,551503 s
+Filesize: 9807627
+
+Using 12 tasks: Run no.  0: 1 occurrences found in 0,277225 s
+Using 12 tasks: Run no.  1: 1 occurrences found in 0,279817 s
+Using 12 tasks: Run no.  2: 1 occurrences found in 0,271605 s
+Using 12 tasks: Run no.  3: 1 occurrences found in 0,290814 s
+Using 12 tasks: Run no.  4: 1 occurrences found in 0,277746 s
+Using 12 tasks: Run no.  5: 1 occurrences found in 0,277324 s
+Using 12 tasks: Run no.  6: 1 occurrences found in 0,285139 s
+Using 12 tasks: Run no.  7: 1 occurrences found in 0,271640 s
+Using 12 tasks: Run no.  8: 1 occurrences found in 0,273056 s
+Using 12 tasks: Run no.  9: 1 occurrences found in 0,278571 s
+
+Using 12 tasks (avg.): 0,278294 s
+
+
+Average speedup: 1,98
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=13, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,555096 s
+Single task: Run no.  1: 1 occurrences found in 0,538747 s
+Single task: Run no.  2: 1 occurrences found in 0,543064 s
+Single task: Run no.  3: 1 occurrences found in 0,540526 s
+Single task: Run no.  4: 1 occurrences found in 0,538424 s
+Single task: Run no.  5: 1 occurrences found in 0,544528 s
+Single task: Run no.  6: 1 occurrences found in 0,539341 s
+Single task: Run no.  7: 1 occurrences found in 0,543492 s
+Single task: Run no.  8: 1 occurrences found in 0,538043 s
+Single task: Run no.  9: 1 occurrences found in 0,550839 s
+
+Single task (avg.): 0,543210 s
+Filesize: 9807627
+
+Using 13 tasks: Run no.  0: 1 occurrences found in 0,310259 s
+Using 13 tasks: Run no.  1: 1 occurrences found in 0,305077 s
+Using 13 tasks: Run no.  2: 1 occurrences found in 0,301361 s
+Using 13 tasks: Run no.  3: 1 occurrences found in 0,311824 s
+Using 13 tasks: Run no.  4: 1 occurrences found in 0,305300 s
+Using 13 tasks: Run no.  5: 1 occurrences found in 0,302673 s
+Using 13 tasks: Run no.  6: 1 occurrences found in 0,298873 s
+Using 13 tasks: Run no.  7: 1 occurrences found in 0,297012 s
+Using 13 tasks: Run no.  8: 1 occurrences found in 0,294866 s
+Using 13 tasks: Run no.  9: 1 occurrences found in 0,296505 s
+
+Using 13 tasks (avg.): 0,302375 s
+
+
+Average speedup: 1,80
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=14, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,537374 s
+Single task: Run no.  1: 1 occurrences found in 0,543401 s
+Single task: Run no.  2: 1 occurrences found in 0,560724 s
+Single task: Run no.  3: 1 occurrences found in 0,546582 s
+Single task: Run no.  4: 1 occurrences found in 0,556590 s
+Single task: Run no.  5: 1 occurrences found in 0,552044 s
+Single task: Run no.  6: 1 occurrences found in 0,541459 s
+Single task: Run no.  7: 1 occurrences found in 0,547800 s
+Single task: Run no.  8: 1 occurrences found in 0,541345 s
+Single task: Run no.  9: 1 occurrences found in 0,547835 s
+
+Single task (avg.): 0,547515 s
+Filesize: 9807627
+
+Using 14 tasks: Run no.  0: 1 occurrences found in 0,273546 s
+Using 14 tasks: Run no.  1: 1 occurrences found in 0,281046 s
+Using 14 tasks: Run no.  2: 1 occurrences found in 0,296212 s
+Using 14 tasks: Run no.  3: 1 occurrences found in 0,272068 s
+Using 14 tasks: Run no.  4: 1 occurrences found in 0,272289 s
+Using 14 tasks: Run no.  5: 1 occurrences found in 0,275585 s
+Using 14 tasks: Run no.  6: 1 occurrences found in 0,273481 s
+Using 14 tasks: Run no.  7: 1 occurrences found in 0,277837 s
+Using 14 tasks: Run no.  8: 1 occurrences found in 0,268253 s
+Using 14 tasks: Run no.  9: 1 occurrences found in 0,275030 s
+
+Using 14 tasks (avg.): 0,276535 s
+
+
+Average speedup: 1,98
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=15, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,562157 s
+Single task: Run no.  1: 1 occurrences found in 0,549370 s
+Single task: Run no.  2: 1 occurrences found in 0,562296 s
+Single task: Run no.  3: 1 occurrences found in 0,568621 s
+Single task: Run no.  4: 1 occurrences found in 0,548629 s
+Single task: Run no.  5: 1 occurrences found in 0,538412 s
+Single task: Run no.  6: 1 occurrences found in 0,546587 s
+Single task: Run no.  7: 1 occurrences found in 0,564303 s
+Single task: Run no.  8: 1 occurrences found in 0,553300 s
+Single task: Run no.  9: 1 occurrences found in 0,577517 s
+
+Single task (avg.): 0,557119 s
+Filesize: 9807627
+
+Using 15 tasks: Run no.  0: 1 occurrences found in 0,296431 s
+Using 15 tasks: Run no.  1: 1 occurrences found in 0,298357 s
+Using 15 tasks: Run no.  2: 1 occurrences found in 0,341645 s
+Using 15 tasks: Run no.  3: 1 occurrences found in 0,311710 s
+Using 15 tasks: Run no.  4: 1 occurrences found in 0,301489 s
+Using 15 tasks: Run no.  5: 1 occurrences found in 0,318002 s
+Using 15 tasks: Run no.  6: 1 occurrences found in 0,314528 s
+Using 15 tasks: Run no.  7: 1 occurrences found in 0,319330 s
+Using 15 tasks: Run no.  8: 1 occurrences found in 0,330068 s
+Using 15 tasks: Run no.  9: 1 occurrences found in 0,289897 s
+
+Using 15 tasks (avg.): 0,312146 s
+
+
+Average speedup: 1,78
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=16, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,537712 s
+Single task: Run no.  1: 1 occurrences found in 0,548297 s
+Single task: Run no.  2: 1 occurrences found in 0,548331 s
+Single task: Run no.  3: 1 occurrences found in 0,554437 s
+Single task: Run no.  4: 1 occurrences found in 0,549029 s
+Single task: Run no.  5: 1 occurrences found in 0,546859 s
+Single task: Run no.  6: 1 occurrences found in 0,553099 s
+Single task: Run no.  7: 1 occurrences found in 0,543375 s
+Single task: Run no.  8: 1 occurrences found in 0,550397 s
+Single task: Run no.  9: 1 occurrences found in 0,537658 s
+
+Single task (avg.): 0,546920 s
+Filesize: 9807627
+
+Using 16 tasks: Run no.  0: 1 occurrences found in 0,287541 s
+Using 16 tasks: Run no.  1: 1 occurrences found in 0,281877 s
+Using 16 tasks: Run no.  2: 1 occurrences found in 0,310634 s
+Using 16 tasks: Run no.  3: 1 occurrences found in 0,286447 s
+Using 16 tasks: Run no.  4: 1 occurrences found in 0,278133 s
+Using 16 tasks: Run no.  5: 1 occurrences found in 0,279190 s
+Using 16 tasks: Run no.  6: 1 occurrences found in 0,281122 s
+Using 16 tasks: Run no.  7: 1 occurrences found in 0,293563 s
+Using 16 tasks: Run no.  8: 1 occurrences found in 0,270181 s
+Using 16 tasks: Run no.  9: 1 occurrences found in 0,273233 s
+
+Using 16 tasks (avg.): 0,284192 s
+
+
+Average speedup: 1,92
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=17, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,539466 s
+Single task: Run no.  1: 1 occurrences found in 0,544550 s
+Single task: Run no.  2: 1 occurrences found in 0,548362 s
+Single task: Run no.  3: 1 occurrences found in 0,568326 s
+Single task: Run no.  4: 1 occurrences found in 0,541957 s
+Single task: Run no.  5: 1 occurrences found in 0,537493 s
+Single task: Run no.  6: 1 occurrences found in 0,548892 s
+Single task: Run no.  7: 1 occurrences found in 0,534237 s
+Single task: Run no.  8: 1 occurrences found in 0,554565 s
+Single task: Run no.  9: 1 occurrences found in 0,536971 s
+
+Single task (avg.): 0,545482 s
+Filesize: 9807627
+
+Using 17 tasks: Run no.  0: 1 occurrences found in 0,292534 s
+Using 17 tasks: Run no.  1: 1 occurrences found in 0,292230 s
+Using 17 tasks: Run no.  2: 1 occurrences found in 0,290675 s
+Using 17 tasks: Run no.  3: 1 occurrences found in 0,304419 s
+Using 17 tasks: Run no.  4: 1 occurrences found in 0,305532 s
+Using 17 tasks: Run no.  5: 1 occurrences found in 0,288221 s
+Using 17 tasks: Run no.  6: 1 occurrences found in 0,311484 s
+Using 17 tasks: Run no.  7: 1 occurrences found in 0,283304 s
+Using 17 tasks: Run no.  8: 1 occurrences found in 0,299888 s
+Using 17 tasks: Run no.  9: 1 occurrences found in 0,288311 s
+
+Using 17 tasks (avg.): 0,295660 s
+
+
+Average speedup: 1,84
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=18, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,542616 s
+Single task: Run no.  1: 1 occurrences found in 0,545448 s
+Single task: Run no.  2: 1 occurrences found in 0,545053 s
+Single task: Run no.  3: 1 occurrences found in 0,566606 s
+Single task: Run no.  4: 1 occurrences found in 0,547517 s
+Single task: Run no.  5: 1 occurrences found in 0,554006 s
+Single task: Run no.  6: 1 occurrences found in 0,558639 s
+Single task: Run no.  7: 1 occurrences found in 0,567561 s
+Single task: Run no.  8: 1 occurrences found in 0,534771 s
+Single task: Run no.  9: 1 occurrences found in 0,544647 s
+
+Single task (avg.): 0,550686 s
+Filesize: 9807627
+
+Using 18 tasks: Run no.  0: 1 occurrences found in 0,277471 s
+Using 18 tasks: Run no.  1: 1 occurrences found in 0,274630 s
+Using 18 tasks: Run no.  2: 1 occurrences found in 0,273258 s
+Using 18 tasks: Run no.  3: 1 occurrences found in 0,299226 s
+Using 18 tasks: Run no.  4: 1 occurrences found in 0,308083 s
+Using 18 tasks: Run no.  5: 1 occurrences found in 0,273920 s
+Using 18 tasks: Run no.  6: 1 occurrences found in 0,280331 s
+Using 18 tasks: Run no.  7: 1 occurrences found in 0,283185 s
+Using 18 tasks: Run no.  8: 1 occurrences found in 0,274288 s
+Using 18 tasks: Run no.  9: 1 occurrences found in 0,277262 s
+
+Using 18 tasks (avg.): 0,282165 s
+
+
+Average speedup: 1,95
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=19, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,539647 s
+Single task: Run no.  1: 1 occurrences found in 0,553818 s
+Single task: Run no.  2: 1 occurrences found in 0,544931 s
+Single task: Run no.  3: 1 occurrences found in 0,557808 s
+Single task: Run no.  4: 1 occurrences found in 0,566291 s
+Single task: Run no.  5: 1 occurrences found in 0,542834 s
+Single task: Run no.  6: 1 occurrences found in 0,545439 s
+Single task: Run no.  7: 1 occurrences found in 0,554254 s
+Single task: Run no.  8: 1 occurrences found in 0,542979 s
+Single task: Run no.  9: 1 occurrences found in 0,544467 s
+
+Single task (avg.): 0,549247 s
+Filesize: 9807627
+
+Using 19 tasks: Run no.  0: 1 occurrences found in 0,285817 s
+Using 19 tasks: Run no.  1: 1 occurrences found in 0,296115 s
+Using 19 tasks: Run no.  2: 1 occurrences found in 0,304292 s
+Using 19 tasks: Run no.  3: 1 occurrences found in 0,286019 s
+Using 19 tasks: Run no.  4: 1 occurrences found in 0,313857 s
+Using 19 tasks: Run no.  5: 1 occurrences found in 0,310422 s
+Using 19 tasks: Run no.  6: 1 occurrences found in 0,292450 s
+Using 19 tasks: Run no.  7: 1 occurrences found in 0,299029 s
+Using 19 tasks: Run no.  8: 1 occurrences found in 0,285903 s
+Using 19 tasks: Run no.  9: 1 occurrences found in 0,290696 s
+
+Using 19 tasks (avg.): 0,296460 s
+
+
+Average speedup: 1,85
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=20, nthreads=2, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,536206 s
+Single task: Run no.  1: 1 occurrences found in 0,543020 s
+Single task: Run no.  2: 1 occurrences found in 0,548149 s
+Single task: Run no.  3: 1 occurrences found in 0,541554 s
+Single task: Run no.  4: 1 occurrences found in 0,563984 s
+Single task: Run no.  5: 1 occurrences found in 0,547069 s
+Single task: Run no.  6: 1 occurrences found in 0,545167 s
+Single task: Run no.  7: 1 occurrences found in 0,543365 s
+Single task: Run no.  8: 1 occurrences found in 0,539918 s
+Single task: Run no.  9: 1 occurrences found in 0,531798 s
+
+Single task (avg.): 0,544023 s
+Filesize: 9807627
+
+Using 20 tasks: Run no.  0: 1 occurrences found in 0,295625 s
+Using 20 tasks: Run no.  1: 1 occurrences found in 0,272914 s
+Using 20 tasks: Run no.  2: 1 occurrences found in 0,277591 s
+Using 20 tasks: Run no.  3: 1 occurrences found in 0,279563 s
+Using 20 tasks: Run no.  4: 1 occurrences found in 0,275542 s
+Using 20 tasks: Run no.  5: 1 occurrences found in 0,303579 s
+Using 20 tasks: Run no.  6: 1 occurrences found in 0,281577 s
+Using 20 tasks: Run no.  7: 1 occurrences found in 0,291420 s
+Using 20 tasks: Run no.  8: 1 occurrences found in 0,291796 s
+Using 20 tasks: Run no.  9: 1 occurrences found in 0,271618 s
+
+Using 20 tasks (avg.): 0,284123 s
+
+
+Average speedup: 1,91
+
+
+ingle task: Run no.  1: 1 occurrences found in 0,544493 s
+Single task: Run no.  2: 1 occurrences found in 0,550765 s
+Single task: Run no.  3: 1 occurrences found in 0,542255 s
+Single task: Run no.  4: 1 occurrences found in 0,550552 s
+Single task: Run no.  5: 1 occurrences found in 0,548683 s
+Single task: Run no.  6: 1 occurrences found in 0,549755 s
+Single task: Run no.  7: 1 occurrences found in 0,550586 s
+Single task: Run no.  8: 1 occurrences found in 0,555514 s
+Single task: Run no.  9: 1 occurrences found in 0,543168 s
+
+Single task (avg.): 0,548396 s
+Filesize: 9807627
+
+Using  1 tasks: Run no.  0: 1 occurrences found in 0,552869 s
+Using  1 tasks: Run no.  1: 1 occurrences found in 0,554156 s
+Using  1 tasks: Run no.  2: 1 occurrences found in 0,580533 s
+Using  1 tasks: Run no.  3: 1 occurrences found in 0,534318 s
+Using  1 tasks: Run no.  4: 1 occurrences found in 0,537649 s
+Using  1 tasks: Run no.  5: 1 occurrences found in 0,545341 s
+Using  1 tasks: Run no.  6: 1 occurrences found in 0,547805 s
+Using  1 tasks: Run no.  7: 1 occurrences found in 0,542691 s
+Using  1 tasks: Run no.  8: 1 occurrences found in 0,543339 s
+Using  1 tasks: Run no.  9: 1 occurrences found in 0,549580 s
+
+Using  1 tasks (avg.): 0,548828 s
+
+
+Average speedup: 1,00
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=2, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,545566 s
+Single task: Run no.  1: 1 occurrences found in 0,550300 s
+Single task: Run no.  2: 1 occurrences found in 0,556242 s
+Single task: Run no.  3: 1 occurrences found in 0,551382 s
+Single task: Run no.  4: 1 occurrences found in 0,535090 s
+Single task: Run no.  5: 1 occurrences found in 0,551970 s
+Single task: Run no.  6: 1 occurrences found in 0,552529 s
+Single task: Run no.  7: 1 occurrences found in 0,536178 s
+Single task: Run no.  8: 1 occurrences found in 0,546974 s
+Single task: Run no.  9: 1 occurrences found in 0,548826 s
+
+Single task (avg.): 0,547506 s
+Filesize: 9807627
+
+Using  2 tasks: Run no.  0: 1 occurrences found in 0,277074 s
+Using  2 tasks: Run no.  1: 1 occurrences found in 0,281855 s
+Using  2 tasks: Run no.  2: 1 occurrences found in 0,304405 s
+Using  2 tasks: Run no.  3: 1 occurrences found in 0,272598 s
+Using  2 tasks: Run no.  4: 1 occurrences found in 0,286291 s
+Using  2 tasks: Run no.  5: 1 occurrences found in 0,275646 s
+Using  2 tasks: Run no.  6: 1 occurrences found in 0,284453 s
+Using  2 tasks: Run no.  7: 1 occurrences found in 0,280838 s
+Using  2 tasks: Run no.  8: 1 occurrences found in 0,298930 s
+Using  2 tasks: Run no.  9: 1 occurrences found in 0,275672 s
+
+Using  2 tasks (avg.): 0,283776 s
+
+
+Average speedup: 1,93
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=3, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,553845 s
+Single task: Run no.  1: 1 occurrences found in 0,539638 s
+Single task: Run no.  2: 1 occurrences found in 0,547991 s
+Single task: Run no.  3: 1 occurrences found in 0,563811 s
+Single task: Run no.  4: 1 occurrences found in 0,531447 s
+Single task: Run no.  5: 1 occurrences found in 0,546054 s
+Single task: Run no.  6: 1 occurrences found in 0,544815 s
+Single task: Run no.  7: 1 occurrences found in 0,544201 s
+Single task: Run no.  8: 1 occurrences found in 0,551220 s
+Single task: Run no.  9: 1 occurrences found in 0,563418 s
+
+Single task (avg.): 0,548644 s
+Filesize: 9807627
+
+Using  3 tasks: Run no.  0: 1 occurrences found in 0,216623 s
+Using  3 tasks: Run no.  1: 1 occurrences found in 0,191343 s
+Using  3 tasks: Run no.  2: 1 occurrences found in 0,188198 s
+Using  3 tasks: Run no.  3: 1 occurrences found in 0,201658 s
+Using  3 tasks: Run no.  4: 1 occurrences found in 0,231295 s
+Using  3 tasks: Run no.  5: 1 occurrences found in 0,228261 s
+Using  3 tasks: Run no.  6: 1 occurrences found in 0,218461 s
+Using  3 tasks: Run no.  7: 1 occurrences found in 0,226752 s
+Using  3 tasks: Run no.  8: 1 occurrences found in 0,226597 s
+Using  3 tasks: Run no.  9: 1 occurrences found in 0,200391 s
+
+Using  3 tasks (avg.): 0,212958 s
+
+
+Average speedup: 2,58
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=4, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,550215 s
+Single task: Run no.  1: 1 occurrences found in 0,558256 s
+Single task: Run no.  2: 1 occurrences found in 0,544650 s
+Single task: Run no.  3: 1 occurrences found in 0,554749 s
+Single task: Run no.  4: 1 occurrences found in 0,549611 s
+Single task: Run no.  5: 1 occurrences found in 0,581863 s
+Single task: Run no.  6: 1 occurrences found in 0,555796 s
+Single task: Run no.  7: 1 occurrences found in 0,557525 s
+Single task: Run no.  8: 1 occurrences found in 0,592525 s
+Single task: Run no.  9: 1 occurrences found in 0,554806 s
+
+Single task (avg.): 0,560000 s
+Filesize: 9807627
+
+Using  4 tasks: Run no.  0: 1 occurrences found in 0,181288 s
+Using  4 tasks: Run no.  1: 1 occurrences found in 0,178237 s
+Using  4 tasks: Run no.  2: 1 occurrences found in 0,176477 s
+Using  4 tasks: Run no.  3: 1 occurrences found in 0,185888 s
+Using  4 tasks: Run no.  4: 1 occurrences found in 0,161603 s
+Using  4 tasks: Run no.  5: 1 occurrences found in 0,175281 s
+Using  4 tasks: Run no.  6: 1 occurrences found in 0,167866 s
+Using  4 tasks: Run no.  7: 1 occurrences found in 0,164107 s
+Using  4 tasks: Run no.  8: 1 occurrences found in 0,163049 s
+Using  4 tasks: Run no.  9: 1 occurrences found in 0,161252 s
+
+Using  4 tasks (avg.): 0,171505 s
+
+
+Average speedup: 3,27
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=5, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,554926 s
+Single task: Run no.  1: 1 occurrences found in 0,539178 s
+Single task: Run no.  2: 1 occurrences found in 0,556031 s
+Single task: Run no.  3: 1 occurrences found in 0,544875 s
+Single task: Run no.  4: 1 occurrences found in 0,545527 s
+Single task: Run no.  5: 1 occurrences found in 0,554720 s
+Single task: Run no.  6: 1 occurrences found in 0,551179 s
+Single task: Run no.  7: 1 occurrences found in 0,557674 s
+Single task: Run no.  8: 1 occurrences found in 0,582035 s
+Single task: Run no.  9: 1 occurrences found in 0,563867 s
+
+Single task (avg.): 0,555001 s
+Filesize: 9807627
+
+Using  5 tasks: Run no.  0: 1 occurrences found in 0,261756 s
+Using  5 tasks: Run no.  1: 1 occurrences found in 0,240399 s
+Using  5 tasks: Run no.  2: 1 occurrences found in 0,242931 s
+Using  5 tasks: Run no.  3: 1 occurrences found in 0,251998 s
+Using  5 tasks: Run no.  4: 1 occurrences found in 0,255560 s
+Using  5 tasks: Run no.  5: 1 occurrences found in 0,255192 s
+Using  5 tasks: Run no.  6: 1 occurrences found in 0,247150 s
+Using  5 tasks: Run no.  7: 1 occurrences found in 0,243540 s
+Using  5 tasks: Run no.  8: 1 occurrences found in 0,243451 s
+Using  5 tasks: Run no.  9: 1 occurrences found in 0,257613 s
+
+Using  5 tasks (avg.): 0,249959 s
+
+
+Average speedup: 2,22
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=6, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,549162 s
+Single task: Run no.  1: 1 occurrences found in 0,553163 s
+Single task: Run no.  2: 1 occurrences found in 0,558423 s
+Single task: Run no.  3: 1 occurrences found in 0,565011 s
+Single task: Run no.  4: 1 occurrences found in 0,562724 s
+Single task: Run no.  5: 1 occurrences found in 0,553873 s
+Single task: Run no.  6: 1 occurrences found in 0,556230 s
+Single task: Run no.  7: 1 occurrences found in 0,568185 s
+Single task: Run no.  8: 1 occurrences found in 0,551147 s
+Single task: Run no.  9: 1 occurrences found in 0,555624 s
+
+Single task (avg.): 0,557354 s
+Filesize: 9807627
+
+Using  6 tasks: Run no.  0: 1 occurrences found in 0,243341 s
+Using  6 tasks: Run no.  1: 1 occurrences found in 0,225275 s
+Using  6 tasks: Run no.  2: 1 occurrences found in 0,216767 s
+Using  6 tasks: Run no.  3: 1 occurrences found in 0,247069 s
+Using  6 tasks: Run no.  4: 1 occurrences found in 0,219398 s
+Using  6 tasks: Run no.  5: 1 occurrences found in 0,229623 s
+Using  6 tasks: Run no.  6: 1 occurrences found in 0,235199 s
+Using  6 tasks: Run no.  7: 1 occurrences found in 0,219271 s
+Using  6 tasks: Run no.  8: 1 occurrences found in 0,218510 s
+Using  6 tasks: Run no.  9: 1 occurrences found in 0,242699 s
+
+Using  6 tasks (avg.): 0,229715 s
+
+
+Average speedup: 2,43
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=7, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,620568 s
+Single task: Run no.  1: 1 occurrences found in 0,600173 s
+Single task: Run no.  2: 1 occurrences found in 0,559682 s
+Single task: Run no.  3: 1 occurrences found in 0,574049 s
+Single task: Run no.  4: 1 occurrences found in 0,600165 s
+Single task: Run no.  5: 1 occurrences found in 0,565544 s
+Single task: Run no.  6: 1 occurrences found in 0,561800 s
+Single task: Run no.  7: 1 occurrences found in 0,570805 s
+Single task: Run no.  8: 1 occurrences found in 0,560385 s
+Single task: Run no.  9: 1 occurrences found in 0,565109 s
+
+Single task (avg.): 0,577828 s
+Filesize: 9807627
+
+Using  7 tasks: Run no.  0: 1 occurrences found in 0,189485 s
+Using  7 tasks: Run no.  1: 1 occurrences found in 0,210627 s
+Using  7 tasks: Run no.  2: 1 occurrences found in 0,224531 s
+Using  7 tasks: Run no.  3: 1 occurrences found in 0,212751 s
+Using  7 tasks: Run no.  4: 1 occurrences found in 0,192231 s
+Using  7 tasks: Run no.  5: 1 occurrences found in 0,202840 s
+Using  7 tasks: Run no.  6: 1 occurrences found in 0,196366 s
+Using  7 tasks: Run no.  7: 1 occurrences found in 0,215703 s
+Using  7 tasks: Run no.  8: 1 occurrences found in 0,196822 s
+Using  7 tasks: Run no.  9: 1 occurrences found in 0,200775 s
+
+Using  7 tasks (avg.): 0,204213 s
+
+
+Average speedup: 2,83
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=8, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,584737 s
+Single task: Run no.  1: 1 occurrences found in 0,565857 s
+Single task: Run no.  2: 1 occurrences found in 0,575813 s
+Single task: Run no.  3: 1 occurrences found in 0,560063 s
+Single task: Run no.  4: 1 occurrences found in 0,562846 s
+Single task: Run no.  5: 1 occurrences found in 0,558977 s
+Single task: Run no.  6: 1 occurrences found in 0,565819 s
+Single task: Run no.  7: 1 occurrences found in 0,562789 s
+Single task: Run no.  8: 1 occurrences found in 0,561981 s
+Single task: Run no.  9: 1 occurrences found in 0,561213 s
+
+Single task (avg.): 0,566010 s
+Filesize: 9807627
+
+Using  8 tasks: Run no.  0: 1 occurrences found in 0,144673 s
+Using  8 tasks: Run no.  1: 1 occurrences found in 0,180100 s
+Using  8 tasks: Run no.  2: 1 occurrences found in 0,150842 s
+Using  8 tasks: Run no.  3: 1 occurrences found in 0,170901 s
+Using  8 tasks: Run no.  4: 1 occurrences found in 0,175874 s
+Using  8 tasks: Run no.  5: 1 occurrences found in 0,169604 s
+Using  8 tasks: Run no.  6: 1 occurrences found in 0,187849 s
+Using  8 tasks: Run no.  7: 1 occurrences found in 0,173414 s
+Using  8 tasks: Run no.  8: 1 occurrences found in 0,164659 s
+Using  8 tasks: Run no.  9: 1 occurrences found in 0,161603 s
+
+Using  8 tasks (avg.): 0,167952 s
+
+
+Average speedup: 3,37
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=9, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,542484 s
+Single task: Run no.  1: 1 occurrences found in 0,540789 s
+Single task: Run no.  2: 1 occurrences found in 0,551649 s
+Single task: Run no.  3: 1 occurrences found in 0,552407 s
+Single task: Run no.  4: 1 occurrences found in 0,543998 s
+Single task: Run no.  5: 1 occurrences found in 0,550206 s
+Single task: Run no.  6: 1 occurrences found in 0,535596 s
+Single task: Run no.  7: 1 occurrences found in 0,536712 s
+Single task: Run no.  8: 1 occurrences found in 0,549259 s
+Single task: Run no.  9: 1 occurrences found in 0,542034 s
+
+Single task (avg.): 0,544513 s
+Filesize: 9807627
+
+Using  9 tasks: Run no.  0: 1 occurrences found in 0,195820 s
+Using  9 tasks: Run no.  1: 1 occurrences found in 0,196115 s
+Using  9 tasks: Run no.  2: 1 occurrences found in 0,212984 s
+Using  9 tasks: Run no.  3: 1 occurrences found in 0,188481 s
+Using  9 tasks: Run no.  4: 1 occurrences found in 0,203093 s
+Using  9 tasks: Run no.  5: 1 occurrences found in 0,205040 s
+Using  9 tasks: Run no.  6: 1 occurrences found in 0,189297 s
+Using  9 tasks: Run no.  7: 1 occurrences found in 0,208655 s
+Using  9 tasks: Run no.  8: 1 occurrences found in 0,193823 s
+Using  9 tasks: Run no.  9: 1 occurrences found in 0,197687 s
+
+Using  9 tasks (avg.): 0,199100 s
+
+
+Average speedup: 2,73
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=10, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,550435 s
+Single task: Run no.  1: 1 occurrences found in 0,542544 s
+Single task: Run no.  2: 1 occurrences found in 0,545480 s
+Single task: Run no.  3: 1 occurrences found in 0,549817 s
+Single task: Run no.  4: 1 occurrences found in 0,539320 s
+Single task: Run no.  5: 1 occurrences found in 0,567800 s
+Single task: Run no.  6: 1 occurrences found in 0,540346 s
+Single task: Run no.  7: 1 occurrences found in 0,547062 s
+Single task: Run no.  8: 1 occurrences found in 0,535168 s
+Single task: Run no.  9: 1 occurrences found in 0,544192 s
+
+Single task (avg.): 0,546216 s
+Filesize: 9807627
+
+Using 10 tasks: Run no.  0: 1 occurrences found in 0,190196 s
+Using 10 tasks: Run no.  1: 1 occurrences found in 0,175972 s
+Using 10 tasks: Run no.  2: 1 occurrences found in 0,167475 s
+Using 10 tasks: Run no.  3: 1 occurrences found in 0,178797 s
+Using 10 tasks: Run no.  4: 1 occurrences found in 0,172860 s
+Using 10 tasks: Run no.  5: 1 occurrences found in 0,183549 s
+Using 10 tasks: Run no.  6: 1 occurrences found in 0,177926 s
+Using 10 tasks: Run no.  7: 1 occurrences found in 0,180128 s
+Using 10 tasks: Run no.  8: 1 occurrences found in 0,174325 s
+Using 10 tasks: Run no.  9: 1 occurrences found in 0,172840 s
+
+Using 10 tasks (avg.): 0,177407 s
+
+
+Average speedup: 3,08
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=11, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,566068 s
+Single task: Run no.  1: 1 occurrences found in 0,601343 s
+Single task: Run no.  2: 1 occurrences found in 0,564897 s
+Single task: Run no.  3: 1 occurrences found in 0,550917 s
+Single task: Run no.  4: 1 occurrences found in 0,622483 s
+Single task: Run no.  5: 1 occurrences found in 0,572040 s
+Single task: Run no.  6: 1 occurrences found in 0,547539 s
+Single task: Run no.  7: 1 occurrences found in 0,561449 s
+Single task: Run no.  8: 1 occurrences found in 0,571153 s
+Single task: Run no.  9: 1 occurrences found in 0,582528 s
+
+Single task (avg.): 0,574042 s
+Filesize: 9807627
+
+Using 11 tasks: Run no.  0: 1 occurrences found in 0,187947 s
+Using 11 tasks: Run no.  1: 1 occurrences found in 0,194158 s
+Using 11 tasks: Run no.  2: 1 occurrences found in 0,201541 s
+Using 11 tasks: Run no.  3: 1 occurrences found in 0,195492 s
+Using 11 tasks: Run no.  4: 1 occurrences found in 0,184623 s
+Using 11 tasks: Run no.  5: 1 occurrences found in 0,193160 s
+Using 11 tasks: Run no.  6: 1 occurrences found in 0,204522 s
+Using 11 tasks: Run no.  7: 1 occurrences found in 0,202367 s
+Using 11 tasks: Run no.  8: 1 occurrences found in 0,190669 s
+Using 11 tasks: Run no.  9: 1 occurrences found in 0,185813 s
+
+Using 11 tasks (avg.): 0,194029 s
+
+
+Average speedup: 2,96
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=12, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,553847 s
+Single task: Run no.  1: 1 occurrences found in 0,559866 s
+Single task: Run no.  2: 1 occurrences found in 0,569288 s
+Single task: Run no.  3: 1 occurrences found in 0,540786 s
+Single task: Run no.  4: 1 occurrences found in 0,542123 s
+Single task: Run no.  5: 1 occurrences found in 0,544134 s
+Single task: Run no.  6: 1 occurrences found in 0,545459 s
+Single task: Run no.  7: 1 occurrences found in 0,539704 s
+Single task: Run no.  8: 1 occurrences found in 0,531337 s
+Single task: Run no.  9: 1 occurrences found in 0,543475 s
+
+Single task (avg.): 0,547002 s
+Filesize: 9807627
+
+Using 12 tasks: Run no.  0: 1 occurrences found in 0,168382 s
+Using 12 tasks: Run no.  1: 1 occurrences found in 0,159615 s
+Using 12 tasks: Run no.  2: 1 occurrences found in 0,169761 s
+Using 12 tasks: Run no.  3: 1 occurrences found in 0,184506 s
+Using 12 tasks: Run no.  4: 1 occurrences found in 0,165553 s
+Using 12 tasks: Run no.  5: 1 occurrences found in 0,182682 s
+Using 12 tasks: Run no.  6: 1 occurrences found in 0,161202 s
+Using 12 tasks: Run no.  7: 1 occurrences found in 0,171255 s
+Using 12 tasks: Run no.  8: 1 occurrences found in 0,165122 s
+Using 12 tasks: Run no.  9: 1 occurrences found in 0,157141 s
+
+Using 12 tasks (avg.): 0,168522 s
+
+
+Average speedup: 3,25
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=13, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,538529 s
+Single task: Run no.  1: 1 occurrences found in 0,544264 s
+Single task: Run no.  2: 1 occurrences found in 0,552020 s
+Single task: Run no.  3: 1 occurrences found in 0,536525 s
+Single task: Run no.  4: 1 occurrences found in 0,533626 s
+Single task: Run no.  5: 1 occurrences found in 0,563022 s
+Single task: Run no.  6: 1 occurrences found in 0,544168 s
+Single task: Run no.  7: 1 occurrences found in 0,550695 s
+Single task: Run no.  8: 1 occurrences found in 0,557232 s
+Single task: Run no.  9: 1 occurrences found in 0,562978 s
+
+Single task (avg.): 0,548306 s
+Filesize: 9807627
+
+Using 13 tasks: Run no.  0: 1 occurrences found in 0,185044 s
+Using 13 tasks: Run no.  1: 1 occurrences found in 0,193343 s
+Using 13 tasks: Run no.  2: 1 occurrences found in 0,182439 s
+Using 13 tasks: Run no.  3: 1 occurrences found in 0,176331 s
+Using 13 tasks: Run no.  4: 1 occurrences found in 0,182784 s
+Using 13 tasks: Run no.  5: 1 occurrences found in 0,189409 s
+Using 13 tasks: Run no.  6: 1 occurrences found in 0,170546 s
+Using 13 tasks: Run no.  7: 1 occurrences found in 0,184832 s
+Using 13 tasks: Run no.  8: 1 occurrences found in 0,188433 s
+Using 13 tasks: Run no.  9: 1 occurrences found in 0,179783 s
+
+Using 13 tasks (avg.): 0,183294 s
+
+
+Average speedup: 2,99
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=14, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,542490 s
+Single task: Run no.  1: 1 occurrences found in 0,552621 s
+Single task: Run no.  2: 1 occurrences found in 0,538292 s
+Single task: Run no.  3: 1 occurrences found in 0,550127 s
+Single task: Run no.  4: 1 occurrences found in 0,545534 s
+Single task: Run no.  5: 1 occurrences found in 0,557885 s
+Single task: Run no.  6: 1 occurrences found in 0,551724 s
+Single task: Run no.  7: 1 occurrences found in 0,547794 s
+Single task: Run no.  8: 1 occurrences found in 0,555786 s
+Single task: Run no.  9: 1 occurrences found in 0,549373 s
+
+Single task (avg.): 0,549163 s
+Filesize: 9807627
+
+Using 14 tasks: Run no.  0: 1 occurrences found in 0,195321 s
+Using 14 tasks: Run no.  1: 1 occurrences found in 0,197492 s
+Using 14 tasks: Run no.  2: 1 occurrences found in 0,192012 s
+Using 14 tasks: Run no.  3: 1 occurrences found in 0,184671 s
+Using 14 tasks: Run no.  4: 1 occurrences found in 0,206547 s
+Using 14 tasks: Run no.  5: 1 occurrences found in 0,197130 s
+Using 14 tasks: Run no.  6: 1 occurrences found in 0,202188 s
+Using 14 tasks: Run no.  7: 1 occurrences found in 0,216396 s
+Using 14 tasks: Run no.  8: 1 occurrences found in 0,209254 s
+Using 14 tasks: Run no.  9: 1 occurrences found in 0,198128 s
+
+Using 14 tasks (avg.): 0,199914 s
+
+
+Average speedup: 2,75
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=15, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,569059 s
+Single task: Run no.  1: 1 occurrences found in 0,554490 s
+Single task: Run no.  2: 1 occurrences found in 0,557812 s
+Single task: Run no.  3: 1 occurrences found in 0,553125 s
+Single task: Run no.  4: 1 occurrences found in 0,553614 s
+Single task: Run no.  5: 1 occurrences found in 0,543259 s
+Single task: Run no.  6: 1 occurrences found in 0,546958 s
+Single task: Run no.  7: 1 occurrences found in 0,554498 s
+Single task: Run no.  8: 1 occurrences found in 0,543463 s
+Single task: Run no.  9: 1 occurrences found in 0,573895 s
+
+Single task (avg.): 0,555017 s
+Filesize: 9807627
+
+Using 15 tasks: Run no.  0: 1 occurrences found in 0,202091 s
+Using 15 tasks: Run no.  1: 1 occurrences found in 0,186986 s
+Using 15 tasks: Run no.  2: 1 occurrences found in 0,207534 s
+Using 15 tasks: Run no.  3: 1 occurrences found in 0,193790 s
+Using 15 tasks: Run no.  4: 1 occurrences found in 0,221341 s
+Using 15 tasks: Run no.  5: 1 occurrences found in 0,210795 s
+Using 15 tasks: Run no.  6: 1 occurrences found in 0,205144 s
+Using 15 tasks: Run no.  7: 1 occurrences found in 0,202783 s
+Using 15 tasks: Run no.  8: 1 occurrences found in 0,199680 s
+Using 15 tasks: Run no.  9: 1 occurrences found in 0,203401 s
+
+Using 15 tasks (avg.): 0,203354 s
+
+
+Average speedup: 2,73
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=16, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,542140 s
+Single task: Run no.  1: 1 occurrences found in 0,550379 s
+Single task: Run no.  2: 1 occurrences found in 0,548440 s
+Single task: Run no.  3: 1 occurrences found in 0,554226 s
+Single task: Run no.  4: 1 occurrences found in 0,572237 s
+Single task: Run no.  5: 1 occurrences found in 0,547641 s
+Single task: Run no.  6: 1 occurrences found in 0,546351 s
+Single task: Run no.  7: 1 occurrences found in 0,552057 s
+Single task: Run no.  8: 1 occurrences found in 0,544770 s
+Single task: Run no.  9: 1 occurrences found in 0,549693 s
+
+Single task (avg.): 0,550793 s
+Filesize: 9807627
+
+Using 16 tasks: Run no.  0: 1 occurrences found in 0,203649 s
+Using 16 tasks: Run no.  1: 1 occurrences found in 0,204004 s
+Using 16 tasks: Run no.  2: 1 occurrences found in 0,179278 s
+Using 16 tasks: Run no.  3: 1 occurrences found in 0,188176 s
+Using 16 tasks: Run no.  4: 1 occurrences found in 0,209716 s
+Using 16 tasks: Run no.  5: 1 occurrences found in 0,184101 s
+Using 16 tasks: Run no.  6: 1 occurrences found in 0,186445 s
+Using 16 tasks: Run no.  7: 1 occurrences found in 0,208676 s
+Using 16 tasks: Run no.  8: 1 occurrences found in 0,200950 s
+Using 16 tasks: Run no.  9: 1 occurrences found in 0,180702 s
+
+Using 16 tasks (avg.): 0,194570 s
+
+
+Average speedup: 2,83
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=17, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,566387 s
+Single task: Run no.  1: 1 occurrences found in 0,607061 s
+Single task: Run no.  2: 1 occurrences found in 0,543930 s
+Single task: Run no.  3: 1 occurrences found in 0,554623 s
+Single task: Run no.  4: 1 occurrences found in 0,550799 s
+Single task: Run no.  5: 1 occurrences found in 0,545613 s
+Single task: Run no.  6: 1 occurrences found in 0,557723 s
+Single task: Run no.  7: 1 occurrences found in 0,545791 s
+Single task: Run no.  8: 1 occurrences found in 0,573476 s
+Single task: Run no.  9: 1 occurrences found in 0,564881 s
+
+Single task (avg.): 0,561028 s
+Filesize: 9807627
+
+Using 17 tasks: Run no.  0: 1 occurrences found in 0,188430 s
+Using 17 tasks: Run no.  1: 1 occurrences found in 0,184634 s
+Using 17 tasks: Run no.  2: 1 occurrences found in 0,202984 s
+Using 17 tasks: Run no.  3: 1 occurrences found in 0,182087 s
+Using 17 tasks: Run no.  4: 1 occurrences found in 0,207107 s
+Using 17 tasks: Run no.  5: 1 occurrences found in 0,192918 s
+Using 17 tasks: Run no.  6: 1 occurrences found in 0,174950 s
+Using 17 tasks: Run no.  7: 1 occurrences found in 0,182706 s
+Using 17 tasks: Run no.  8: 1 occurrences found in 0,199349 s
+Using 17 tasks: Run no.  9: 1 occurrences found in 0,210348 s
+
+Using 17 tasks (avg.): 0,192551 s
+
+
+Average speedup: 2,91
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=18, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,537399 s
+Single task: Run no.  1: 1 occurrences found in 0,549566 s
+Single task: Run no.  2: 1 occurrences found in 0,563641 s
+Single task: Run no.  3: 1 occurrences found in 0,549583 s
+Single task: Run no.  4: 1 occurrences found in 0,545332 s
+Single task: Run no.  5: 1 occurrences found in 0,552363 s
+Single task: Run no.  6: 1 occurrences found in 0,561173 s
+Single task: Run no.  7: 1 occurrences found in 0,544321 s
+Single task: Run no.  8: 1 occurrences found in 0,536678 s
+Single task: Run no.  9: 1 occurrences found in 0,551296 s
+
+Single task (avg.): 0,549135 s
+Filesize: 9807627
+
+Using 18 tasks: Run no.  0: 1 occurrences found in 0,200898 s
+Using 18 tasks: Run no.  1: 1 occurrences found in 0,194274 s
+Using 18 tasks: Run no.  2: 1 occurrences found in 0,210720 s
+Using 18 tasks: Run no.  3: 1 occurrences found in 0,183424 s
+Using 18 tasks: Run no.  4: 1 occurrences found in 0,205132 s
+Using 18 tasks: Run no.  5: 1 occurrences found in 0,199877 s
+Using 18 tasks: Run no.  6: 1 occurrences found in 0,188008 s
+Using 18 tasks: Run no.  7: 1 occurrences found in 0,191914 s
+Using 18 tasks: Run no.  8: 1 occurrences found in 0,196889 s
+Using 18 tasks: Run no.  9: 1 occurrences found in 0,198305 s
+
+Using 18 tasks (avg.): 0,196944 s
+
+
+Average speedup: 2,79
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=19, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,546396 s
+Single task: Run no.  1: 1 occurrences found in 0,537859 s
+Single task: Run no.  2: 1 occurrences found in 0,548115 s
+Single task: Run no.  3: 1 occurrences found in 0,554709 s
+Single task: Run no.  4: 1 occurrences found in 0,556093 s
+Single task: Run no.  5: 1 occurrences found in 0,546539 s
+Single task: Run no.  6: 1 occurrences found in 0,562513 s
+Single task: Run no.  7: 1 occurrences found in 0,550032 s
+Single task: Run no.  8: 1 occurrences found in 0,552502 s
+Single task: Run no.  9: 1 occurrences found in 0,564150 s
+
+Single task (avg.): 0,551891 s
+Filesize: 9807627
+
+Using 19 tasks: Run no.  0: 1 occurrences found in 0,181187 s
+Using 19 tasks: Run no.  1: 1 occurrences found in 0,192695 s
+Using 19 tasks: Run no.  2: 1 occurrences found in 0,194320 s
+Using 19 tasks: Run no.  3: 1 occurrences found in 0,188858 s
+Using 19 tasks: Run no.  4: 1 occurrences found in 0,178499 s
+Using 19 tasks: Run no.  5: 1 occurrences found in 0,199521 s
+Using 19 tasks: Run no.  6: 1 occurrences found in 0,202352 s
+Using 19 tasks: Run no.  7: 1 occurrences found in 0,186403 s
+Using 19 tasks: Run no.  8: 1 occurrences found in 0,206579 s
+Using 19 tasks: Run no.  9: 1 occurrences found in 0,203261 s
+
+Using 19 tasks (avg.): 0,193367 s
+
+
+Average speedup: 2,85
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=20, nthreads=4, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,550795 s
+Single task: Run no.  1: 1 occurrences found in 0,557796 s
+Single task: Run no.  2: 1 occurrences found in 0,586273 s
+Single task: Run no.  3: 1 occurrences found in 0,563112 s
+Single task: Run no.  4: 1 occurrences found in 0,557344 s
+Single task: Run no.  5: 1 occurrences found in 0,611332 s
+Single task: Run no.  6: 1 occurrences found in 0,551008 s
+Single task: Run no.  7: 1 occurrences found in 0,551929 s
+Single task: Run no.  8: 1 occurrences found in 0,570824 s
+Single task: Run no.  9: 1 occurrences found in 0,549803 s
+
+Single task (avg.): 0,565022 s
+Filesize: 9807627
+
+Using 20 tasks: Run no.  0: 1 occurrences found in 0,196529 s
+Using 20 tasks: Run no.  1: 1 occurrences found in 0,189505 s
+Using 20 tasks: Run no.  2: 1 occurrences found in 0,195995 s
+Using 20 tasks: Run no.  3: 1 occurrences found in 0,203998 s
+Using 20 tasks: Run no.  4: 1 occurrences found in 0,195363 s
+Using 20 tasks: Run no.  5: 1 occurrences found in 0,198281 s
+Using 20 tasks: Run no.  6: 1 occurrences found in 0,193449 s
+Using 20 tasks: Run no.  7: 1 occurrences found in 0,200142 s
+Using 20 tasks: Run no.  8: 1 occurrences found in 0,179949 s
+Using 20 tasks: Run no.  9: 1 occurrences found in 0,203208 s
+
+Using 20 tasks (avg.): 0,195642 s
+
+
+Average speedup: 2,89
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=1, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,549229 s
+Single task: Run no.  1: 1 occurrences found in 0,570417 s
+Single task: Run no.  2: 1 occurrences found in 0,567564 s
+Single task: Run no.  3: 1 occurrences found in 0,545072 s
+Single task: Run no.  4: 1 occurrences found in 0,557887 s
+Single task: Run no.  5: 1 occurrences found in 0,551561 s
+Single task: Run no.  6: 1 occurrences found in 0,552905 s
+Single task: Run no.  7: 1 occurrences found in 0,548017 s
+Single task: Run no.  8: 1 occurrences found in 0,569589 s
+Single task: Run no.  9: 1 occurrences found in 0,549022 s
+
+Single task (avg.): 0,556126 s
+Filesize: 9807627
+
+Using  1 tasks: Run no.  0: 1 occurrences found in 0,556466 s
+Using  1 tasks: Run no.  1: 1 occurrences found in 0,558314 s
+Using  1 tasks: Run no.  2: 1 occurrences found in 0,560119 s
+Using  1 tasks: Run no.  3: 1 occurrences found in 0,561253 s
+Using  1 tasks: Run no.  4: 1 occurrences found in 0,539128 s
+Using  1 tasks: Run no.  5: 1 occurrences found in 0,541479 s
+Using  1 tasks: Run no.  6: 1 occurrences found in 0,541936 s
+Using  1 tasks: Run no.  7: 1 occurrences found in 0,556790 s
+Using  1 tasks: Run no.  8: 1 occurrences found in 0,554872 s
+Using  1 tasks: Run no.  9: 1 occurrences found in 0,554542 s
+
+Using  1 tasks (avg.): 0,552490 s
+
+
+Average speedup: 1,01
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=2, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,541476 s
+Single task: Run no.  1: 1 occurrences found in 0,567223 s
+Single task: Run no.  2: 1 occurrences found in 0,566784 s
+Single task: Run no.  3: 1 occurrences found in 0,564396 s
+Single task: Run no.  4: 1 occurrences found in 0,545098 s
+Single task: Run no.  5: 1 occurrences found in 0,555956 s
+Single task: Run no.  6: 1 occurrences found in 0,567284 s
+Single task: Run no.  7: 1 occurrences found in 0,542063 s
+Single task: Run no.  8: 1 occurrences found in 0,542036 s
+Single task: Run no.  9: 1 occurrences found in 0,558952 s
+
+Single task (avg.): 0,555127 s
+Filesize: 9807627
+
+Using  2 tasks: Run no.  0: 1 occurrences found in 0,307791 s
+Using  2 tasks: Run no.  1: 1 occurrences found in 0,350433 s
+Using  2 tasks: Run no.  2: 1 occurrences found in 0,375561 s
+Using  2 tasks: Run no.  3: 1 occurrences found in 0,308146 s
+Using  2 tasks: Run no.  4: 1 occurrences found in 0,338203 s
+Using  2 tasks: Run no.  5: 1 occurrences found in 0,368093 s
+Using  2 tasks: Run no.  6: 1 occurrences found in 0,297940 s
+Using  2 tasks: Run no.  7: 1 occurrences found in 0,286105 s
+Using  2 tasks: Run no.  8: 1 occurrences found in 0,374764 s
+Using  2 tasks: Run no.  9: 1 occurrences found in 0,321104 s
+
+Using  2 tasks (avg.): 0,332814 s
+
+
+Average speedup: 1,67
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=3, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,570704 s
+Single task: Run no.  1: 1 occurrences found in 0,591209 s
+Single task: Run no.  2: 1 occurrences found in 0,554124 s
+Single task: Run no.  3: 1 occurrences found in 0,596028 s
+Single task: Run no.  4: 1 occurrences found in 0,565483 s
+Single task: Run no.  5: 1 occurrences found in 0,533339 s
+Single task: Run no.  6: 1 occurrences found in 0,543917 s
+Single task: Run no.  7: 1 occurrences found in 0,560419 s
+Single task: Run no.  8: 1 occurrences found in 0,598748 s
+Single task: Run no.  9: 1 occurrences found in 0,554013 s
+
+Single task (avg.): 0,566798 s
+Filesize: 9807627
+
+Using  3 tasks: Run no.  0: 1 occurrences found in 0,256484 s
+Using  3 tasks: Run no.  1: 1 occurrences found in 0,246454 s
+Using  3 tasks: Run no.  2: 1 occurrences found in 0,244232 s
+Using  3 tasks: Run no.  3: 1 occurrences found in 0,267066 s
+Using  3 tasks: Run no.  4: 1 occurrences found in 0,279638 s
+Using  3 tasks: Run no.  5: 1 occurrences found in 0,261427 s
+Using  3 tasks: Run no.  6: 1 occurrences found in 0,236815 s
+Using  3 tasks: Run no.  7: 1 occurrences found in 0,221385 s
+Using  3 tasks: Run no.  8: 1 occurrences found in 0,271592 s
+Using  3 tasks: Run no.  9: 1 occurrences found in 0,265888 s
+
+Using  3 tasks (avg.): 0,255098 s
+
+
+Average speedup: 2,22
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=4, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,565682 s
+Single task: Run no.  1: 1 occurrences found in 0,554779 s
+Single task: Run no.  2: 1 occurrences found in 0,558904 s
+Single task: Run no.  3: 1 occurrences found in 0,562528 s
+Single task: Run no.  4: 1 occurrences found in 0,553749 s
+Single task: Run no.  5: 1 occurrences found in 0,548446 s
+Single task: Run no.  6: 1 occurrences found in 0,553919 s
+Single task: Run no.  7: 1 occurrences found in 0,544111 s
+Single task: Run no.  8: 1 occurrences found in 0,556932 s
+Single task: Run no.  9: 1 occurrences found in 0,565558 s
+
+Single task (avg.): 0,556461 s
+Filesize: 9807627
+
+Using  4 tasks: Run no.  0: 1 occurrences found in 0,198645 s
+Using  4 tasks: Run no.  1: 1 occurrences found in 0,186292 s
+Using  4 tasks: Run no.  2: 1 occurrences found in 0,207139 s
+Using  4 tasks: Run no.  3: 1 occurrences found in 0,198683 s
+Using  4 tasks: Run no.  4: 1 occurrences found in 0,197106 s
+Using  4 tasks: Run no.  5: 1 occurrences found in 0,190601 s
+Using  4 tasks: Run no.  6: 1 occurrences found in 0,199902 s
+Using  4 tasks: Run no.  7: 1 occurrences found in 0,188324 s
+Using  4 tasks: Run no.  8: 1 occurrences found in 0,195641 s
+Using  4 tasks: Run no.  9: 1 occurrences found in 0,190402 s
+
+Using  4 tasks (avg.): 0,195273 s
+
+
+Average speedup: 2,85
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=5, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,537643 s
+Single task: Run no.  1: 1 occurrences found in 0,545067 s
+Single task: Run no.  2: 1 occurrences found in 0,557351 s
+Single task: Run no.  3: 1 occurrences found in 0,560390 s
+Single task: Run no.  4: 1 occurrences found in 0,546694 s
+Single task: Run no.  5: 1 occurrences found in 0,543741 s
+Single task: Run no.  6: 1 occurrences found in 0,549953 s
+Single task: Run no.  7: 1 occurrences found in 0,552649 s
+Single task: Run no.  8: 1 occurrences found in 0,552763 s
+Single task: Run no.  9: 1 occurrences found in 0,541579 s
+
+Single task (avg.): 0,548783 s
+Filesize: 9807627
+
+Using  5 tasks: Run no.  0: 1 occurrences found in 0,161890 s
+Using  5 tasks: Run no.  1: 1 occurrences found in 0,167858 s
+Using  5 tasks: Run no.  2: 1 occurrences found in 0,156943 s
+Using  5 tasks: Run no.  3: 1 occurrences found in 0,147679 s
+Using  5 tasks: Run no.  4: 1 occurrences found in 0,164551 s
+Using  5 tasks: Run no.  5: 1 occurrences found in 0,171925 s
+Using  5 tasks: Run no.  6: 1 occurrences found in 0,152658 s
+Using  5 tasks: Run no.  7: 1 occurrences found in 0,154702 s
+Using  5 tasks: Run no.  8: 1 occurrences found in 0,166756 s
+Using  5 tasks: Run no.  9: 1 occurrences found in 0,171922 s
+
+Using  5 tasks (avg.): 0,161688 s
+
+
+Average speedup: 3,39
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=6, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,548898 s
+Single task: Run no.  1: 1 occurrences found in 0,546841 s
+Single task: Run no.  2: 1 occurrences found in 0,570864 s
+Single task: Run no.  3: 1 occurrences found in 0,550225 s
+Single task: Run no.  4: 1 occurrences found in 0,548252 s
+Single task: Run no.  5: 1 occurrences found in 0,560848 s
+Single task: Run no.  6: 1 occurrences found in 0,566320 s
+Single task: Run no.  7: 1 occurrences found in 0,550019 s
+Single task: Run no.  8: 1 occurrences found in 0,553430 s
+Single task: Run no.  9: 1 occurrences found in 0,555572 s
+
+Single task (avg.): 0,555127 s
+Filesize: 9807627
+
+Using  6 tasks: Run no.  0: 1 occurrences found in 0,130333 s
+Using  6 tasks: Run no.  1: 1 occurrences found in 0,144677 s
+Using  6 tasks: Run no.  2: 1 occurrences found in 0,130313 s
+Using  6 tasks: Run no.  3: 1 occurrences found in 0,132369 s
+Using  6 tasks: Run no.  4: 1 occurrences found in 0,140442 s
+Using  6 tasks: Run no.  5: 1 occurrences found in 0,130672 s
+Using  6 tasks: Run no.  6: 1 occurrences found in 0,137572 s
+Using  6 tasks: Run no.  7: 1 occurrences found in 0,131802 s
+Using  6 tasks: Run no.  8: 1 occurrences found in 0,139010 s
+Using  6 tasks: Run no.  9: 1 occurrences found in 0,136584 s
+
+Using  6 tasks (avg.): 0,135378 s
+
+
+Average speedup: 4,10
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=7, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,550357 s
+Single task: Run no.  1: 1 occurrences found in 0,565804 s
+Single task: Run no.  2: 1 occurrences found in 0,544192 s
+Single task: Run no.  3: 1 occurrences found in 0,560244 s
+Single task: Run no.  4: 1 occurrences found in 0,556983 s
+Single task: Run no.  5: 1 occurrences found in 0,551717 s
+Single task: Run no.  6: 1 occurrences found in 0,553368 s
+Single task: Run no.  7: 1 occurrences found in 0,548938 s
+Single task: Run no.  8: 1 occurrences found in 0,551754 s
+Single task: Run no.  9: 1 occurrences found in 0,547575 s
+
+Single task (avg.): 0,553093 s
+Filesize: 9807627
+
+Using  7 tasks: Run no.  0: 1 occurrences found in 0,172804 s
+Using  7 tasks: Run no.  1: 1 occurrences found in 0,165997 s
+Using  7 tasks: Run no.  2: 1 occurrences found in 0,189763 s
+Using  7 tasks: Run no.  3: 1 occurrences found in 0,168361 s
+Using  7 tasks: Run no.  4: 1 occurrences found in 0,184064 s
+Using  7 tasks: Run no.  5: 1 occurrences found in 0,174059 s
+Using  7 tasks: Run no.  6: 1 occurrences found in 0,188817 s
+Using  7 tasks: Run no.  7: 1 occurrences found in 0,176186 s
+Using  7 tasks: Run no.  8: 1 occurrences found in 0,173424 s
+Using  7 tasks: Run no.  9: 1 occurrences found in 0,181019 s
+
+Using  7 tasks (avg.): 0,177450 s
+
+
+Average speedup: 3,12
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=8, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,552077 s
+Single task: Run no.  1: 1 occurrences found in 0,584923 s
+Single task: Run no.  2: 1 occurrences found in 0,558246 s
+Single task: Run no.  3: 1 occurrences found in 0,547097 s
+Single task: Run no.  4: 1 occurrences found in 0,574568 s
+Single task: Run no.  5: 1 occurrences found in 0,565380 s
+Single task: Run no.  6: 1 occurrences found in 0,595938 s
+Single task: Run no.  7: 1 occurrences found in 0,594719 s
+Single task: Run no.  8: 1 occurrences found in 0,579064 s
+Single task: Run no.  9: 1 occurrences found in 0,576237 s
+
+Single task (avg.): 0,572825 s
+Filesize: 9807627
+
+Using  8 tasks: Run no.  0: 1 occurrences found in 0,190681 s
+Using  8 tasks: Run no.  1: 1 occurrences found in 0,193498 s
+Using  8 tasks: Run no.  2: 1 occurrences found in 0,172771 s
+Using  8 tasks: Run no.  3: 1 occurrences found in 0,174778 s
+Using  8 tasks: Run no.  4: 1 occurrences found in 0,185513 s
+Using  8 tasks: Run no.  5: 1 occurrences found in 0,202590 s
+Using  8 tasks: Run no.  6: 1 occurrences found in 0,174567 s
+Using  8 tasks: Run no.  7: 1 occurrences found in 0,191878 s
+Using  8 tasks: Run no.  8: 1 occurrences found in 0,183919 s
+Using  8 tasks: Run no.  9: 1 occurrences found in 0,173167 s
+
+Using  8 tasks (avg.): 0,184336 s
+
+
+Average speedup: 3,11
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=9, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,579592 s
+Single task: Run no.  1: 1 occurrences found in 0,570060 s
+Single task: Run no.  2: 1 occurrences found in 0,578660 s
+Single task: Run no.  3: 1 occurrences found in 0,577051 s
+Single task: Run no.  4: 1 occurrences found in 0,569387 s
+Single task: Run no.  5: 1 occurrences found in 0,574245 s
+Single task: Run no.  6: 1 occurrences found in 0,554382 s
+Single task: Run no.  7: 1 occurrences found in 0,534970 s
+Single task: Run no.  8: 1 occurrences found in 0,542623 s
+Single task: Run no.  9: 1 occurrences found in 0,555926 s
+
+Single task (avg.): 0,563690 s
+Filesize: 9807627
+
+Using  9 tasks: Run no.  0: 1 occurrences found in 0,138149 s
+Using  9 tasks: Run no.  1: 1 occurrences found in 0,146190 s
+Using  9 tasks: Run no.  2: 1 occurrences found in 0,143662 s
+Using  9 tasks: Run no.  3: 1 occurrences found in 0,157321 s
+Using  9 tasks: Run no.  4: 1 occurrences found in 0,153006 s
+Using  9 tasks: Run no.  5: 1 occurrences found in 0,165740 s
+Using  9 tasks: Run no.  6: 1 occurrences found in 0,134349 s
+Using  9 tasks: Run no.  7: 1 occurrences found in 0,147923 s
+Using  9 tasks: Run no.  8: 1 occurrences found in 0,134948 s
+Using  9 tasks: Run no.  9: 1 occurrences found in 0,137330 s
+
+Using  9 tasks (avg.): 0,145862 s
+
+
+Average speedup: 3,86
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=10, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,550616 s
+Single task: Run no.  1: 1 occurrences found in 0,549396 s
+Single task: Run no.  2: 1 occurrences found in 0,549866 s
+Single task: Run no.  3: 1 occurrences found in 0,568749 s
+Single task: Run no.  4: 1 occurrences found in 0,559910 s
+Single task: Run no.  5: 1 occurrences found in 0,546040 s
+Single task: Run no.  6: 1 occurrences found in 0,540876 s
+Single task: Run no.  7: 1 occurrences found in 0,545785 s
+Single task: Run no.  8: 1 occurrences found in 0,564477 s
+Single task: Run no.  9: 1 occurrences found in 0,543525 s
+
+Single task (avg.): 0,551924 s
+Filesize: 9807627
+
+Using 10 tasks: Run no.  0: 1 occurrences found in 0,133386 s
+Using 10 tasks: Run no.  1: 1 occurrences found in 0,135026 s
+Using 10 tasks: Run no.  2: 1 occurrences found in 0,142439 s
+Using 10 tasks: Run no.  3: 1 occurrences found in 0,119789 s
+Using 10 tasks: Run no.  4: 1 occurrences found in 0,144060 s
+Using 10 tasks: Run no.  5: 1 occurrences found in 0,134963 s
+Using 10 tasks: Run no.  6: 1 occurrences found in 0,136799 s
+Using 10 tasks: Run no.  7: 1 occurrences found in 0,133535 s
+Using 10 tasks: Run no.  8: 1 occurrences found in 0,137341 s
+Using 10 tasks: Run no.  9: 1 occurrences found in 0,134757 s
+
+Using 10 tasks (avg.): 0,135209 s
+
+
+Average speedup: 4,08
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=11, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,545451 s
+Single task: Run no.  1: 1 occurrences found in 0,548828 s
+Single task: Run no.  2: 1 occurrences found in 0,546897 s
+Single task: Run no.  3: 1 occurrences found in 0,551208 s
+Single task: Run no.  4: 1 occurrences found in 0,556957 s
+Single task: Run no.  5: 1 occurrences found in 0,555755 s
+Single task: Run no.  6: 1 occurrences found in 0,553823 s
+Single task: Run no.  7: 1 occurrences found in 0,534635 s
+Single task: Run no.  8: 1 occurrences found in 0,556211 s
+Single task: Run no.  9: 1 occurrences found in 0,553640 s
+
+Single task (avg.): 0,550340 s
+Filesize: 9807627
+
+Using 11 tasks: Run no.  0: 1 occurrences found in 0,148070 s
+Using 11 tasks: Run no.  1: 1 occurrences found in 0,140862 s
+Using 11 tasks: Run no.  2: 1 occurrences found in 0,144105 s
+Using 11 tasks: Run no.  3: 1 occurrences found in 0,148584 s
+Using 11 tasks: Run no.  4: 1 occurrences found in 0,139964 s
+Using 11 tasks: Run no.  5: 1 occurrences found in 0,143836 s
+Using 11 tasks: Run no.  6: 1 occurrences found in 0,144712 s
+Using 11 tasks: Run no.  7: 1 occurrences found in 0,139137 s
+Using 11 tasks: Run no.  8: 1 occurrences found in 0,139060 s
+Using 11 tasks: Run no.  9: 1 occurrences found in 0,139050 s
+
+Using 11 tasks (avg.): 0,142738 s
+
+
+Average speedup: 3,86
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=12, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,558740 s
+Single task: Run no.  1: 1 occurrences found in 0,550736 s
+Single task: Run no.  2: 1 occurrences found in 0,549213 s
+Single task: Run no.  3: 1 occurrences found in 0,554658 s
+Single task: Run no.  4: 1 occurrences found in 0,570952 s
+Single task: Run no.  5: 1 occurrences found in 0,571628 s
+Single task: Run no.  6: 1 occurrences found in 0,569521 s
+Single task: Run no.  7: 1 occurrences found in 0,558302 s
+Single task: Run no.  8: 1 occurrences found in 0,571371 s
+Single task: Run no.  9: 1 occurrences found in 0,582607 s
+
+Single task (avg.): 0,563773 s
+Filesize: 9807627
+
+Using 12 tasks: Run no.  0: 1 occurrences found in 0,136554 s
+Using 12 tasks: Run no.  1: 1 occurrences found in 0,149108 s
+Using 12 tasks: Run no.  2: 1 occurrences found in 0,139267 s
+Using 12 tasks: Run no.  3: 1 occurrences found in 0,137826 s
+Using 12 tasks: Run no.  4: 1 occurrences found in 0,132043 s
+Using 12 tasks: Run no.  5: 1 occurrences found in 0,145310 s
+Using 12 tasks: Run no.  6: 1 occurrences found in 0,134330 s
+Using 12 tasks: Run no.  7: 1 occurrences found in 0,132539 s
+Using 12 tasks: Run no.  8: 1 occurrences found in 0,129657 s
+Using 12 tasks: Run no.  9: 1 occurrences found in 0,133980 s
+
+Using 12 tasks (avg.): 0,137062 s
+
+
+Average speedup: 4,11
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=13, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,557260 s
+Single task: Run no.  1: 1 occurrences found in 0,556124 s
+Single task: Run no.  2: 1 occurrences found in 0,578992 s
+Single task: Run no.  3: 1 occurrences found in 0,566110 s
+Single task: Run no.  4: 1 occurrences found in 0,538032 s
+Single task: Run no.  5: 1 occurrences found in 0,540449 s
+Single task: Run no.  6: 1 occurrences found in 0,542340 s
+Single task: Run no.  7: 1 occurrences found in 0,542871 s
+Single task: Run no.  8: 1 occurrences found in 0,571112 s
+Single task: Run no.  9: 1 occurrences found in 0,544207 s
+
+Single task (avg.): 0,553750 s
+Filesize: 9807627
+
+Using 13 tasks: Run no.  0: 1 occurrences found in 0,146181 s
+Using 13 tasks: Run no.  1: 1 occurrences found in 0,144022 s
+Using 13 tasks: Run no.  2: 1 occurrences found in 0,138654 s
+Using 13 tasks: Run no.  3: 1 occurrences found in 0,132668 s
+Using 13 tasks: Run no.  4: 1 occurrences found in 0,144857 s
+Using 13 tasks: Run no.  5: 1 occurrences found in 0,140513 s
+Using 13 tasks: Run no.  6: 1 occurrences found in 0,134822 s
+Using 13 tasks: Run no.  7: 1 occurrences found in 0,140006 s
+Using 13 tasks: Run no.  8: 1 occurrences found in 0,141538 s
+Using 13 tasks: Run no.  9: 1 occurrences found in 0,158878 s
+
+Using 13 tasks (avg.): 0,142214 s
+
+
+Average speedup: 3,89
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=14, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,545128 s
+Single task: Run no.  1: 1 occurrences found in 0,544581 s
+Single task: Run no.  2: 1 occurrences found in 0,553390 s
+Single task: Run no.  3: 1 occurrences found in 0,535380 s
+Single task: Run no.  4: 1 occurrences found in 0,546326 s
+Single task: Run no.  5: 1 occurrences found in 0,564593 s
+Single task: Run no.  6: 1 occurrences found in 0,574655 s
+Single task: Run no.  7: 1 occurrences found in 0,558949 s
+Single task: Run no.  8: 1 occurrences found in 0,547295 s
+Single task: Run no.  9: 1 occurrences found in 0,541941 s
+
+Single task (avg.): 0,551224 s
+Filesize: 9807627
+
+Using 14 tasks: Run no.  0: 1 occurrences found in 0,128215 s
+Using 14 tasks: Run no.  1: 1 occurrences found in 0,147011 s
+Using 14 tasks: Run no.  2: 1 occurrences found in 0,132557 s
+Using 14 tasks: Run no.  3: 1 occurrences found in 0,136466 s
+Using 14 tasks: Run no.  4: 1 occurrences found in 0,137872 s
+Using 14 tasks: Run no.  5: 1 occurrences found in 0,136592 s
+Using 14 tasks: Run no.  6: 1 occurrences found in 0,137001 s
+Using 14 tasks: Run no.  7: 1 occurrences found in 0,136111 s
+Using 14 tasks: Run no.  8: 1 occurrences found in 0,134769 s
+Using 14 tasks: Run no.  9: 1 occurrences found in 0,126274 s
+
+Using 14 tasks (avg.): 0,135286 s
+
+
+Average speedup: 4,07
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=15, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,545779 s
+Single task: Run no.  1: 1 occurrences found in 0,567121 s
+Single task: Run no.  2: 1 occurrences found in 0,547569 s
+Single task: Run no.  3: 1 occurrences found in 0,536711 s
+Single task: Run no.  4: 1 occurrences found in 0,546760 s
+Single task: Run no.  5: 1 occurrences found in 0,539452 s
+Single task: Run no.  6: 1 occurrences found in 0,543706 s
+Single task: Run no.  7: 1 occurrences found in 0,548100 s
+Single task: Run no.  8: 1 occurrences found in 0,541686 s
+Single task: Run no.  9: 1 occurrences found in 0,537972 s
+
+Single task (avg.): 0,545486 s
+Filesize: 9807627
+
+Using 15 tasks: Run no.  0: 1 occurrences found in 0,141048 s
+Using 15 tasks: Run no.  1: 1 occurrences found in 0,138286 s
+Using 15 tasks: Run no.  2: 1 occurrences found in 0,144744 s
+Using 15 tasks: Run no.  3: 1 occurrences found in 0,130806 s
+Using 15 tasks: Run no.  4: 1 occurrences found in 0,136639 s
+Using 15 tasks: Run no.  5: 1 occurrences found in 0,131511 s
+Using 15 tasks: Run no.  6: 1 occurrences found in 0,157795 s
+Using 15 tasks: Run no.  7: 1 occurrences found in 0,137408 s
+Using 15 tasks: Run no.  8: 1 occurrences found in 0,130160 s
+Using 15 tasks: Run no.  9: 1 occurrences found in 0,126994 s
+
+Using 15 tasks (avg.): 0,137539 s
+
+
+Average speedup: 3,97
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=16, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,554099 s
+Single task: Run no.  1: 1 occurrences found in 0,543399 s
+Single task: Run no.  2: 1 occurrences found in 0,533221 s
+Single task: Run no.  3: 1 occurrences found in 0,536959 s
+Single task: Run no.  4: 1 occurrences found in 0,541795 s
+Single task: Run no.  5: 1 occurrences found in 0,551424 s
+Single task: Run no.  6: 1 occurrences found in 0,562707 s
+Single task: Run no.  7: 1 occurrences found in 0,541011 s
+Single task: Run no.  8: 1 occurrences found in 0,534605 s
+Single task: Run no.  9: 1 occurrences found in 0,545958 s
+
+Single task (avg.): 0,544518 s
+Filesize: 9807627
+
+Using 16 tasks: Run no.  0: 1 occurrences found in 0,126879 s
+Using 16 tasks: Run no.  1: 1 occurrences found in 0,134487 s
+Using 16 tasks: Run no.  2: 1 occurrences found in 0,136954 s
+Using 16 tasks: Run no.  3: 1 occurrences found in 0,136909 s
+Using 16 tasks: Run no.  4: 1 occurrences found in 0,132190 s
+Using 16 tasks: Run no.  5: 1 occurrences found in 0,142678 s
+Using 16 tasks: Run no.  6: 1 occurrences found in 0,139297 s
+Using 16 tasks: Run no.  7: 1 occurrences found in 0,116795 s
+Using 16 tasks: Run no.  8: 1 occurrences found in 0,130303 s
+Using 16 tasks: Run no.  9: 1 occurrences found in 0,127636 s
+
+Using 16 tasks (avg.): 0,132413 s
+
+
+Average speedup: 4,11
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=17, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,561384 s
+Single task: Run no.  1: 1 occurrences found in 0,548152 s
+Single task: Run no.  2: 1 occurrences found in 0,549965 s
+Single task: Run no.  3: 1 occurrences found in 0,543775 s
+Single task: Run no.  4: 1 occurrences found in 0,536481 s
+Single task: Run no.  5: 1 occurrences found in 0,544195 s
+Single task: Run no.  6: 1 occurrences found in 0,545487 s
+Single task: Run no.  7: 1 occurrences found in 0,544843 s
+Single task: Run no.  8: 1 occurrences found in 0,548271 s
+Single task: Run no.  9: 1 occurrences found in 0,546954 s
+
+Single task (avg.): 0,546951 s
+Filesize: 9807627
+
+Using 17 tasks: Run no.  0: 1 occurrences found in 0,129824 s
+Using 17 tasks: Run no.  1: 1 occurrences found in 0,126120 s
+Using 17 tasks: Run no.  2: 1 occurrences found in 0,129192 s
+Using 17 tasks: Run no.  3: 1 occurrences found in 0,124418 s
+Using 17 tasks: Run no.  4: 1 occurrences found in 0,120930 s
+Using 17 tasks: Run no.  5: 1 occurrences found in 0,129413 s
+Using 17 tasks: Run no.  6: 1 occurrences found in 0,133945 s
+Using 17 tasks: Run no.  7: 1 occurrences found in 0,135423 s
+Using 17 tasks: Run no.  8: 1 occurrences found in 0,126598 s
+Using 17 tasks: Run no.  9: 1 occurrences found in 0,125850 s
+
+Using 17 tasks (avg.): 0,128171 s
+
+
+Average speedup: 4,27
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=18, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,539154 s
+Single task: Run no.  1: 1 occurrences found in 0,546736 s
+Single task: Run no.  2: 1 occurrences found in 0,546518 s
+Single task: Run no.  3: 1 occurrences found in 0,541514 s
+Single task: Run no.  4: 1 occurrences found in 0,556967 s
+Single task: Run no.  5: 1 occurrences found in 0,544547 s
+Single task: Run no.  6: 1 occurrences found in 0,593887 s
+Single task: Run no.  7: 1 occurrences found in 0,550042 s
+Single task: Run no.  8: 1 occurrences found in 0,538731 s
+Single task: Run no.  9: 1 occurrences found in 0,532723 s
+
+Single task (avg.): 0,549082 s
+Filesize: 9807627
+
+Using 18 tasks: Run no.  0: 1 occurrences found in 0,126830 s
+Using 18 tasks: Run no.  1: 1 occurrences found in 0,122029 s
+Using 18 tasks: Run no.  2: 1 occurrences found in 0,108281 s
+Using 18 tasks: Run no.  3: 1 occurrences found in 0,125772 s
+Using 18 tasks: Run no.  4: 1 occurrences found in 0,118267 s
+Using 18 tasks: Run no.  5: 1 occurrences found in 0,117555 s
+Using 18 tasks: Run no.  6: 1 occurrences found in 0,122367 s
+Using 18 tasks: Run no.  7: 1 occurrences found in 0,123770 s
+Using 18 tasks: Run no.  8: 1 occurrences found in 0,129302 s
+Using 18 tasks: Run no.  9: 1 occurrences found in 0,124962 s
+
+Using 18 tasks (avg.): 0,121913 s
+
+
+Average speedup: 4,50
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=19, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,556690 s
+Single task: Run no.  1: 1 occurrences found in 0,553764 s
+Single task: Run no.  2: 1 occurrences found in 0,538429 s
+Single task: Run no.  3: 1 occurrences found in 0,541627 s
+Single task: Run no.  4: 1 occurrences found in 0,544149 s
+Single task: Run no.  5: 1 occurrences found in 0,557355 s
+Single task: Run no.  6: 1 occurrences found in 0,542300 s
+Single task: Run no.  7: 1 occurrences found in 0,534531 s
+Single task: Run no.  8: 1 occurrences found in 0,536185 s
+Single task: Run no.  9: 1 occurrences found in 0,539049 s
+
+Single task (avg.): 0,544408 s
+Filesize: 9807627
+
+Using 19 tasks: Run no.  0: 1 occurrences found in 0,131846 s
+Using 19 tasks: Run no.  1: 1 occurrences found in 0,146276 s
+Using 19 tasks: Run no.  2: 1 occurrences found in 0,126911 s
+Using 19 tasks: Run no.  3: 1 occurrences found in 0,141323 s
+Using 19 tasks: Run no.  4: 1 occurrences found in 0,121454 s
+Using 19 tasks: Run no.  5: 1 occurrences found in 0,135358 s
+Using 19 tasks: Run no.  6: 1 occurrences found in 0,163794 s
+Using 19 tasks: Run no.  7: 1 occurrences found in 0,134468 s
+Using 19 tasks: Run no.  8: 1 occurrences found in 0,139872 s
+Using 19 tasks: Run no.  9: 1 occurrences found in 0,124917 s
+
+Using 19 tasks (avg.): 0,136622 s
+
+
+Average speedup: 3,98
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=20, nthreads=6, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,529407 s
+Single task: Run no.  1: 1 occurrences found in 0,539155 s
+Single task: Run no.  2: 1 occurrences found in 0,539648 s
+Single task: Run no.  3: 1 occurrences found in 0,537719 s
+Single task: Run no.  4: 1 occurrences found in 0,541978 s
+Single task: Run no.  5: 1 occurrences found in 0,550472 s
+Single task: Run no.  6: 1 occurrences found in 0,569051 s
+Single task: Run no.  7: 1 occurrences found in 0,547084 s
+Single task: Run no.  8: 1 occurrences found in 0,556851 s
+Single task: Run no.  9: 1 occurrences found in 0,547760 s
+
+Single task (avg.): 0,545913 s
+Filesize: 9807627
+
+Using 20 tasks: Run no.  0: 1 occurrences found in 0,118454 s
+Using 20 tasks: Run no.  1: 1 occurrences found in 0,123298 s
+Using 20 tasks: Run no.  2: 1 occurrences found in 0,134402 s
+Using 20 tasks: Run no.  3: 1 occurrences found in 0,124793 s
+Using 20 tasks: Run no.  4: 1 occurrences found in 0,136522 s
+Using 20 tasks: Run no.  5: 1 occurrences found in 0,133101 s
+Using 20 tasks: Run no.  6: 1 occurrences found in 0,142950 s
+Using 20 tasks: Run no.  7: 1 occurrences found in 0,141448 s
+Using 20 tasks: Run no.  8: 1 occurrences found in 0,122096 s
+Using 20 tasks: Run no.  9: 1 occurrences found in 0,128474 s
+
+Using 20 tasks (avg.): 0,130554 s
+
+
+Average speedup: 4,18
+
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=1, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,561997 s
+Single task: Run no.  1: 1 occurrences found in 0,537487 s
+Single task: Run no.  2: 1 occurrences found in 0,542165 s
+Single task: Run no.  3: 1 occurrences found in 0,547847 s
+Single task: Run no.  4: 1 occurrences found in 0,545434 s
+Single task: Run no.  5: 1 occurrences found in 0,533207 s
+Single task: Run no.  6: 1 occurrences found in 0,538049 s
+Single task: Run no.  7: 1 occurrences found in 0,535045 s
+Single task: Run no.  8: 1 occurrences found in 0,555167 s
+Single task: Run no.  9: 1 occurrences found in 0,554670 s
+
+Single task (avg.): 0,545107 s
+Filesize: 9807627
+
+Using  1 tasks: Run no.  0: 1 occurrences found in 0,574537 s
+Using  1 tasks: Run no.  1: 1 occurrences found in 0,537310 s
+Using  1 tasks: Run no.  2: 1 occurrences found in 0,544698 s
+Using  1 tasks: Run no.  3: 1 occurrences found in 0,555579 s
+Using  1 tasks: Run no.  4: 1 occurrences found in 0,541577 s
+Using  1 tasks: Run no.  5: 1 occurrences found in 0,532316 s
+Using  1 tasks: Run no.  6: 1 occurrences found in 0,541917 s
+Using  1 tasks: Run no.  7: 1 occurrences found in 0,571265 s
+Using  1 tasks: Run no.  8: 1 occurrences found in 0,548924 s
+Using  1 tasks: Run no.  9: 1 occurrences found in 0,552812 s
+
+Using  1 tasks (avg.): 0,550093 s
+
+
+Average speedup: 0,99
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=2, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,557946 s
+Single task: Run no.  1: 1 occurrences found in 0,546005 s
+Single task: Run no.  2: 1 occurrences found in 0,561503 s
+Single task: Run no.  3: 1 occurrences found in 0,538968 s
+Single task: Run no.  4: 1 occurrences found in 0,535953 s
+Single task: Run no.  5: 1 occurrences found in 0,546830 s
+Single task: Run no.  6: 1 occurrences found in 0,536899 s
+Single task: Run no.  7: 1 occurrences found in 0,552966 s
+Single task: Run no.  8: 1 occurrences found in 0,543586 s
+Single task: Run no.  9: 1 occurrences found in 0,547910 s
+
+Single task (avg.): 0,546857 s
+Filesize: 9807627
+
+Using  2 tasks: Run no.  0: 1 occurrences found in 0,284098 s
+Using  2 tasks: Run no.  1: 1 occurrences found in 0,297479 s
+Using  2 tasks: Run no.  2: 1 occurrences found in 0,296589 s
+Using  2 tasks: Run no.  3: 1 occurrences found in 0,281069 s
+Using  2 tasks: Run no.  4: 1 occurrences found in 0,280579 s
+Using  2 tasks: Run no.  5: 1 occurrences found in 0,272028 s
+Using  2 tasks: Run no.  6: 1 occurrences found in 0,304190 s
+Using  2 tasks: Run no.  7: 1 occurrences found in 0,270028 s
+Using  2 tasks: Run no.  8: 1 occurrences found in 0,275504 s
+Using  2 tasks: Run no.  9: 1 occurrences found in 0,268649 s
+
+Using  2 tasks (avg.): 0,283021 s
+
+
+Average speedup: 1,93
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=3, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,532034 s
+Single task: Run no.  1: 1 occurrences found in 0,546742 s
+Single task: Run no.  2: 1 occurrences found in 0,532115 s
+Single task: Run no.  3: 1 occurrences found in 0,571053 s
+Single task: Run no.  4: 1 occurrences found in 0,538574 s
+Single task: Run no.  5: 1 occurrences found in 0,552371 s
+Single task: Run no.  6: 1 occurrences found in 0,544171 s
+Single task: Run no.  7: 1 occurrences found in 0,540341 s
+Single task: Run no.  8: 1 occurrences found in 0,550777 s
+Single task: Run no.  9: 1 occurrences found in 0,548465 s
+
+Single task (avg.): 0,545664 s
+Filesize: 9807627
+
+Using  3 tasks: Run no.  0: 1 occurrences found in 0,195589 s
+Using  3 tasks: Run no.  1: 1 occurrences found in 0,186285 s
+Using  3 tasks: Run no.  2: 1 occurrences found in 0,206849 s
+Using  3 tasks: Run no.  3: 1 occurrences found in 0,197184 s
+Using  3 tasks: Run no.  4: 1 occurrences found in 0,193941 s
+Using  3 tasks: Run no.  5: 1 occurrences found in 0,223916 s
+Using  3 tasks: Run no.  6: 1 occurrences found in 0,209025 s
+Using  3 tasks: Run no.  7: 1 occurrences found in 0,226054 s
+Using  3 tasks: Run no.  8: 1 occurrences found in 0,208435 s
+Using  3 tasks: Run no.  9: 1 occurrences found in 0,192217 s
+
+Using  3 tasks (avg.): 0,203950 s
+
+
+Average speedup: 2,68
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=4, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,565698 s
+Single task: Run no.  1: 1 occurrences found in 0,545473 s
+Single task: Run no.  2: 1 occurrences found in 0,538550 s
+Single task: Run no.  3: 1 occurrences found in 0,548580 s
+Single task: Run no.  4: 1 occurrences found in 0,547284 s
+Single task: Run no.  5: 1 occurrences found in 0,612875 s
+Single task: Run no.  6: 1 occurrences found in 0,624369 s
+Single task: Run no.  7: 1 occurrences found in 0,540598 s
+Single task: Run no.  8: 1 occurrences found in 0,556552 s
+Single task: Run no.  9: 1 occurrences found in 0,575882 s
+
+Single task (avg.): 0,565586 s
+Filesize: 9807627
+
+Using  4 tasks: Run no.  0: 1 occurrences found in 0,164148 s
+Using  4 tasks: Run no.  1: 1 occurrences found in 0,164188 s
+Using  4 tasks: Run no.  2: 1 occurrences found in 0,164010 s
+Using  4 tasks: Run no.  3: 1 occurrences found in 0,153199 s
+Using  4 tasks: Run no.  4: 1 occurrences found in 0,157096 s
+Using  4 tasks: Run no.  5: 1 occurrences found in 0,171390 s
+Using  4 tasks: Run no.  6: 1 occurrences found in 0,169760 s
+Using  4 tasks: Run no.  7: 1 occurrences found in 0,169978 s
+Using  4 tasks: Run no.  8: 1 occurrences found in 0,171456 s
+Using  4 tasks: Run no.  9: 1 occurrences found in 0,153464 s
+
+Using  4 tasks (avg.): 0,163869 s
+
+
+Average speedup: 3,45
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=5, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,535133 s
+Single task: Run no.  1: 1 occurrences found in 0,534550 s
+Single task: Run no.  2: 1 occurrences found in 0,540102 s
+Single task: Run no.  3: 1 occurrences found in 0,547278 s
+Single task: Run no.  4: 1 occurrences found in 0,548464 s
+Single task: Run no.  5: 1 occurrences found in 0,543096 s
+Single task: Run no.  6: 1 occurrences found in 0,544577 s
+Single task: Run no.  7: 1 occurrences found in 0,551553 s
+Single task: Run no.  8: 1 occurrences found in 0,564951 s
+Single task: Run no.  9: 1 occurrences found in 0,540472 s
+
+Single task (avg.): 0,545018 s
+Filesize: 9807627
+
+Using  5 tasks: Run no.  0: 1 occurrences found in 0,142492 s
+Using  5 tasks: Run no.  1: 1 occurrences found in 0,148715 s
+Using  5 tasks: Run no.  2: 1 occurrences found in 0,138611 s
+Using  5 tasks: Run no.  3: 1 occurrences found in 0,146904 s
+Using  5 tasks: Run no.  4: 1 occurrences found in 0,128026 s
+Using  5 tasks: Run no.  5: 1 occurrences found in 0,149825 s
+Using  5 tasks: Run no.  6: 1 occurrences found in 0,142144 s
+Using  5 tasks: Run no.  7: 1 occurrences found in 0,148207 s
+Using  5 tasks: Run no.  8: 1 occurrences found in 0,144123 s
+Using  5 tasks: Run no.  9: 1 occurrences found in 0,145141 s
+
+Using  5 tasks (avg.): 0,143419 s
+
+
+Average speedup: 3,80
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=6, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,549315 s
+Single task: Run no.  1: 1 occurrences found in 0,542811 s
+Single task: Run no.  2: 1 occurrences found in 0,540235 s
+Single task: Run no.  3: 1 occurrences found in 0,545048 s
+Single task: Run no.  4: 1 occurrences found in 0,549206 s
+Single task: Run no.  5: 1 occurrences found in 0,572537 s
+Single task: Run no.  6: 1 occurrences found in 0,554759 s
+Single task: Run no.  7: 1 occurrences found in 0,547596 s
+Single task: Run no.  8: 1 occurrences found in 0,558869 s
+Single task: Run no.  9: 1 occurrences found in 0,571961 s
+
+Single task (avg.): 0,553234 s
+Filesize: 9807627
+
+Using  6 tasks: Run no.  0: 1 occurrences found in 0,128016 s
+Using  6 tasks: Run no.  1: 1 occurrences found in 0,128375 s
+Using  6 tasks: Run no.  2: 1 occurrences found in 0,143376 s
+Using  6 tasks: Run no.  3: 1 occurrences found in 0,133745 s
+Using  6 tasks: Run no.  4: 1 occurrences found in 0,135414 s
+Using  6 tasks: Run no.  5: 1 occurrences found in 0,141935 s
+Using  6 tasks: Run no.  6: 1 occurrences found in 0,131188 s
+Using  6 tasks: Run no.  7: 1 occurrences found in 0,129865 s
+Using  6 tasks: Run no.  8: 1 occurrences found in 0,137074 s
+Using  6 tasks: Run no.  9: 1 occurrences found in 0,136267 s
+
+Using  6 tasks (avg.): 0,134526 s
+
+
+Average speedup: 4,11
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=7, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,553094 s
+Single task: Run no.  1: 1 occurrences found in 0,569674 s
+Single task: Run no.  2: 1 occurrences found in 0,547220 s
+Single task: Run no.  3: 1 occurrences found in 0,557791 s
+Single task: Run no.  4: 1 occurrences found in 0,567484 s
+Single task: Run no.  5: 1 occurrences found in 0,552598 s
+Single task: Run no.  6: 1 occurrences found in 0,542455 s
+Single task: Run no.  7: 1 occurrences found in 0,532183 s
+Single task: Run no.  8: 1 occurrences found in 0,545062 s
+Single task: Run no.  9: 1 occurrences found in 0,536303 s
+
+Single task (avg.): 0,550386 s
+Filesize: 9807627
+
+Using  7 tasks: Run no.  0: 1 occurrences found in 0,114475 s
+Using  7 tasks: Run no.  1: 1 occurrences found in 0,109336 s
+Using  7 tasks: Run no.  2: 1 occurrences found in 0,114978 s
+Using  7 tasks: Run no.  3: 1 occurrences found in 0,109682 s
+Using  7 tasks: Run no.  4: 1 occurrences found in 0,106305 s
+Using  7 tasks: Run no.  5: 1 occurrences found in 0,113223 s
+Using  7 tasks: Run no.  6: 1 occurrences found in 0,110419 s
+Using  7 tasks: Run no.  7: 1 occurrences found in 0,110759 s
+Using  7 tasks: Run no.  8: 1 occurrences found in 0,111440 s
+Using  7 tasks: Run no.  9: 1 occurrences found in 0,111628 s
+
+Using  7 tasks (avg.): 0,111225 s
+
+
+Average speedup: 4,95
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=8, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,537052 s
+Single task: Run no.  1: 1 occurrences found in 0,537799 s
+Single task: Run no.  2: 1 occurrences found in 0,537767 s
+Single task: Run no.  3: 1 occurrences found in 0,544506 s
+Single task: Run no.  4: 1 occurrences found in 0,548762 s
+Single task: Run no.  5: 1 occurrences found in 0,538029 s
+Single task: Run no.  6: 1 occurrences found in 0,538455 s
+Single task: Run no.  7: 1 occurrences found in 0,540164 s
+Single task: Run no.  8: 1 occurrences found in 0,570722 s
+Single task: Run no.  9: 1 occurrences found in 0,548461 s
+
+Single task (avg.): 0,544172 s
+Filesize: 9807627
+
+Using  8 tasks: Run no.  0: 1 occurrences found in 0,100191 s
+Using  8 tasks: Run no.  1: 1 occurrences found in 0,103604 s
+Using  8 tasks: Run no.  2: 1 occurrences found in 0,104992 s
+Using  8 tasks: Run no.  3: 1 occurrences found in 0,107475 s
+Using  8 tasks: Run no.  4: 1 occurrences found in 0,102986 s
+Using  8 tasks: Run no.  5: 1 occurrences found in 0,100163 s
+Using  8 tasks: Run no.  6: 1 occurrences found in 0,106548 s
+Using  8 tasks: Run no.  7: 1 occurrences found in 0,105447 s
+Using  8 tasks: Run no.  8: 1 occurrences found in 0,101173 s
+Using  8 tasks: Run no.  9: 1 occurrences found in 0,105522 s
+
+Using  8 tasks (avg.): 0,103810 s
+
+
+Average speedup: 5,24
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=9, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,533351 s
+Single task: Run no.  1: 1 occurrences found in 0,547320 s
+Single task: Run no.  2: 1 occurrences found in 0,534842 s
+Single task: Run no.  3: 1 occurrences found in 0,569760 s
+Single task: Run no.  4: 1 occurrences found in 0,538966 s
+Single task: Run no.  5: 1 occurrences found in 0,551506 s
+Single task: Run no.  6: 1 occurrences found in 0,550320 s
+Single task: Run no.  7: 1 occurrences found in 0,544088 s
+Single task: Run no.  8: 1 occurrences found in 0,543839 s
+Single task: Run no.  9: 1 occurrences found in 0,543095 s
+
+Single task (avg.): 0,545709 s
+Filesize: 9807627
+
+Using  9 tasks: Run no.  0: 1 occurrences found in 0,136164 s
+Using  9 tasks: Run no.  1: 1 occurrences found in 0,146473 s
+Using  9 tasks: Run no.  2: 1 occurrences found in 0,125087 s
+Using  9 tasks: Run no.  3: 1 occurrences found in 0,155403 s
+Using  9 tasks: Run no.  4: 1 occurrences found in 0,133753 s
+Using  9 tasks: Run no.  5: 1 occurrences found in 0,131761 s
+Using  9 tasks: Run no.  6: 1 occurrences found in 0,139973 s
+Using  9 tasks: Run no.  7: 1 occurrences found in 0,140033 s
+Using  9 tasks: Run no.  8: 1 occurrences found in 0,142476 s
+Using  9 tasks: Run no.  9: 1 occurrences found in 0,159088 s
+
+Using  9 tasks (avg.): 0,141021 s
+
+
+Average speedup: 3,87
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=10, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,537939 s
+Single task: Run no.  1: 1 occurrences found in 0,548839 s
+Single task: Run no.  2: 1 occurrences found in 0,544062 s
+Single task: Run no.  3: 1 occurrences found in 0,540732 s
+Single task: Run no.  4: 1 occurrences found in 0,550753 s
+Single task: Run no.  5: 1 occurrences found in 0,541373 s
+Single task: Run no.  6: 1 occurrences found in 0,541424 s
+Single task: Run no.  7: 1 occurrences found in 0,563893 s
+Single task: Run no.  8: 1 occurrences found in 0,550191 s
+Single task: Run no.  9: 1 occurrences found in 0,544131 s
+
+Single task (avg.): 0,546334 s
+Filesize: 9807627
+
+Using 10 tasks: Run no.  0: 1 occurrences found in 0,144997 s
+Using 10 tasks: Run no.  1: 1 occurrences found in 0,125766 s
+Using 10 tasks: Run no.  2: 1 occurrences found in 0,132095 s
+Using 10 tasks: Run no.  3: 1 occurrences found in 0,127083 s
+Using 10 tasks: Run no.  4: 1 occurrences found in 0,129998 s
+Using 10 tasks: Run no.  5: 1 occurrences found in 0,129269 s
+Using 10 tasks: Run no.  6: 1 occurrences found in 0,133597 s
+Using 10 tasks: Run no.  7: 1 occurrences found in 0,132854 s
+Using 10 tasks: Run no.  8: 1 occurrences found in 0,127260 s
+Using 10 tasks: Run no.  9: 1 occurrences found in 0,122953 s
+
+Using 10 tasks (avg.): 0,130587 s
+
+
+Average speedup: 4,18
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=11, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,542173 s
+Single task: Run no.  1: 1 occurrences found in 0,575999 s
+Single task: Run no.  2: 1 occurrences found in 0,537169 s
+Single task: Run no.  3: 1 occurrences found in 0,546431 s
+Single task: Run no.  4: 1 occurrences found in 0,549687 s
+Single task: Run no.  5: 1 occurrences found in 0,546478 s
+Single task: Run no.  6: 1 occurrences found in 0,533618 s
+Single task: Run no.  7: 1 occurrences found in 0,545248 s
+Single task: Run no.  8: 1 occurrences found in 0,546627 s
+Single task: Run no.  9: 1 occurrences found in 0,555238 s
+
+Single task (avg.): 0,547867 s
+Filesize: 9807627
+
+Using 11 tasks: Run no.  0: 1 occurrences found in 0,129010 s
+Using 11 tasks: Run no.  1: 1 occurrences found in 0,125040 s
+Using 11 tasks: Run no.  2: 1 occurrences found in 0,117030 s
+Using 11 tasks: Run no.  3: 1 occurrences found in 0,118888 s
+Using 11 tasks: Run no.  4: 1 occurrences found in 0,124033 s
+Using 11 tasks: Run no.  5: 1 occurrences found in 0,130131 s
+Using 11 tasks: Run no.  6: 1 occurrences found in 0,127245 s
+Using 11 tasks: Run no.  7: 1 occurrences found in 0,138299 s
+Using 11 tasks: Run no.  8: 1 occurrences found in 0,119916 s
+Using 11 tasks: Run no.  9: 1 occurrences found in 0,129317 s
+
+Using 11 tasks (avg.): 0,125891 s
+
+
+Average speedup: 4,35
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=12, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,546737 s
+Single task: Run no.  1: 1 occurrences found in 0,544730 s
+Single task: Run no.  2: 1 occurrences found in 0,539463 s
+Single task: Run no.  3: 1 occurrences found in 0,548426 s
+Single task: Run no.  4: 1 occurrences found in 0,543025 s
+Single task: Run no.  5: 1 occurrences found in 0,551917 s
+Single task: Run no.  6: 1 occurrences found in 0,560169 s
+Single task: Run no.  7: 1 occurrences found in 0,548119 s
+Single task: Run no.  8: 1 occurrences found in 0,552213 s
+Single task: Run no.  9: 1 occurrences found in 0,538142 s
+
+Single task (avg.): 0,547294 s
+Filesize: 9807627
+
+Using 12 tasks: Run no.  0: 1 occurrences found in 0,117193 s
+Using 12 tasks: Run no.  1: 1 occurrences found in 0,117206 s
+Using 12 tasks: Run no.  2: 1 occurrences found in 0,117454 s
+Using 12 tasks: Run no.  3: 1 occurrences found in 0,117508 s
+Using 12 tasks: Run no.  4: 1 occurrences found in 0,124651 s
+Using 12 tasks: Run no.  5: 1 occurrences found in 0,113386 s
+Using 12 tasks: Run no.  6: 1 occurrences found in 0,115467 s
+Using 12 tasks: Run no.  7: 1 occurrences found in 0,117421 s
+Using 12 tasks: Run no.  8: 1 occurrences found in 0,117262 s
+Using 12 tasks: Run no.  9: 1 occurrences found in 0,111355 s
+
+Using 12 tasks (avg.): 0,116890 s
+
+
+Average speedup: 4,68
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=13, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,535165 s
+Single task: Run no.  1: 1 occurrences found in 0,568446 s
+Single task: Run no.  2: 1 occurrences found in 0,538754 s
+Single task: Run no.  3: 1 occurrences found in 0,545263 s
+Single task: Run no.  4: 1 occurrences found in 0,543970 s
+Single task: Run no.  5: 1 occurrences found in 0,535818 s
+Single task: Run no.  6: 1 occurrences found in 0,549692 s
+Single task: Run no.  7: 1 occurrences found in 0,537332 s
+Single task: Run no.  8: 1 occurrences found in 0,540916 s
+Single task: Run no.  9: 1 occurrences found in 0,536394 s
+
+Single task (avg.): 0,543175 s
+Filesize: 9807627
+
+Using 13 tasks: Run no.  0: 1 occurrences found in 0,105120 s
+Using 13 tasks: Run no.  1: 1 occurrences found in 0,117587 s
+Using 13 tasks: Run no.  2: 1 occurrences found in 0,110458 s
+Using 13 tasks: Run no.  3: 1 occurrences found in 0,112426 s
+Using 13 tasks: Run no.  4: 1 occurrences found in 0,114895 s
+Using 13 tasks: Run no.  5: 1 occurrences found in 0,119076 s
+Using 13 tasks: Run no.  6: 1 occurrences found in 0,113847 s
+Using 13 tasks: Run no.  7: 1 occurrences found in 0,125339 s
+Using 13 tasks: Run no.  8: 1 occurrences found in 0,126621 s
+Using 13 tasks: Run no.  9: 1 occurrences found in 0,117434 s
+
+Using 13 tasks (avg.): 0,116280 s
+
+
+Average speedup: 4,67
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=14, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,544114 s
+Single task: Run no.  1: 1 occurrences found in 0,538907 s
+Single task: Run no.  2: 1 occurrences found in 0,528677 s
+Single task: Run no.  3: 1 occurrences found in 0,545597 s
+Single task: Run no.  4: 1 occurrences found in 0,543620 s
+Single task: Run no.  5: 1 occurrences found in 0,557347 s
+Single task: Run no.  6: 1 occurrences found in 0,554770 s
+Single task: Run no.  7: 1 occurrences found in 0,536601 s
+Single task: Run no.  8: 1 occurrences found in 0,541714 s
+Single task: Run no.  9: 1 occurrences found in 0,537690 s
+
+Single task (avg.): 0,542904 s
+Filesize: 9807627
+
+Using 14 tasks: Run no.  0: 1 occurrences found in 0,104681 s
+Using 14 tasks: Run no.  1: 1 occurrences found in 0,106095 s
+Using 14 tasks: Run no.  2: 1 occurrences found in 0,104638 s
+Using 14 tasks: Run no.  3: 1 occurrences found in 0,119445 s
+Using 14 tasks: Run no.  4: 1 occurrences found in 0,104579 s
+Using 14 tasks: Run no.  5: 1 occurrences found in 0,107662 s
+Using 14 tasks: Run no.  6: 1 occurrences found in 0,110987 s
+Using 14 tasks: Run no.  7: 1 occurrences found in 0,110966 s
+Using 14 tasks: Run no.  8: 1 occurrences found in 0,110309 s
+Using 14 tasks: Run no.  9: 1 occurrences found in 0,105979 s
+
+Using 14 tasks (avg.): 0,108534 s
+
+
+Average speedup: 5,00
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=15, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,544975 s
+Single task: Run no.  1: 1 occurrences found in 0,557578 s
+Single task: Run no.  2: 1 occurrences found in 0,545594 s
+Single task: Run no.  3: 1 occurrences found in 0,537898 s
+Single task: Run no.  4: 1 occurrences found in 0,534433 s
+Single task: Run no.  5: 1 occurrences found in 0,540370 s
+Single task: Run no.  6: 1 occurrences found in 0,543761 s
+Single task: Run no.  7: 1 occurrences found in 0,547140 s
+Single task: Run no.  8: 1 occurrences found in 0,558055 s
+Single task: Run no.  9: 1 occurrences found in 0,539231 s
+
+Single task (avg.): 0,544903 s
+Filesize: 9807627
+
+Using 15 tasks: Run no.  0: 1 occurrences found in 0,104252 s
+Using 15 tasks: Run no.  1: 1 occurrences found in 0,107186 s
+Using 15 tasks: Run no.  2: 1 occurrences found in 0,114350 s
+Using 15 tasks: Run no.  3: 1 occurrences found in 0,109706 s
+Using 15 tasks: Run no.  4: 1 occurrences found in 0,103598 s
+Using 15 tasks: Run no.  5: 1 occurrences found in 0,104558 s
+Using 15 tasks: Run no.  6: 1 occurrences found in 0,105607 s
+Using 15 tasks: Run no.  7: 1 occurrences found in 0,106944 s
+Using 15 tasks: Run no.  8: 1 occurrences found in 0,121907 s
+Using 15 tasks: Run no.  9: 1 occurrences found in 0,114263 s
+
+Using 15 tasks (avg.): 0,109237 s
+
+
+Average speedup: 4,99
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=16, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,543498 s
+Single task: Run no.  1: 1 occurrences found in 0,532713 s
+Single task: Run no.  2: 1 occurrences found in 0,570998 s
+Single task: Run no.  3: 1 occurrences found in 0,548823 s
+Single task: Run no.  4: 1 occurrences found in 0,539184 s
+Single task: Run no.  5: 1 occurrences found in 0,545917 s
+Single task: Run no.  6: 1 occurrences found in 0,556175 s
+Single task: Run no.  7: 1 occurrences found in 0,545393 s
+Single task: Run no.  8: 1 occurrences found in 0,536841 s
+Single task: Run no.  9: 1 occurrences found in 0,543220 s
+
+Single task (avg.): 0,546276 s
+Filesize: 9807627
+
+Using 16 tasks: Run no.  0: 1 occurrences found in 0,099242 s
+Using 16 tasks: Run no.  1: 1 occurrences found in 0,101425 s
+Using 16 tasks: Run no.  2: 1 occurrences found in 0,102628 s
+Using 16 tasks: Run no.  3: 1 occurrences found in 0,102125 s
+Using 16 tasks: Run no.  4: 1 occurrences found in 0,100419 s
+Using 16 tasks: Run no.  5: 1 occurrences found in 0,098585 s
+Using 16 tasks: Run no.  6: 1 occurrences found in 0,102298 s
+Using 16 tasks: Run no.  7: 1 occurrences found in 0,099675 s
+Using 16 tasks: Run no.  8: 1 occurrences found in 0,103210 s
+Using 16 tasks: Run no.  9: 1 occurrences found in 0,095903 s
+
+Using 16 tasks (avg.): 0,100551 s
+
+
+Average speedup: 5,43
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=17, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,544957 s
+Single task: Run no.  1: 1 occurrences found in 0,555915 s
+Single task: Run no.  2: 1 occurrences found in 0,554515 s
+Single task: Run no.  3: 1 occurrences found in 0,546945 s
+Single task: Run no.  4: 1 occurrences found in 0,542408 s
+Single task: Run no.  5: 1 occurrences found in 0,536560 s
+Single task: Run no.  6: 1 occurrences found in 0,571548 s
+Single task: Run no.  7: 1 occurrences found in 0,573058 s
+Single task: Run no.  8: 1 occurrences found in 0,537824 s
+Single task: Run no.  9: 1 occurrences found in 0,551477 s
+
+Single task (avg.): 0,551521 s
+Filesize: 9807627
+
+Using 17 tasks: Run no.  0: 1 occurrences found in 0,121857 s
+Using 17 tasks: Run no.  1: 1 occurrences found in 0,128030 s
+Using 17 tasks: Run no.  2: 1 occurrences found in 0,119094 s
+Using 17 tasks: Run no.  3: 1 occurrences found in 0,121936 s
+Using 17 tasks: Run no.  4: 1 occurrences found in 0,123935 s
+Using 17 tasks: Run no.  5: 1 occurrences found in 0,116639 s
+Using 17 tasks: Run no.  6: 1 occurrences found in 0,113981 s
+Using 17 tasks: Run no.  7: 1 occurrences found in 0,139370 s
+Using 17 tasks: Run no.  8: 1 occurrences found in 0,117647 s
+Using 17 tasks: Run no.  9: 1 occurrences found in 0,111621 s
+
+Using 17 tasks (avg.): 0,121411 s
+
+
+Average speedup: 4,54
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=18, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,545714 s
+Single task: Run no.  1: 1 occurrences found in 0,544205 s
+Single task: Run no.  2: 1 occurrences found in 0,535399 s
+Single task: Run no.  3: 1 occurrences found in 0,543497 s
+Single task: Run no.  4: 1 occurrences found in 0,552477 s
+Single task: Run no.  5: 1 occurrences found in 0,539372 s
+Single task: Run no.  6: 1 occurrences found in 0,563411 s
+Single task: Run no.  7: 1 occurrences found in 0,531810 s
+Single task: Run no.  8: 1 occurrences found in 0,547619 s
+Single task: Run no.  9: 1 occurrences found in 0,544762 s
+
+Single task (avg.): 0,544827 s
+Filesize: 9807627
+
+Using 18 tasks: Run no.  0: 1 occurrences found in 0,114930 s
+Using 18 tasks: Run no.  1: 1 occurrences found in 0,107683 s
+Using 18 tasks: Run no.  2: 1 occurrences found in 0,113231 s
+Using 18 tasks: Run no.  3: 1 occurrences found in 0,119923 s
+Using 18 tasks: Run no.  4: 1 occurrences found in 0,122556 s
+Using 18 tasks: Run no.  5: 1 occurrences found in 0,111250 s
+Using 18 tasks: Run no.  6: 1 occurrences found in 0,112656 s
+Using 18 tasks: Run no.  7: 1 occurrences found in 0,114363 s
+Using 18 tasks: Run no.  8: 1 occurrences found in 0,112489 s
+Using 18 tasks: Run no.  9: 1 occurrences found in 0,113498 s
+
+Using 18 tasks (avg.): 0,114258 s
+
+
+Average speedup: 4,77
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=19, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,537033 s
+Single task: Run no.  1: 1 occurrences found in 0,566089 s
+Single task: Run no.  2: 1 occurrences found in 0,540613 s
+Single task: Run no.  3: 1 occurrences found in 0,539345 s
+Single task: Run no.  4: 1 occurrences found in 0,546547 s
+Single task: Run no.  5: 1 occurrences found in 0,532411 s
+Single task: Run no.  6: 1 occurrences found in 0,540531 s
+Single task: Run no.  7: 1 occurrences found in 0,544228 s
+Single task: Run no.  8: 1 occurrences found in 0,534528 s
+Single task: Run no.  9: 1 occurrences found in 0,547578 s
+
+Single task (avg.): 0,542890 s
+Filesize: 9807627
+
+Using 19 tasks: Run no.  0: 1 occurrences found in 0,106595 s
+Using 19 tasks: Run no.  1: 1 occurrences found in 0,104245 s
+Using 19 tasks: Run no.  2: 1 occurrences found in 0,113310 s
+Using 19 tasks: Run no.  3: 1 occurrences found in 0,104399 s
+Using 19 tasks: Run no.  4: 1 occurrences found in 0,102714 s
+Using 19 tasks: Run no.  5: 1 occurrences found in 0,109907 s
+Using 19 tasks: Run no.  6: 1 occurrences found in 0,106813 s
+Using 19 tasks: Run no.  7: 1 occurrences found in 0,110532 s
+Using 19 tasks: Run no.  8: 1 occurrences found in 0,131414 s
+Using 19 tasks: Run no.  9: 1 occurrences found in 0,111547 s
+
+Using 19 tasks (avg.): 0,110148 s
+
+
+Average speedup: 4,93
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=20, nthreads=8, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,544740 s
+Single task: Run no.  1: 1 occurrences found in 0,542969 s
+Single task: Run no.  2: 1 occurrences found in 0,543292 s
+Single task: Run no.  3: 1 occurrences found in 0,531153 s
+Single task: Run no.  4: 1 occurrences found in 0,544030 s
+Single task: Run no.  5: 1 occurrences found in 0,547995 s
+Single task: Run no.  6: 1 occurrences found in 0,562920 s
+Single task: Run no.  7: 1 occurrences found in 0,555248 s
+Single task: Run no.  8: 1 occurrences found in 0,539464 s
+Single task: Run no.  9: 1 occurrences found in 0,545220 s
+
+Single task (avg.): 0,545703 s
+Filesize: 9807627
+
+Using 20 tasks: Run no.  0: 1 occurrences found in 0,103858 s
+Using 20 tasks: Run no.  1: 1 occurrences found in 0,108505 s
+Using 20 tasks: Run no.  2: 1 occurrences found in 0,111139 s
+Using 20 tasks: Run no.  3: 1 occurrences found in 0,108328 s
+Using 20 tasks: Run no.  4: 1 occurrences found in 0,113876 s
+Using 20 tasks: Run no.  5: 1 occurrences found in 0,110607 s
+Using 20 tasks: Run no.  6: 1 occurrences found in 0,110861 s
+Using 20 tasks: Run no.  7: 1 occurrences found in 0,101062 s
+Using 20 tasks: Run no.  8: 1 occurrences found in 0,109596 s
+Using 20 tasks: Run no.  9: 1 occurrences found in 0,111839 s
+
+Using 20 tasks (avg.): 0,108967 s
+
+
+Average speedup: 5,01
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=1, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,548381 s
+Single task: Run no.  1: 1 occurrences found in 0,560616 s
+Single task: Run no.  2: 1 occurrences found in 0,536613 s
+Single task: Run no.  3: 1 occurrences found in 0,547462 s
+Single task: Run no.  4: 1 occurrences found in 0,546669 s
+Single task: Run no.  5: 1 occurrences found in 0,549772 s
+Single task: Run no.  6: 1 occurrences found in 0,553010 s
+Single task: Run no.  7: 1 occurrences found in 0,553218 s
+Single task: Run no.  8: 1 occurrences found in 0,549408 s
+Single task: Run no.  9: 1 occurrences found in 0,601811 s
+
+Single task (avg.): 0,554696 s
+Filesize: 9807627
+
+Using  1 tasks: Run no.  0: 1 occurrences found in 0,624695 s
+Using  1 tasks: Run no.  1: 1 occurrences found in 0,548075 s
+Using  1 tasks: Run no.  2: 1 occurrences found in 0,543013 s
+Using  1 tasks: Run no.  3: 1 occurrences found in 0,546298 s
+Using  1 tasks: Run no.  4: 1 occurrences found in 0,544442 s
+Using  1 tasks: Run no.  5: 1 occurrences found in 0,564121 s
+Using  1 tasks: Run no.  6: 1 occurrences found in 0,574521 s
+Using  1 tasks: Run no.  7: 1 occurrences found in 0,549188 s
+Using  1 tasks: Run no.  8: 1 occurrences found in 0,563360 s
+Using  1 tasks: Run no.  9: 1 occurrences found in 0,545986 s
+
+Using  1 tasks (avg.): 0,560370 s
+
+
+Average speedup: 0,99
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=2, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,550537 s
+Single task: Run no.  1: 1 occurrences found in 0,550224 s
+Single task: Run no.  2: 1 occurrences found in 0,537956 s
+Single task: Run no.  3: 1 occurrences found in 0,544972 s
+Single task: Run no.  4: 1 occurrences found in 0,547847 s
+Single task: Run no.  5: 1 occurrences found in 0,548006 s
+Single task: Run no.  6: 1 occurrences found in 0,540808 s
+Single task: Run no.  7: 1 occurrences found in 0,542536 s
+Single task: Run no.  8: 1 occurrences found in 0,539117 s
+Single task: Run no.  9: 1 occurrences found in 0,551016 s
+
+Single task (avg.): 0,545302 s
+Filesize: 9807627
+
+Using  2 tasks: Run no.  0: 1 occurrences found in 0,279972 s
+Using  2 tasks: Run no.  1: 1 occurrences found in 0,280341 s
+Using  2 tasks: Run no.  2: 1 occurrences found in 0,295692 s
+Using  2 tasks: Run no.  3: 1 occurrences found in 0,304346 s
+Using  2 tasks: Run no.  4: 1 occurrences found in 0,273048 s
+Using  2 tasks: Run no.  5: 1 occurrences found in 0,269157 s
+Using  2 tasks: Run no.  6: 1 occurrences found in 0,282310 s
+Using  2 tasks: Run no.  7: 1 occurrences found in 0,293388 s
+Using  2 tasks: Run no.  8: 1 occurrences found in 0,285083 s
+Using  2 tasks: Run no.  9: 1 occurrences found in 0,308373 s
+
+Using  2 tasks (avg.): 0,287171 s
+
+
+Average speedup: 1,90
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=3, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,543380 s
+Single task: Run no.  1: 1 occurrences found in 0,545726 s
+Single task: Run no.  2: 1 occurrences found in 0,550484 s
+Single task: Run no.  3: 1 occurrences found in 0,554989 s
+Single task: Run no.  4: 1 occurrences found in 0,549066 s
+Single task: Run no.  5: 1 occurrences found in 0,547334 s
+Single task: Run no.  6: 1 occurrences found in 0,549027 s
+Single task: Run no.  7: 1 occurrences found in 0,556201 s
+Single task: Run no.  8: 1 occurrences found in 0,539253 s
+Single task: Run no.  9: 1 occurrences found in 0,539095 s
+
+Single task (avg.): 0,547455 s
+Filesize: 9807627
+
+Using  3 tasks: Run no.  0: 1 occurrences found in 0,237454 s
+Using  3 tasks: Run no.  1: 1 occurrences found in 0,226308 s
+Using  3 tasks: Run no.  2: 1 occurrences found in 0,202137 s
+Using  3 tasks: Run no.  3: 1 occurrences found in 0,201705 s
+Using  3 tasks: Run no.  4: 1 occurrences found in 0,241068 s
+Using  3 tasks: Run no.  5: 1 occurrences found in 0,222691 s
+Using  3 tasks: Run no.  6: 1 occurrences found in 0,194763 s
+Using  3 tasks: Run no.  7: 1 occurrences found in 0,209843 s
+Using  3 tasks: Run no.  8: 1 occurrences found in 0,190826 s
+Using  3 tasks: Run no.  9: 1 occurrences found in 0,191911 s
+
+Using  3 tasks (avg.): 0,211871 s
+
+
+Average speedup: 2,58
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=4, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,549753 s
+Single task: Run no.  1: 1 occurrences found in 0,544455 s
+Single task: Run no.  2: 1 occurrences found in 0,547160 s
+Single task: Run no.  3: 1 occurrences found in 0,568638 s
+Single task: Run no.  4: 1 occurrences found in 0,544400 s
+Single task: Run no.  5: 1 occurrences found in 0,586308 s
+Single task: Run no.  6: 1 occurrences found in 0,540455 s
+Single task: Run no.  7: 1 occurrences found in 0,543367 s
+Single task: Run no.  8: 1 occurrences found in 0,545481 s
+Single task: Run no.  9: 1 occurrences found in 0,529425 s
+
+Single task (avg.): 0,549944 s
+Filesize: 9807627
+
+Using  4 tasks: Run no.  0: 1 occurrences found in 0,156513 s
+Using  4 tasks: Run no.  1: 1 occurrences found in 0,171378 s
+Using  4 tasks: Run no.  2: 1 occurrences found in 0,167017 s
+Using  4 tasks: Run no.  3: 1 occurrences found in 0,174536 s
+Using  4 tasks: Run no.  4: 1 occurrences found in 0,165106 s
+Using  4 tasks: Run no.  5: 1 occurrences found in 0,164825 s
+Using  4 tasks: Run no.  6: 1 occurrences found in 0,145760 s
+Using  4 tasks: Run no.  7: 1 occurrences found in 0,173245 s
+Using  4 tasks: Run no.  8: 1 occurrences found in 0,165576 s
+Using  4 tasks: Run no.  9: 1 occurrences found in 0,171892 s
+
+Using  4 tasks (avg.): 0,165585 s
+
+
+Average speedup: 3,32
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=5, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,547249 s
+Single task: Run no.  1: 1 occurrences found in 0,539126 s
+Single task: Run no.  2: 1 occurrences found in 0,542989 s
+Single task: Run no.  3: 1 occurrences found in 0,545596 s
+Single task: Run no.  4: 1 occurrences found in 0,542627 s
+Single task: Run no.  5: 1 occurrences found in 0,543079 s
+Single task: Run no.  6: 1 occurrences found in 0,543066 s
+Single task: Run no.  7: 1 occurrences found in 0,541909 s
+Single task: Run no.  8: 1 occurrences found in 0,557160 s
+Single task: Run no.  9: 1 occurrences found in 0,544808 s
+
+Single task (avg.): 0,544761 s
+Filesize: 9807627
+
+Using  5 tasks: Run no.  0: 1 occurrences found in 0,145288 s
+Using  5 tasks: Run no.  1: 1 occurrences found in 0,141376 s
+Using  5 tasks: Run no.  2: 1 occurrences found in 0,132233 s
+Using  5 tasks: Run no.  3: 1 occurrences found in 0,148902 s
+Using  5 tasks: Run no.  4: 1 occurrences found in 0,135711 s
+Using  5 tasks: Run no.  5: 1 occurrences found in 0,143718 s
+Using  5 tasks: Run no.  6: 1 occurrences found in 0,149903 s
+Using  5 tasks: Run no.  7: 1 occurrences found in 0,140755 s
+Using  5 tasks: Run no.  8: 1 occurrences found in 0,127723 s
+Using  5 tasks: Run no.  9: 1 occurrences found in 0,138192 s
+
+Using  5 tasks (avg.): 0,140380 s
+
+
+Average speedup: 3,88
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=6, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,556512 s
+Single task: Run no.  1: 1 occurrences found in 0,547372 s
+Single task: Run no.  2: 1 occurrences found in 0,563640 s
+Single task: Run no.  3: 1 occurrences found in 0,553196 s
+Single task: Run no.  4: 1 occurrences found in 0,546937 s
+Single task: Run no.  5: 1 occurrences found in 0,547143 s
+Single task: Run no.  6: 1 occurrences found in 0,548006 s
+Single task: Run no.  7: 1 occurrences found in 0,545856 s
+Single task: Run no.  8: 1 occurrences found in 0,541319 s
+Single task: Run no.  9: 1 occurrences found in 0,546929 s
+
+Single task (avg.): 0,549691 s
+Filesize: 9807627
+
+Using  6 tasks: Run no.  0: 1 occurrences found in 0,134451 s
+Using  6 tasks: Run no.  1: 1 occurrences found in 0,122254 s
+Using  6 tasks: Run no.  2: 1 occurrences found in 0,128276 s
+Using  6 tasks: Run no.  3: 1 occurrences found in 0,122279 s
+Using  6 tasks: Run no.  4: 1 occurrences found in 0,129619 s
+Using  6 tasks: Run no.  5: 1 occurrences found in 0,130713 s
+Using  6 tasks: Run no.  6: 1 occurrences found in 0,135641 s
+Using  6 tasks: Run no.  7: 1 occurrences found in 0,140488 s
+Using  6 tasks: Run no.  8: 1 occurrences found in 0,122430 s
+Using  6 tasks: Run no.  9: 1 occurrences found in 0,116070 s
+
+Using  6 tasks (avg.): 0,128222 s
+
+
+Average speedup: 4,29
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=7, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,549692 s
+Single task: Run no.  1: 1 occurrences found in 0,543566 s
+Single task: Run no.  2: 1 occurrences found in 0,541587 s
+Single task: Run no.  3: 1 occurrences found in 0,557974 s
+Single task: Run no.  4: 1 occurrences found in 0,546005 s
+Single task: Run no.  5: 1 occurrences found in 0,538135 s
+Single task: Run no.  6: 1 occurrences found in 0,572754 s
+Single task: Run no.  7: 1 occurrences found in 0,543421 s
+Single task: Run no.  8: 1 occurrences found in 0,540277 s
+Single task: Run no.  9: 1 occurrences found in 0,542134 s
+
+Single task (avg.): 0,547554 s
+Filesize: 9807627
+
+Using  7 tasks: Run no.  0: 1 occurrences found in 0,121529 s
+Using  7 tasks: Run no.  1: 1 occurrences found in 0,116067 s
+Using  7 tasks: Run no.  2: 1 occurrences found in 0,117135 s
+Using  7 tasks: Run no.  3: 1 occurrences found in 0,109666 s
+Using  7 tasks: Run no.  4: 1 occurrences found in 0,117694 s
+Using  7 tasks: Run no.  5: 1 occurrences found in 0,115402 s
+Using  7 tasks: Run no.  6: 1 occurrences found in 0,115436 s
+Using  7 tasks: Run no.  7: 1 occurrences found in 0,116077 s
+Using  7 tasks: Run no.  8: 1 occurrences found in 0,111019 s
+Using  7 tasks: Run no.  9: 1 occurrences found in 0,100269 s
+
+Using  7 tasks (avg.): 0,114030 s
+
+
+Average speedup: 4,80
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=8, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,547033 s
+Single task: Run no.  1: 1 occurrences found in 0,555797 s
+Single task: Run no.  2: 1 occurrences found in 0,580094 s
+Single task: Run no.  3: 1 occurrences found in 0,550383 s
+Single task: Run no.  4: 1 occurrences found in 0,548108 s
+Single task: Run no.  5: 1 occurrences found in 0,544700 s
+Single task: Run no.  6: 1 occurrences found in 0,541890 s
+Single task: Run no.  7: 1 occurrences found in 0,541914 s
+Single task: Run no.  8: 1 occurrences found in 0,535630 s
+Single task: Run no.  9: 1 occurrences found in 0,551051 s
+
+Single task (avg.): 0,549660 s
+Filesize: 9807627
+
+Using  8 tasks: Run no.  0: 1 occurrences found in 0,103795 s
+Using  8 tasks: Run no.  1: 1 occurrences found in 0,106129 s
+Using  8 tasks: Run no.  2: 1 occurrences found in 0,102992 s
+Using  8 tasks: Run no.  3: 1 occurrences found in 0,110391 s
+Using  8 tasks: Run no.  4: 1 occurrences found in 0,095336 s
+Using  8 tasks: Run no.  5: 1 occurrences found in 0,102144 s
+Using  8 tasks: Run no.  6: 1 occurrences found in 0,102010 s
+Using  8 tasks: Run no.  7: 1 occurrences found in 0,107277 s
+Using  8 tasks: Run no.  8: 1 occurrences found in 0,108131 s
+Using  8 tasks: Run no.  9: 1 occurrences found in 0,120394 s
+
+Using  8 tasks (avg.): 0,105860 s
+
+
+Average speedup: 5,19
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=9, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,538271 s
+Single task: Run no.  1: 1 occurrences found in 0,545912 s
+Single task: Run no.  2: 1 occurrences found in 0,542620 s
+Single task: Run no.  3: 1 occurrences found in 0,538513 s
+Single task: Run no.  4: 1 occurrences found in 0,548543 s
+Single task: Run no.  5: 1 occurrences found in 0,552843 s
+Single task: Run no.  6: 1 occurrences found in 0,540430 s
+Single task: Run no.  7: 1 occurrences found in 0,557667 s
+Single task: Run no.  8: 1 occurrences found in 0,547107 s
+Single task: Run no.  9: 1 occurrences found in 0,538365 s
+
+Single task (avg.): 0,545027 s
+Filesize: 9807627
+
+Using  9 tasks: Run no.  0: 1 occurrences found in 0,096207 s
+Using  9 tasks: Run no.  1: 1 occurrences found in 0,098989 s
+Using  9 tasks: Run no.  2: 1 occurrences found in 0,098696 s
+Using  9 tasks: Run no.  3: 1 occurrences found in 0,099702 s
+Using  9 tasks: Run no.  4: 1 occurrences found in 0,092508 s
+Using  9 tasks: Run no.  5: 1 occurrences found in 0,101145 s
+Using  9 tasks: Run no.  6: 1 occurrences found in 0,098495 s
+Using  9 tasks: Run no.  7: 1 occurrences found in 0,097008 s
+Using  9 tasks: Run no.  8: 1 occurrences found in 0,099066 s
+Using  9 tasks: Run no.  9: 1 occurrences found in 0,094360 s
+
+Using  9 tasks (avg.): 0,097618 s
+
+
+Average speedup: 5,58
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=10, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,546154 s
+Single task: Run no.  1: 1 occurrences found in 0,529641 s
+Single task: Run no.  2: 1 occurrences found in 0,558919 s
+Single task: Run no.  3: 1 occurrences found in 0,549045 s
+Single task: Run no.  4: 1 occurrences found in 0,564159 s
+Single task: Run no.  5: 1 occurrences found in 0,538589 s
+Single task: Run no.  6: 1 occurrences found in 0,533407 s
+Single task: Run no.  7: 1 occurrences found in 0,546036 s
+Single task: Run no.  8: 1 occurrences found in 0,547032 s
+Single task: Run no.  9: 1 occurrences found in 0,535604 s
+
+Single task (avg.): 0,544859 s
+Filesize: 9807627
+
+Using 10 tasks: Run no.  0: 1 occurrences found in 0,090895 s
+Using 10 tasks: Run no.  1: 1 occurrences found in 0,089638 s
+Using 10 tasks: Run no.  2: 1 occurrences found in 0,089942 s
+Using 10 tasks: Run no.  3: 1 occurrences found in 0,087303 s
+Using 10 tasks: Run no.  4: 1 occurrences found in 0,090033 s
+Using 10 tasks: Run no.  5: 1 occurrences found in 0,088905 s
+Using 10 tasks: Run no.  6: 1 occurrences found in 0,093629 s
+Using 10 tasks: Run no.  7: 1 occurrences found in 0,109653 s
+Using 10 tasks: Run no.  8: 1 occurrences found in 0,096623 s
+Using 10 tasks: Run no.  9: 1 occurrences found in 0,092101 s
+
+Using 10 tasks (avg.): 0,092872 s
+
+
+Average speedup: 5,87
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=11, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,548417 s
+Single task: Run no.  1: 1 occurrences found in 0,548381 s
+Single task: Run no.  2: 1 occurrences found in 0,548163 s
+Single task: Run no.  3: 1 occurrences found in 0,534052 s
+Single task: Run no.  4: 1 occurrences found in 0,552005 s
+Single task: Run no.  5: 1 occurrences found in 0,545352 s
+Single task: Run no.  6: 1 occurrences found in 0,550963 s
+Single task: Run no.  7: 1 occurrences found in 0,541942 s
+Single task: Run no.  8: 1 occurrences found in 0,549355 s
+Single task: Run no.  9: 1 occurrences found in 0,573648 s
+
+Single task (avg.): 0,549228 s
+Filesize: 9807627
+
+Using 11 tasks: Run no.  0: 1 occurrences found in 0,117059 s
+Using 11 tasks: Run no.  1: 1 occurrences found in 0,127345 s
+Using 11 tasks: Run no.  2: 1 occurrences found in 0,125023 s
+Using 11 tasks: Run no.  3: 1 occurrences found in 0,117764 s
+Using 11 tasks: Run no.  4: 1 occurrences found in 0,129500 s
+Using 11 tasks: Run no.  5: 1 occurrences found in 0,123186 s
+Using 11 tasks: Run no.  6: 1 occurrences found in 0,115303 s
+Using 11 tasks: Run no.  7: 1 occurrences found in 0,141488 s
+Using 11 tasks: Run no.  8: 1 occurrences found in 0,128996 s
+Using 11 tasks: Run no.  9: 1 occurrences found in 0,116237 s
+
+Using 11 tasks (avg.): 0,124190 s
+
+
+Average speedup: 4,42
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=12, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,545511 s
+Single task: Run no.  1: 1 occurrences found in 0,543409 s
+Single task: Run no.  2: 1 occurrences found in 0,546288 s
+Single task: Run no.  3: 1 occurrences found in 0,536742 s
+Single task: Run no.  4: 1 occurrences found in 0,548598 s
+Single task: Run no.  5: 1 occurrences found in 0,540650 s
+Single task: Run no.  6: 1 occurrences found in 0,558893 s
+Single task: Run no.  7: 1 occurrences found in 0,536173 s
+Single task: Run no.  8: 1 occurrences found in 0,545912 s
+Single task: Run no.  9: 1 occurrences found in 0,550894 s
+
+Single task (avg.): 0,545307 s
+Filesize: 9807627
+
+Using 12 tasks: Run no.  0: 1 occurrences found in 0,113439 s
+Using 12 tasks: Run no.  1: 1 occurrences found in 0,114292 s
+Using 12 tasks: Run no.  2: 1 occurrences found in 0,116605 s
+Using 12 tasks: Run no.  3: 1 occurrences found in 0,123125 s
+Using 12 tasks: Run no.  4: 1 occurrences found in 0,120926 s
+Using 12 tasks: Run no.  5: 1 occurrences found in 0,120033 s
+Using 12 tasks: Run no.  6: 1 occurrences found in 0,111376 s
+Using 12 tasks: Run no.  7: 1 occurrences found in 0,123827 s
+Using 12 tasks: Run no.  8: 1 occurrences found in 0,122066 s
+Using 12 tasks: Run no.  9: 1 occurrences found in 0,117008 s
+
+Using 12 tasks (avg.): 0,118270 s
+
+
+Average speedup: 4,61
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=13, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,540129 s
+Single task: Run no.  1: 1 occurrences found in 0,569675 s
+Single task: Run no.  2: 1 occurrences found in 0,546388 s
+Single task: Run no.  3: 1 occurrences found in 0,533024 s
+Single task: Run no.  4: 1 occurrences found in 0,540513 s
+Single task: Run no.  5: 1 occurrences found in 0,540858 s
+Single task: Run no.  6: 1 occurrences found in 0,538721 s
+Single task: Run no.  7: 1 occurrences found in 0,543500 s
+Single task: Run no.  8: 1 occurrences found in 0,533846 s
+Single task: Run no.  9: 1 occurrences found in 0,536548 s
+
+Single task (avg.): 0,542320 s
+Filesize: 9807627
+
+Using 13 tasks: Run no.  0: 1 occurrences found in 0,108776 s
+Using 13 tasks: Run no.  1: 1 occurrences found in 0,115982 s
+Using 13 tasks: Run no.  2: 1 occurrences found in 0,107709 s
+Using 13 tasks: Run no.  3: 1 occurrences found in 0,104376 s
+Using 13 tasks: Run no.  4: 1 occurrences found in 0,120356 s
+Using 13 tasks: Run no.  5: 1 occurrences found in 0,112896 s
+Using 13 tasks: Run no.  6: 1 occurrences found in 0,104478 s
+Using 13 tasks: Run no.  7: 1 occurrences found in 0,112756 s
+Using 13 tasks: Run no.  8: 1 occurrences found in 0,126714 s
+Using 13 tasks: Run no.  9: 1 occurrences found in 0,109899 s
+
+Using 13 tasks (avg.): 0,112394 s
+
+
+Average speedup: 4,83
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=14, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,552114 s
+Single task: Run no.  1: 1 occurrences found in 0,550366 s
+Single task: Run no.  2: 1 occurrences found in 0,546500 s
+Single task: Run no.  3: 1 occurrences found in 0,551706 s
+Single task: Run no.  4: 1 occurrences found in 0,547202 s
+Single task: Run no.  5: 1 occurrences found in 0,537728 s
+Single task: Run no.  6: 1 occurrences found in 0,558820 s
+Single task: Run no.  7: 1 occurrences found in 0,547485 s
+Single task: Run no.  8: 1 occurrences found in 0,539187 s
+Single task: Run no.  9: 1 occurrences found in 0,539613 s
+
+Single task (avg.): 0,547072 s
+Filesize: 9807627
+
+Using 14 tasks: Run no.  0: 1 occurrences found in 0,106428 s
+Using 14 tasks: Run no.  1: 1 occurrences found in 0,113740 s
+Using 14 tasks: Run no.  2: 1 occurrences found in 0,112810 s
+Using 14 tasks: Run no.  3: 1 occurrences found in 0,104484 s
+Using 14 tasks: Run no.  4: 1 occurrences found in 0,100016 s
+Using 14 tasks: Run no.  5: 1 occurrences found in 0,113334 s
+Using 14 tasks: Run no.  6: 1 occurrences found in 0,107432 s
+Using 14 tasks: Run no.  7: 1 occurrences found in 0,110473 s
+Using 14 tasks: Run no.  8: 1 occurrences found in 0,102637 s
+Using 14 tasks: Run no.  9: 1 occurrences found in 0,111068 s
+
+Using 14 tasks (avg.): 0,108242 s
+
+
+Average speedup: 5,05
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=15, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,544985 s
+Single task: Run no.  1: 1 occurrences found in 0,561253 s
+Single task: Run no.  2: 1 occurrences found in 0,547867 s
+Single task: Run no.  3: 1 occurrences found in 0,538463 s
+Single task: Run no.  4: 1 occurrences found in 0,544190 s
+Single task: Run no.  5: 1 occurrences found in 0,538831 s
+Single task: Run no.  6: 1 occurrences found in 0,533429 s
+Single task: Run no.  7: 1 occurrences found in 0,552557 s
+Single task: Run no.  8: 1 occurrences found in 0,540269 s
+Single task: Run no.  9: 1 occurrences found in 0,549348 s
+
+Single task (avg.): 0,545119 s
+Filesize: 9807627
+
+Using 15 tasks: Run no.  0: 1 occurrences found in 0,105124 s
+Using 15 tasks: Run no.  1: 1 occurrences found in 0,111677 s
+Using 15 tasks: Run no.  2: 1 occurrences found in 0,102707 s
+Using 15 tasks: Run no.  3: 1 occurrences found in 0,105303 s
+Using 15 tasks: Run no.  4: 1 occurrences found in 0,103947 s
+Using 15 tasks: Run no.  5: 1 occurrences found in 0,102555 s
+Using 15 tasks: Run no.  6: 1 occurrences found in 0,100285 s
+Using 15 tasks: Run no.  7: 1 occurrences found in 0,108733 s
+Using 15 tasks: Run no.  8: 1 occurrences found in 0,116122 s
+Using 15 tasks: Run no.  9: 1 occurrences found in 0,117468 s
+
+Using 15 tasks (avg.): 0,107392 s
+
+
+Average speedup: 5,08
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=16, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,538557 s
+Single task: Run no.  1: 1 occurrences found in 0,547860 s
+Single task: Run no.  2: 1 occurrences found in 0,545059 s
+Single task: Run no.  3: 1 occurrences found in 0,537508 s
+Single task: Run no.  4: 1 occurrences found in 0,546492 s
+Single task: Run no.  5: 1 occurrences found in 0,541299 s
+Single task: Run no.  6: 1 occurrences found in 0,560125 s
+Single task: Run no.  7: 1 occurrences found in 0,591735 s
+Single task: Run no.  8: 1 occurrences found in 0,542641 s
+Single task: Run no.  9: 1 occurrences found in 0,547990 s
+
+Single task (avg.): 0,549926 s
+Filesize: 9807627
+
+Using 16 tasks: Run no.  0: 1 occurrences found in 0,120085 s
+Using 16 tasks: Run no.  1: 1 occurrences found in 0,100036 s
+Using 16 tasks: Run no.  2: 1 occurrences found in 0,101313 s
+Using 16 tasks: Run no.  3: 1 occurrences found in 0,099898 s
+Using 16 tasks: Run no.  4: 1 occurrences found in 0,099131 s
+Using 16 tasks: Run no.  5: 1 occurrences found in 0,106368 s
+Using 16 tasks: Run no.  6: 1 occurrences found in 0,115089 s
+Using 16 tasks: Run no.  7: 1 occurrences found in 0,101197 s
+Using 16 tasks: Run no.  8: 1 occurrences found in 0,096421 s
+Using 16 tasks: Run no.  9: 1 occurrences found in 0,103433 s
+
+Using 16 tasks (avg.): 0,104297 s
+
+
+Average speedup: 5,27
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=17, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,541939 s
+Single task: Run no.  1: 1 occurrences found in 0,540584 s
+Single task: Run no.  2: 1 occurrences found in 0,554480 s
+Single task: Run no.  3: 1 occurrences found in 0,533514 s
+Single task: Run no.  4: 1 occurrences found in 0,536979 s
+Single task: Run no.  5: 1 occurrences found in 0,551844 s
+Single task: Run no.  6: 1 occurrences found in 0,557922 s
+Single task: Run no.  7: 1 occurrences found in 0,538651 s
+Single task: Run no.  8: 1 occurrences found in 0,539920 s
+Single task: Run no.  9: 1 occurrences found in 0,548459 s
+
+Single task (avg.): 0,544429 s
+Filesize: 9807627
+
+Using 17 tasks: Run no.  0: 1 occurrences found in 0,097693 s
+Using 17 tasks: Run no.  1: 1 occurrences found in 0,097518 s
+Using 17 tasks: Run no.  2: 1 occurrences found in 0,095730 s
+Using 17 tasks: Run no.  3: 1 occurrences found in 0,095723 s
+Using 17 tasks: Run no.  4: 1 occurrences found in 0,097086 s
+Using 17 tasks: Run no.  5: 1 occurrences found in 0,104236 s
+Using 17 tasks: Run no.  6: 1 occurrences found in 0,097126 s
+Using 17 tasks: Run no.  7: 1 occurrences found in 0,102217 s
+Using 17 tasks: Run no.  8: 1 occurrences found in 0,099148 s
+Using 17 tasks: Run no.  9: 1 occurrences found in 0,112984 s
+
+Using 17 tasks (avg.): 0,099946 s
+
+
+Average speedup: 5,45
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=18, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,553012 s
+Single task: Run no.  1: 1 occurrences found in 0,540942 s
+Single task: Run no.  2: 1 occurrences found in 0,537650 s
+Single task: Run no.  3: 1 occurrences found in 0,533722 s
+Single task: Run no.  4: 1 occurrences found in 0,552433 s
+Single task: Run no.  5: 1 occurrences found in 0,557984 s
+Single task: Run no.  6: 1 occurrences found in 0,541338 s
+Single task: Run no.  7: 1 occurrences found in 0,560826 s
+Single task: Run no.  8: 1 occurrences found in 0,541260 s
+Single task: Run no.  9: 1 occurrences found in 0,551394 s
+
+Single task (avg.): 0,547056 s
+Filesize: 9807627
+
+Using 18 tasks: Run no.  0: 1 occurrences found in 0,100473 s
+Using 18 tasks: Run no.  1: 1 occurrences found in 0,101109 s
+Using 18 tasks: Run no.  2: 1 occurrences found in 0,094686 s
+Using 18 tasks: Run no.  3: 1 occurrences found in 0,092947 s
+Using 18 tasks: Run no.  4: 1 occurrences found in 0,092932 s
+Using 18 tasks: Run no.  5: 1 occurrences found in 0,092050 s
+Using 18 tasks: Run no.  6: 1 occurrences found in 0,099697 s
+Using 18 tasks: Run no.  7: 1 occurrences found in 0,096174 s
+Using 18 tasks: Run no.  8: 1 occurrences found in 0,092036 s
+Using 18 tasks: Run no.  9: 1 occurrences found in 0,100038 s
+
+Using 18 tasks (avg.): 0,096214 s
+
+
+Average speedup: 5,69
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=19, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,544714 s
+Single task: Run no.  1: 1 occurrences found in 0,543480 s
+Single task: Run no.  2: 1 occurrences found in 0,582031 s
+Single task: Run no.  3: 1 occurrences found in 0,559355 s
+Single task: Run no.  4: 1 occurrences found in 0,551485 s
+Single task: Run no.  5: 1 occurrences found in 0,535598 s
+Single task: Run no.  6: 1 occurrences found in 0,548454 s
+Single task: Run no.  7: 1 occurrences found in 0,555771 s
+Single task: Run no.  8: 1 occurrences found in 0,537229 s
+Single task: Run no.  9: 1 occurrences found in 0,547046 s
+
+Single task (avg.): 0,550516 s
+Filesize: 9807627
+
+Using 19 tasks: Run no.  0: 1 occurrences found in 0,092612 s
+Using 19 tasks: Run no.  1: 1 occurrences found in 0,089840 s
+Using 19 tasks: Run no.  2: 1 occurrences found in 0,092120 s
+Using 19 tasks: Run no.  3: 1 occurrences found in 0,091216 s
+Using 19 tasks: Run no.  4: 1 occurrences found in 0,094023 s
+Using 19 tasks: Run no.  5: 1 occurrences found in 0,092611 s
+Using 19 tasks: Run no.  6: 1 occurrences found in 0,096626 s
+Using 19 tasks: Run no.  7: 1 occurrences found in 0,096742 s
+Using 19 tasks: Run no.  8: 1 occurrences found in 0,097105 s
+Using 19 tasks: Run no.  9: 1 occurrences found in 0,095679 s
+
+Using 19 tasks (avg.): 0,093858 s
+
+
+Average speedup: 5,87
+
+
+File=wikipedia.txt, length=9807627, pattern='World Association of Theoretical and Computational Chemists'
+ntasks=20, nthreads=10, warmups=2, runs=10
+executor: FIXED
+
+Single task: Run no.  0: 1 occurrences found in 0,544184 s
+Single task: Run no.  1: 1 occurrences found in 0,548640 s
+Single task: Run no.  2: 1 occurrences found in 0,542198 s
+Single task: Run no.  3: 1 occurrences found in 0,541731 s
+Single task: Run no.  4: 1 occurrences found in 0,556798 s
+Single task: Run no.  5: 1 occurrences found in 0,569526 s
+Single task: Run no.  6: 1 occurrences found in 0,549629 s
+Single task: Run no.  7: 1 occurrences found in 0,564395 s
+Single task: Run no.  8: 1 occurrences found in 0,610844 s
+Single task: Run no.  9: 1 occurrences found in 0,554975 s
+
+Single task (avg.): 0,558292 s
+Filesize: 9807627
+
+Using 20 tasks: Run no.  0: 1 occurrences found in 0,094506 s
+Using 20 tasks: Run no.  1: 1 occurrences found in 0,090018 s
+Using 20 tasks: Run no.  2: 1 occurrences found in 0,093014 s
+Using 20 tasks: Run no.  3: 1 occurrences found in 0,089899 s
+Using 20 tasks: Run no.  4: 1 occurrences found in 0,088321 s
+Using 20 tasks: Run no.  5: 1 occurrences found in 0,092611 s
+Using 20 tasks: Run no.  6: 1 occurrences found in 0,088835 s
+Using 20 tasks: Run no.  7: 1 occurrences found in 0,092471 s
+Using 20 tasks: Run no.  8: 1 occurrences found in 0,089766 s
+Using 20 tasks: Run no.  9: 1 occurrences found in 0,089135 s
+
+Using 20 tasks (avg.): 0,090858 s
+
+
+Average speedup: 6,14
+
