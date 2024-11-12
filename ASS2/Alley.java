@@ -9,7 +9,7 @@ public class Alley {
     protected Alley() { }
 
     public static Alley create() {
-        return new MultiAlley();                                     // Change to use desired implementation
+        return new SafeAlley();                                     // Change to use desired implementation
     }
 
     /* Block until car no. may enter alley */
