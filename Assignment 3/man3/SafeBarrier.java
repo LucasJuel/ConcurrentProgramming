@@ -31,7 +31,7 @@ class SafeBarrier extends Barrier {
 
         if(arrived < 9) { 
 
-            while(currentCycle == cycles){
+            while(currentCycle == cycles && active){
                 wait();
             }
             
@@ -53,6 +53,7 @@ class SafeBarrier extends Barrier {
     public synchronized void off() {
         active = false;
         arrived = 0;
+        cycles = 0;
         notifyAll();
     }
 

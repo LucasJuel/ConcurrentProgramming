@@ -27,6 +27,11 @@ class Conductor extends Thread {
     Pos curpos;                      // Current position 
     Pos newpos;                      // New position to go to
 
+    CarI car;                        // Reference to graphical car
+
+    Boolean inAlley = false;            // Boolean to check if car is in alley
+    Boolean isAlive = true;             // Boolean to check if car is alive
+
     public Conductor(int no, CarDisplayI cd, Gate g, Field field, Alley alley, Barrier barrier) {
 
         this.no = no;
@@ -57,6 +62,17 @@ class Conductor extends Thread {
         }
         else
             cd.println("Illegal variation settings");
+    }
+
+    public CarI getCar() {
+        return car;
+    }
+
+    public Pos getPos() {
+        return curpos;
+    }
+    public void setAlive(Boolean alive) {
+        isAlive = alive;
     }
 
     synchronized double chooseSpeed() { 
@@ -92,7 +108,8 @@ class Conductor extends Thread {
 
     public void run() {
         try {
-            CarI car = cd.newCar(no, col, startpos);
+            car = cd.newCar(no, col, startpos);
+            
             curpos = startpos;
             field.enter(no, curpos);
             cd.register(car);
@@ -108,13 +125,19 @@ class Conductor extends Thread {
 
                 if (atBarrier(curpos)) barrier.sync(no);
                 
-                if (atEntry(curpos)) alley.enter(no);
+                if (atEntry(curpos)) {
+                    alley.enter(no);
+                    inAlley = true;
+                }
                 field.enter(no, newpos);
 
                 car.driveTo(newpos);
 
                 field.leave(curpos);
-                if (atExit(newpos)) alley.leave(no);
+                if (atExit(newpos)) {
+                    alley.leave(no);
+                    inAlley = false;
+                }
 
                 curpos = newpos;
             }
@@ -173,12 +196,31 @@ public class CarControl implements CarControlI{
         barrier.set(k);
    }
     
-    public void removeCar(int no) { 
-        cd.println("Remove Car not implemented in this version");
+    public synchronized void removeCar(int no) { 
+        if(!conductor[no].isAlive) return;
+
+        if(conductor[no].inAlley){
+            conductor[no].alley.leave(no);
+        }
+
+        cd.println("Remove Car no: " + no);
+        CarI _car = conductor[no].getCar();
+        cd.deregister(_car);
+        conductor[no].setAlive(false);
+        Pos _pos = conductor[no].getPos();
+        Pos _newPos = conductor[no].nextPos(_pos);
+        field.leave(_pos);
+        field.leave(_newPos);
+
     }
 
-    public void restoreCar(int no) { 
-        cd.println("Restore Car not implemented in this version");
+    public synchronized void restoreCar(int no) { 
+        if(conductor[no].isAlive) return;
+        cd.println("Restore Car no:" + no);
+        conductor[no] = new Conductor(no,cd,gate[no],field,alley,barrier);
+        conductor[no].setName("Conductor-" + no);
+        conductor[no].start();
+        conductor[no].setAlive(true);
     }
 
     /* Speed settings for testing purposes */
