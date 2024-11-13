@@ -129,6 +129,7 @@ class Conductor extends Thread {
                     alley.enter(no);
                     inAlley = true;
                 }
+
                 field.enter(no, newpos);
 
                 car.driveTo(newpos);
@@ -139,7 +140,7 @@ class Conductor extends Thread {
                     inAlley = false;
                 }
 
-                curpos = newpos;
+                curpos = newpos;                    
             }
 
         } catch (Exception e) {
@@ -199,19 +200,25 @@ public class CarControl implements CarControlI{
     public synchronized void removeCar(int no) { 
         if(!conductor[no].isAlive) return;
 
+
         if(conductor[no].inAlley){
             conductor[no].alley.leave(no);
         }
 
-        cd.println("Remove Car no: " + no);
+
         CarI _car = conductor[no].getCar();
         cd.deregister(_car);
         conductor[no].setAlive(false);
+
         Pos _pos = conductor[no].getPos();
         Pos _newPos = conductor[no].nextPos(_pos);
+
         field.leave(_pos);
         field.leave(_newPos);
 
+
+
+        cd.println("Remove Car no: " + no);
     }
 
     public synchronized void restoreCar(int no) { 
