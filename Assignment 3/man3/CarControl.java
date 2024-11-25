@@ -30,7 +30,7 @@ class Conductor extends Thread {
     CarI car;                        // Reference to graphical car
 
     Boolean inAlley = false;            // Boolean to check if car is in alley
-    Boolean isAlive = true;             // Boolean to check if car is alive
+    Boolean hasEntered = false;
 
     public Conductor(int no, CarDisplayI cd, Gate g, Field field, Alley alley, Barrier barrier) {
 
@@ -71,10 +71,6 @@ class Conductor extends Thread {
     public Pos getPos() {
         return curpos;
     }
-    public void setAlive(Boolean alive) {
-        isAlive = alive;
-    }
-
     synchronized double chooseSpeed() { 
         double factor = (1.0D+(Math.random()-0.5D)*2*variation/100);
         return factor*basespeed;
@@ -129,24 +125,31 @@ class Conductor extends Thread {
                     alley.enter(no);
                     inAlley = true;
                 }
-
+                
                 field.enter(no, newpos);
-
+                hasEntered = true;
                 car.driveTo(newpos);
 
                 field.leave(curpos);
+                hasEntered = false;
                 if (atExit(newpos)) {
                     alley.leave(no);
                     inAlley = false;
                 }
 
-                curpos = newpos;                    
+                curpos = newpos;
+
             }
 
         } catch (Exception e) {
             cd.println("Exception in Conductor no. " + no);
             System.err.println("Exception in Conductor no. " + no + ":" + e);
             e.printStackTrace();
+            cd.deregister(car);
+            if(inAlley) alley.leave(no);
+            if(hasEntered) field.leave(curpos);
+            
+            
         }
     }
 
@@ -198,36 +201,27 @@ public class CarControl implements CarControlI{
    }
     
     public synchronized void removeCar(int no) { 
-        if(!conductor[no].isAlive) return;
+        if(!conductor[no].isAlive()) return;
 
 
-        if(conductor[no].inAlley){
-            conductor[no].alley.leave(no);
+        conductor[no].interrupt();
+        try {
+            conductor[no].join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-
-
-        CarI _car = conductor[no].getCar();
-        cd.deregister(_car);
-        conductor[no].setAlive(false);
-
-        Pos _pos = conductor[no].getPos();
-        Pos _newPos = conductor[no].nextPos(_pos);
-
-        field.leave(_pos);
-        field.leave(_newPos);
-
-
+        
 
         cd.println("Remove Car no: " + no);
     }
 
     public synchronized void restoreCar(int no) { 
-        if(conductor[no].isAlive) return;
+        if(conductor[no].isAlive()) return;
         cd.println("Restore Car no:" + no);
         conductor[no] = new Conductor(no,cd,gate[no],field,alley,barrier);
         conductor[no].setName("Conductor-" + no);
         conductor[no].start();
-        conductor[no].setAlive(true);
+
     }
 
     /* Speed settings for testing purposes */
