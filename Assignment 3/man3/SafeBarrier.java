@@ -53,16 +53,15 @@ class SafeBarrier extends Barrier {
     public synchronized void off() {
         active = false;
         arrived = 0;
-        cycles = 0;
         notifyAll();
     }
 
-/*
+
     @Override
     // Here (ab)used for emulation of spurious wakeups
     public synchronized void set(int k) {
         for (int i = 0; i < k; i++) { notify(); }
     }    
-*/    
+ 
     
 }

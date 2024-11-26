@@ -11,7 +11,7 @@ public class MonGate extends Gate {
     boolean isOpen = false;
 
     public synchronized void pass() throws InterruptedException {
-        if(!isOpen) wait(); //When car reaches the pass, it checks if it is open. If not it waits.
+        while(!isOpen) wait(); //When car reaches the pass, it checks if it is open. If not it waits.
     }
 
     public synchronized void open() {
@@ -21,5 +21,4 @@ public class MonGate extends Gate {
     public synchronized void close() {
         if(isOpen) {isOpen = false;} //Just set isOpen flag = false;
     }
-
 }

@@ -136,9 +136,7 @@ class Conductor extends Thread {
                     alley.leave(no);
                     inAlley = false;
                 }
-
                 curpos = newpos;
-
             }
 
         } catch (Exception e) {
@@ -146,10 +144,11 @@ class Conductor extends Thread {
             System.err.println("Exception in Conductor no. " + no + ":" + e);
             e.printStackTrace();
             cd.deregister(car);
+            field.leave(curpos);
             if(inAlley) alley.leave(no);
-            if(hasEntered) field.leave(curpos);
-            
-            
+            if(hasEntered) {
+                field.leave(newpos);
+            }
         }
     }
 
@@ -203,15 +202,13 @@ public class CarControl implements CarControlI{
     public synchronized void removeCar(int no) { 
         if(!conductor[no].isAlive()) return;
 
-
+        if(no == 0) conductor[no].setSpeed(0);
         conductor[no].interrupt();
         try {
             conductor[no].join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        
-
         cd.println("Remove Car no: " + no);
     }
 
