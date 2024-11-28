@@ -31,6 +31,7 @@ class Conductor extends Thread {
 
     Boolean inAlley = false;            // Boolean to check if car is in alley
     Boolean hasEntered = false;
+    Boolean leftGate = false;
 
     public Conductor(int no, CarDisplayI cd, Gate g, Field field, Alley alley, Barrier barrier) {
 
@@ -108,10 +109,13 @@ class Conductor extends Thread {
             
             curpos = startpos;
             field.enter(no, curpos);
+            leftGate = true;
             cd.register(car);
 
             while (true) { 
-
+                if(this.isInterrupted()) {
+                    throw new InterruptedException();
+                }
                 if (atGate(curpos)) { 
                     mygate.pass(); 
                     car.setSpeed(chooseSpeed());
@@ -140,18 +144,15 @@ class Conductor extends Thread {
             }
 
         } catch (Exception e) {
-            cd.println("Exception in Conductor no. " + no);
             System.err.println("Exception in Conductor no. " + no + ":" + e);
             e.printStackTrace();
             cd.deregister(car);
-            field.leave(curpos);
+
+            if(leftGate) field.leave(curpos);
             if(inAlley) alley.leave(no);
-            if(hasEntered) {
-                field.leave(newpos);
-            }
+            if(hasEntered) field.leave(newpos);
         }
     }
-
 }
 
 public class CarControl implements CarControlI{
@@ -202,7 +203,7 @@ public class CarControl implements CarControlI{
     public synchronized void removeCar(int no) { 
         if(!conductor[no].isAlive()) return;
 
-        if(no == 0) conductor[no].setSpeed(0);
+
         conductor[no].interrupt();
         try {
             conductor[no].join();
